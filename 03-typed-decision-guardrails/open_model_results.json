@@ -1,0 +1,374 @@
+{
+ "pages": 60,
+ "block_option": "a contest, political or fundraising sign-up, payment form, or members-only form",
+ "results": {
+  "facebook/bart-large-mnli": {
+   "descriptive (baseline)": {
+    "accuracy": 0.8666666666666667,
+    "fail_open": 0.26666666666666666,
+    "fail_closed": 0.0,
+    "fail_open_ci": [
+     0.13333333333333333,
+     0.43333333333333335
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.0
+    ],
+    "confidence_when_wrong": 0.640032060444355,
+    "confidence_when_right": 0.8430021499785093
+   },
+   "fine": {
+    "accuracy": 0.7,
+    "fail_open": 0.5333333333333333,
+    "fail_closed": 0.06666666666666667,
+    "fail_open_ci": [
+     0.36666666666666664,
+     0.7
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.16666666666666666
+    ],
+    "confidence_when_wrong": 0.6907070676485697,
+    "confidence_when_right": 0.7288949411539805
+   },
+   "an approved routine action": {
+    "accuracy": 0.6,
+    "fail_open": 0.8,
+    "fail_closed": 0.0,
+    "fail_open_ci": [
+     0.6666666666666666,
+     0.9333333333333333
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.0
+    ],
+    "confidence_when_wrong": 0.722380742430687,
+    "confidence_when_right": 0.8036850848131709
+   },
+   "safe": {
+    "accuracy": 0.6,
+    "fail_open": 0.7666666666666667,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.6,
+     0.9
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.6579756128291289,
+    "confidence_when_right": 0.8050409489207797
+   },
+   "allowed by policy": {
+    "accuracy": 0.5166666666666666,
+    "fail_open": 0.9333333333333333,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.8333333333333334,
+     1.0
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.7691392816346267,
+    "confidence_when_right": 0.8576896536734796
+   },
+   "normal and harmless": {
+    "accuracy": 0.6166666666666667,
+    "fail_open": 0.0,
+    "fail_closed": 0.7666666666666667,
+    "fail_open_ci": [
+     0.0,
+     0.0
+    ],
+    "fail_closed_ci": [
+     0.6,
+     0.9
+    ],
+    "confidence_when_wrong": 0.6533963712661163,
+    "confidence_when_right": 0.7500494239801491
+   }
+  },
+  "FacebookAI/roberta-large-mnli": {
+   "descriptive (baseline)": {
+    "accuracy": 0.75,
+    "fail_open": 0.4666666666666667,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.3,
+     0.6333333333333333
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.6982029358545939,
+    "confidence_when_right": 0.8662912136150731
+   },
+   "fine": {
+    "accuracy": 0.7,
+    "fail_open": 0.16666666666666666,
+    "fail_closed": 0.43333333333333335,
+    "fail_open_ci": [
+     0.03333333333333333,
+     0.3333333333333333
+    ],
+    "fail_closed_ci": [
+     0.26666666666666666,
+     0.6
+    ],
+    "confidence_when_wrong": 0.6447668746113777,
+    "confidence_when_right": 0.7322380190626496
+   },
+   "an approved routine action": {
+    "accuracy": 0.5833333333333333,
+    "fail_open": 0.8333333333333334,
+    "fail_closed": 0.0,
+    "fail_open_ci": [
+     0.7,
+     0.9666666666666667
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.0
+    ],
+    "confidence_when_wrong": 0.7074540686607361,
+    "confidence_when_right": 0.8422955700329372
+   },
+   "safe": {
+    "accuracy": 0.75,
+    "fail_open": 0.3333333333333333,
+    "fail_closed": 0.16666666666666666,
+    "fail_open_ci": [
+     0.16666666666666666,
+     0.5
+    ],
+    "fail_closed_ci": [
+     0.03333333333333333,
+     0.3
+    ],
+    "confidence_when_wrong": 0.5803366343180338,
+    "confidence_when_right": 0.6767750384079085
+   },
+   "allowed by policy": {
+    "accuracy": 0.6833333333333333,
+    "fail_open": 0.6333333333333333,
+    "fail_closed": 0.0,
+    "fail_open_ci": [
+     0.4666666666666667,
+     0.8
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.0
+    ],
+    "confidence_when_wrong": 0.694237260442031,
+    "confidence_when_right": 0.7321093253246168
+   },
+   "normal and harmless": {
+    "accuracy": 0.5833333333333333,
+    "fail_open": 0.0,
+    "fail_closed": 0.8333333333333334,
+    "fail_open_ci": [
+     0.0,
+     0.0
+    ],
+    "fail_closed_ci": [
+     0.7,
+     0.9666666666666667
+    ],
+    "confidence_when_wrong": 0.7535214370489121,
+    "confidence_when_right": 0.8550031757780484
+   }
+  },
+  "valhalla/distilbart-mnli-12-1": {
+   "descriptive (baseline)": {
+    "accuracy": 0.8333333333333334,
+    "fail_open": 0.3333333333333333,
+    "fail_closed": 0.0,
+    "fail_open_ci": [
+     0.16666666666666666,
+     0.5
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.0
+    ],
+    "confidence_when_wrong": 0.6351548910140992,
+    "confidence_when_right": 0.8302839316427708
+   },
+   "fine": {
+    "accuracy": 0.6,
+    "fail_open": 0.7666666666666667,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.6,
+     0.9
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.7243512806793054,
+    "confidence_when_right": 0.767261278298166
+   },
+   "an approved routine action": {
+    "accuracy": 0.6,
+    "fail_open": 0.8,
+    "fail_closed": 0.0,
+    "fail_open_ci": [
+     0.6333333333333333,
+     0.9333333333333333
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.0
+    ],
+    "confidence_when_wrong": 0.7571408847967783,
+    "confidence_when_right": 0.7816515275173717
+   },
+   "safe": {
+    "accuracy": 0.6833333333333333,
+    "fail_open": 0.6,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.43333333333333335,
+     0.7666666666666667
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.6896265949073591,
+    "confidence_when_right": 0.6901242714829561
+   },
+   "allowed by policy": {
+    "accuracy": 0.5,
+    "fail_open": 1.0,
+    "fail_closed": 0.0,
+    "fail_open_ci": [
+     1.0,
+     1.0
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.0
+    ],
+    "confidence_when_wrong": 0.7992887536684672,
+    "confidence_when_right": 0.8377622763315836
+   },
+   "normal and harmless": {
+    "accuracy": 0.7666666666666666,
+    "fail_open": 0.2,
+    "fail_closed": 0.26666666666666666,
+    "fail_open_ci": [
+     0.06666666666666667,
+     0.36666666666666664
+    ],
+    "fail_closed_ci": [
+     0.13333333333333333,
+     0.43333333333333335
+    ],
+    "confidence_when_wrong": 0.5644794894116265,
+    "confidence_when_right": 0.6640881131524625
+   }
+  },
+  "MoritzLaurer/deberta-v3-base-zeroshot-v2.0": {
+   "descriptive (baseline)": {
+    "accuracy": 0.9,
+    "fail_open": 0.1,
+    "fail_closed": 0.1,
+    "fail_open_ci": [
+     0.0,
+     0.23333333333333334
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.2
+    ],
+    "confidence_when_wrong": 0.6017517869671186,
+    "confidence_when_right": 0.8255379844318937
+   },
+   "fine": {
+    "accuracy": 0.7833333333333333,
+    "fail_open": 0.3,
+    "fail_closed": 0.13333333333333333,
+    "fail_open_ci": [
+     0.13333333333333333,
+     0.4666666666666667
+    ],
+    "fail_closed_ci": [
+     0.03333333333333333,
+     0.26666666666666666
+    ],
+    "confidence_when_wrong": 0.7290387572004244,
+    "confidence_when_right": 0.7640626192726987
+   },
+   "an approved routine action": {
+    "accuracy": 0.7166666666666667,
+    "fail_open": 0.5333333333333333,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.36666666666666664,
+     0.7
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.7699706585091703,
+    "confidence_when_right": 0.7982143152418525
+   },
+   "safe": {
+    "accuracy": 0.7833333333333333,
+    "fail_open": 0.4,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.23333333333333334,
+     0.5666666666666667
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.7908585300812354,
+    "confidence_when_right": 0.764686312130157
+   },
+   "allowed by policy": {
+    "accuracy": 0.6833333333333333,
+    "fail_open": 0.6,
+    "fail_closed": 0.03333333333333333,
+    "fail_open_ci": [
+     0.43333333333333335,
+     0.7666666666666667
+    ],
+    "fail_closed_ci": [
+     0.0,
+     0.1
+    ],
+    "confidence_when_wrong": 0.7496760644410786,
+    "confidence_when_right": 0.7747572849436504
+   },
+   "normal and harmless": {
+    "accuracy": 0.8,
+    "fail_open": 0.23333333333333334,
+    "fail_closed": 0.16666666666666666,
+    "fail_open_ci": [
+     0.1,
+     0.4
+    ],
+    "fail_closed_ci": [
+     0.03333333333333333,
+     0.3333333333333333
+    ],
+    "confidence_when_wrong": 0.6431914065033197,
+    "confidence_when_right": 0.7965133613130698
+   }
+  }
+ }
+}

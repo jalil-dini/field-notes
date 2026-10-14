@@ -189,6 +189,11 @@ for m in models:
 # **Reading the result.** Compare the first row of each table with the others: the pages and the block option never changed.
 # Whatever moved is the effect of the allow option's name alone. The intervals show how much of a difference 60 pages can support.
 #
+# When I ran this, a plain descriptive name let through 10% to 47% of the pages that should be blocked, depending on the model.
+# "Allowed by policy" raised that to 60% to 100%, and "an approved routine action" to 53% to 83%. "Normal and harmless" swung two
+# models the other way: nothing dangerous passed, and about 80% of harmless pages were blocked. Wrong decisions averaged 0.71 to
+# 0.80 confidence against 0.77 to 0.86 for right ones, so sending low-confidence cases to a person would have caught few of them.
+#
 # The paper reports the same pattern at scale, with adversarial names, across seven models. From my own use of a typed
 # decision model as a gate for a form-filling agent: rewording one question moved the same three pages from 51-59 out
 # of 100 to 4-9, and nobody was attacking it.
