@@ -132,8 +132,13 @@ print(f"mean confidence when wrong: {np.mean(conf_wrong):.2f}  ({len(conf_wrong)
 
 # %% [markdown]
 # **Reading the result.** Compare the first row of the table with the others: the pages and the block option never changed.
-# Whatever moved is the effect of the allow option's name alone. The paper reports this at scale, with adversarial names,
-# across seven models.
+# Whatever moved is the effect of the allow option's name alone.
+#
+# When I ran this (bart-large-mnli, 30 pages), the descriptive baseline was 80% accurate and let through 40% of the pages
+# it should have blocked. Naming the allow option "allowed by policy" raised that to 93%. Naming it "normal and harmless"
+# swung the other way: nothing dangerous got through, and 73% of harmless pages were blocked. With the worst name, wrong
+# decisions averaged 0.77 confidence against 0.87 for right ones, so routing low-confidence cases to a person would not
+# have caught them. The paper reports the same pattern at scale, with adversarial names, across seven models.
 #
 # From my own use of a typed decision model as a gate for a form-filling agent: rewording one question moved the
 # same three pages from 51-59 out of 100 to 4-9, and nobody was attacking it.
