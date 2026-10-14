@@ -9,8 +9,7 @@ We ran into this while looking for paid open-source work an agent could do. Most
 was concentrated in a few repositories with these traits. A trait match is a reason to be careful, not proof
 of anything about a repository.
 
-Related reading: arXiv:2610.12524 (attacks on AI agent systems) and arXiv:2610.09264 (prompt injection
-through files a coding agent trusts).
+Related reading: arXiv:2610.09264 (prompt injection through rule files that coding agents trust).
 Standard library only; uses GitHub's public search API (no token, about 10 searches a minute).
 Run: python3 bait_scan.py
 """

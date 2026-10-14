@@ -1,8 +1,7 @@
 # %% [markdown]
 # # Does the trading cost you assume change who wins?
 #
-# **Papers:** [How Execution Assumptions Change Short-Horizon Sharpe Rankings](https://arxiv.org/abs/2610.05077) (Xue, 2026) and
-# [Can AI Make Money in Crypto?](https://arxiv.org/abs/2609.34510) (Yu et al., 2026)
+# **Paper:** [How Execution Assumptions Change Short-Horizon Sharpe Rankings](https://arxiv.org/abs/2610.05077) (Xue, 2026)
 #
 # **Use case:** comparing trading agents, or any agents whose actions have a per-action cost: API calls, tool use, retries.
 # A leaderboard built at zero cost can rank the busiest agent first. This notebook re-ranks the same agents as cost rises.

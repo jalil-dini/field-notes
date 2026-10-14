@@ -7,10 +7,10 @@ they include what went wrong.
 | Demo | Paper it goes with | What it shows |
 |---|---|---|
 | [01-search-aware-backtest](01-search-aware-backtest) | [What survives honest evaluation?](https://arxiv.org/abs/2608.27734) | On prices with no edge at all, the best of 300 rules shows +24% in-sample and loses on held-out days. |
-| [02-execution-costs](02-execution-costs) | [How Execution Assumptions Change Short-Horizon Sharpe Rankings](https://arxiv.org/abs/2610.05077), [Can AI Make Money in Crypto?](https://arxiv.org/abs/2609.34510) | The same three traders ranked under three fees. The ranking reverses. |
+| [02-execution-costs](02-execution-costs) | [How Execution Assumptions Change Short-Horizon Sharpe Rankings](https://arxiv.org/abs/2610.05077) | The same three traders ranked under three fees. The ranking reverses. |
 | [03-typed-decision-guardrails](03-typed-decision-guardrails) | [One Word Opens the Gate](https://arxiv.org/abs/2610.12292) | Measured scores from a typed decision model guarding a web agent, the wording change that fixed a misfire, and the one decision it still gets wrong. |
 | [04-web-agent-harness](04-web-agent-harness) | [WebFovea](https://arxiv.org/abs/2610.03036) | A small form-filling agent and a local test page with the traps that broke it on real sites. |
-| [05-agent-bait](05-agent-bait) | [An Exploration of Attacks on AI Agent Systems](https://arxiv.org/abs/2610.12524) | A scan of GitHub bounty issues for traits aimed at AI agents. |
+| [05-agent-bait](05-agent-bait) | [Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files](https://arxiv.org/abs/2610.09264) | A scan of GitHub bounty issues for traits aimed at AI agents. |
 
 ## Running them
 

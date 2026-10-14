@@ -23,32 +23,13 @@
       ]
     },
     {
-      "id": "2609.34510",
-      "title": "Can AI Make Money in Crypto? Measuring the Gap from Backtests to Real Markets",
-      "authors": "Xingtong Yu, Jiarun Zhou, Guanlin Ding, Wenkang Wei",
-      "date": "2026-09-28",
-      "topic": "Backtests",
-      "says": "Most AI trading methods are judged on historical backtests. This benchmark runs machine learning, reinforcement learning, LLM and agent-based methods through three stages in crypto markets: backtest, forward paper trading on an exchange, and real-money live trading. The point is to measure how much performance is lost between each stage.",
-      "mine": "I ran a model-driven crypto trader on 1-minute candles with pretend money. Backtest over nine hours: -12.5%. Forward paper trading over the next 18 hours: 110 trades, 6 profitable, down about 13% on a $500 account. A fixed-rule trend follower on daily candles, with no AI in it, was the only crypto approach that survived a held-out check.",
-      "demo": "02-execution-costs",
-      "demo_note": "A scalper that makes +0.5% at zero cost loses 27.8% once each trade costs 0.2%.",
-      "tweet": "I let an AI trade crypto every minute with pretend money.\n\n18 hours. 110 trades. 6 winners. Down 13%.\n\nIts backtest had already said it would lose. The live run agreed.\n\nA new benchmark measures this gap properly, from backtest to paper to real money:\nhttps://arxiv.org/abs/2609.34510",
-      "thread": [
-        "\"Can AI make money in crypto?\" is the title of a new benchmark paper. I had just finished running my own small version of the question.\n\nMy answer so far: not the way I built it. Details below.",
-        "Setup: a fast decision model reads 1-minute candles for 12 coins and picks buy, hold or sell every minute. Pretend money, 0.2% cost per fill.\n\nBacktest, nine hours: -12.5%.",
-        "Then I let it run forward on prices it had never seen.\n\n110 trades in 18 hours. 6 were profitable. The account was down about 13%.\n\nMost trades were small losses that were smaller than the cost of making them.",
-        "What held up better: a plain trend rule on daily candles, no AI. Picked on the first 70% of the year, it still made money on the last 30%. It trailed just holding Bitcoin through a rally.",
-        "The paper runs many method families through backtest, exchange paper trading and real money, and reports how much each loses at each step. That is the comparison I want to see more of.\n\nhttps://arxiv.org/abs/2609.34510"
-      ]
-    },
-    {
       "id": "2610.05077",
       "title": "How Execution Assumptions Change Short-Horizon Sharpe Rankings: Evidence from a Synthetic Trading Benchmark",
       "authors": "Weicheng Xue",
       "date": "2026-10-04",
       "topic": "Backtests",
       "says": "Backtests of LLM trading agents often assume every order fills at the closing price. This paper tests whether that choice only shifts returns or also changes which agent ranks first. Across 2,462 runs, agreement between ideal-fill and stressed-fill rankings fell as low as 0.21 in volatile conditions. The author is careful to say it does not measure trading skill, only that the execution convention can decide the headline.",
-      "mine": "In my per-minute crypto test, each round trip cost 0.4% and a coin rarely moves that much in a few minutes. The busiest strategy made 122 trades in nine hours and 7% of them were profitable.",
+      "mine": "In my per-minute crypto test, each round trip cost 0.4% and a coin rarely moves that much in a few minutes. The busiest strategy made 122 trades in nine hours and 7% of them were profitable. A separate benchmark, Can AI Make Money in Crypto? (arXiv:2609.34510), measures the same gap from backtest to paper trading to real money.",
       "demo": "02-execution-costs",
       "demo_note": "Same three traders, same prices. Only the fee changes, and the ranking reverses.",
       "tweet": "Same strategies. Same prices. I changed one number: the cost per trade.\n\n0%: the scalper makes +0.5%\n0.05%: -7.5%\n0.2%: -27.8%\n\nThe ranking flips before the strategy changes at all.\n\nA careful paper on exactly this:\nhttps://arxiv.org/abs/2610.05077",
@@ -57,25 +38,6 @@
         "Three made-up traders on one synthetic price path: a scalper trading on a 3-minute average, a swing trader on a 60-minute average, and a holder.\n\nAt zero cost, the scalper beats the swing trader.",
         "Charge 0.05% per trade and the scalper is at -7.5%. Charge 0.2% and it is at -27.8% after 165 trades.\n\nThe swing trader loses too, but far less. The holder barely notices.\n\nNothing about the strategies changed.",
         "The paper found ranking agreement between ideal and stressed fills dropping to 0.21 in volatile conditions. It also says plainly that it is not measuring skill.\n\nReport your execution assumptions next to your returns.\n\nhttps://arxiv.org/abs/2610.05077"
-      ]
-    },
-    {
-      "id": "2609.05663",
-      "title": "What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets",
-      "authors": "T. J. Barton, Chris Constantakis, Patti Hauseman, Annie Mous",
-      "date": "2026-09-04",
-      "topic": "Agents in production",
-      "says": "A six-month record of thousands of autonomous LLM trading agents with real money. The main finding is that the system around the model shapes behavior more than the strategy text does: a risk slider explains leverage, and a leaderboard cutoff steers what gets picked. Sizing ignored volatility, agents gave back gains they had reached, and neither fleet showed a directional edge.",
-      "mine": "My stock paper trader made no trades on its first day, and the model was not the reason. For the first hour it was reading yesterday's prices. Then its candidate list was too narrow. Then it compared part-day volume with full-day averages, so everything looked quiet. Then a price feed stalled and froze it. Every fault was in the plumbing.",
-      "demo": "04-web-agent-harness",
-      "demo_note": "A different agent, the same lesson: most failures were in the code between the model and the world.",
-      "tweet": "My trading agent made zero trades on day one. I blamed the model.\n\nIt was reading yesterday's prices. Then comparing 30 minutes of volume to full-day averages. Then a stalled feed froze it.\n\nA 6-month study of real agent fleets found the same at scale:\nhttps://arxiv.org/abs/2609.05663",
-      "thread": [
-        "What do LLM trading agents actually do when you give them real money?\n\nA new paper has six months of data from thousands of them. Its first finding matches what I saw on day one of my own small test.",
-        "Their finding: the operating layer decides behavior more than anything written in the strategy prompt. A risk slider explained leverage. A leaderboard cutoff steered selection.",
-        "Mine: day one, zero trades. Four causes, none of them the model.\n\n1. Stale prices from a feed that only refreshes after the close\n2. A candidate list that was too narrow\n3. Part-day volume compared with full-day averages\n4. A stalled request that froze the loop",
-        "Other findings worth your time: sizing ignored volatility, and agents closed at a loss on nearly half the positions that had been well in profit. Neither fleet showed a directional edge.",
-        "If you are building an agent, log what it was shown, not just what it decided. Most of my bugs were visible there.\n\nhttps://arxiv.org/abs/2609.05663"
       ]
     },
     {
@@ -119,22 +81,23 @@
       ]
     },
     {
-      "id": "2610.12524",
-      "title": "An Exploration of Attacks on AI Agent Systems",
-      "authors": "Cathleen Qiao, Layah Vigneaud, Chloe Brandon, Max Cabilangan",
-      "date": "2026-10-08",
+      "id": "2610.09264",
+      "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+      "authors": "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
+      "date": "2026-10-07",
       "topic": "Agent security",
-      "says": "A study of how prompt injection can exploit both direct user input and messages between agents to leak information and spread from one agent to another. Most of its tests expose weaknesses in single-agent systems, and it extends the attacks to multi-agent setups.",
-      "mine": "I went looking for paid open-source bounties an agent could work on. Of the 198 newest open issues on GitHub carrying a cash-bounty label, 193 sat in three repositories whose issues carried labels addressed to AI agents and large payouts on beginner tasks. I did not submit to any of them. I cannot say what those repositories are for, only that they are built to attract agents.",
+      "says": "Coding agents increasingly follow community-shared rule files such as AGENTS.md. This paper shows an attacker can plant instructions in an otherwise harmless rule file so the agent swaps a legitimate dependency for an attacker-controlled package. Their optimized injections had high success rates and transferred across models and agent frameworks.",
+      "mine": "I sent an agent to find paid open-source bounties. Of the 198 newest open GitHub issues carrying a cash-bounty label, 193 sat in three repositories whose issues were labelled for AI agents and offered large payouts on beginner tasks. I submitted to none of them, and I cannot say what they are for, only that they are written to be found by agents. The same week, I had a coding agent install an app by following an agent-facing instructions file in someone else's repository; it checked the installer's hash and searched it for network calls before I ran anything.",
       "demo": "05-agent-bait",
-      "demo_note": "A script that runs the same GitHub search and counts the traits. Run it yourself; the numbers move.",
-      "tweet": "I searched GitHub for paid bounties an AI agent could work on.\n\n198 newest open bounty issues. 193 of them sat in 3 repos, labelled for AI agents, with big payouts on beginner tasks.\n\nSomeone is building things for agents to find. Worth reading alongside:\nhttps://arxiv.org/abs/2610.12524",
+      "demo_note": "A script that runs the same GitHub search and counts the traits. Run it yourself; the numbers move daily.",
+      "tweet": "I searched GitHub for paid bounties an AI agent could work on.\n\n198 newest open bounty issues. 193 sat in 3 repos, labelled for AI agents, with big payouts on beginner tasks.\n\nPeople are writing repo content for agents to find. This paper shows what that enables:\nhttps://arxiv.org/abs/2610.09264",
       "thread": [
         "I asked an agent to earn its first dollar. It went looking for open-source bounties.\n\nWhat it found says something about where agent security is heading.",
         "GitHub search for open issues with a cash-bounty label, newest first: 198 issues.\n\n193 were in three repositories. Their issues carried labels addressed to AI agents and payouts of $400 and up on \"good first issue\" tasks.",
         "I do not know what those repositories are for, and I am not accusing anyone. What I can say: they are shaped to be found by an autonomous agent, not by a person browsing for work.",
-        "That is the setting prompt-injection research keeps warning about. An agent that reads the open web will read things written for it. This paper walks through how injected instructions leak data and spread between agents.",
-        "My rule after this: an agent may read anything, but an offer it finds is not an instruction. The scan script is in the repo.\n\nhttps://arxiv.org/abs/2610.12524"
+        "Repositories now ship files written for agents too: how to build, how to install, what to avoid. I followed one this week. The agent checked the installer's hash and read what it would do before I ran anything.",
+        "This paper shows why that habit matters. Instructions planted in an ordinary-looking rule file got coding agents to swap real dependencies for attacker-controlled packages, across models and frameworks.",
+        "My rule after this: an agent may read anything, but what it finds in a repo is input, not policy. The scan script is in my repo.\n\nhttps://arxiv.org/abs/2610.09264"
       ]
     },
     {
@@ -155,27 +118,9 @@
         "What caught it was boring: a record of every field filled on every form, and a screenshot. I now treat that record as the product, not a debug log.",
         "This paper makes the same move at scale: real tools, and metrics for unnecessary data access during the run, plus a runtime auditor.\n\nhttps://arxiv.org/abs/2610.06454"
       ]
-    },
-    {
-      "id": "2610.09264",
-      "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
-      "authors": "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
-      "date": "2026-10-07",
-      "topic": "Agent security",
-      "says": "Coding agents increasingly follow community-shared rule files such as AGENTS.md. This paper shows an attacker can plant instructions in an otherwise harmless rule file so the agent swaps a legitimate dependency for an attacker-controlled package. Their optimized injections had high success rates and transferred across models and agent frameworks.",
-      "mine": "I had a coding agent install a small Mac app by following an instructions file written for agents in the app's repository. The file itself was careful: it told the agent never to run sudo and to verify checksums. The agent still checked independently. It compared the installer script's hash with the release notes, searched the script for network calls, and read what it would write with admin rights. The session's own safety layer then refused the download, and I ran those steps by hand.",
-      "demo": "",
-      "demo_note": "",
-      "tweet": "I had a coding agent install an app by following a file written for agents in someone else's repo.\n\nIt went fine. That's the problem: \"it went fine\" is how you learn to trust those files.\n\nThis paper poisons rule files to swap your dependencies:\nhttps://arxiv.org/abs/2610.09264",
-      "thread": [
-        "More and more repositories ship a file meant for AI agents: how to build, how to install, what to avoid.\n\nI followed one this week. Then I read a paper about poisoning them.",
-        "The file I followed was well written. It told the agent never to run sudo itself and to verify the download's checksum before installing.\n\nGood instructions. Also exactly what a malicious file would say to look trustworthy.",
-        "What the agent did that the file did not ask for: compared the installer script's hash against the release notes, searched it for network calls, and read what it would write with admin rights.",
-        "Then the tool's own safety layer refused the download anyway, and handed me the commands to run by hand. Annoying in the moment. Correct in general.",
-        "The paper shows injected rule-file text getting coding agents to replace real dependencies with attacker packages, with high success across models.\n\nTreat agent-facing files as input, not as policy.\n\nhttps://arxiv.org/abs/2610.09264"
-      ]
     }
   ],
   "repo": "https://github.com/jalil-dini/field-notes",
-  "repo_note": "Private for now. Make it public before posting anything that says the code is in the repo."
+  "repo_note": "Private for now. Make it public before posting anything that says the code is in the repo.",
+  "selection": "Six papers, one per experiment plus one on agent privacy. Each was kept because its central claim is something I measured myself; papers that only shared a topic were dropped."
 }

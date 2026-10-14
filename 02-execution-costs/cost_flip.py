@@ -5,8 +5,7 @@ Three made-up traders act on one synthetic minute-by-minute price path with a sm
 a scalper that trades constantly, a swing trader that trades sometimes, and a holder that buys once.
 Nothing changes between rows except the cost charged per trade.
 
-Related reading: arXiv:2610.05077 (execution assumptions change short-horizon Sharpe rankings) and
-arXiv:2609.34510 (the gap from backtests to real crypto markets).
+Related reading: arXiv:2610.05077 (execution assumptions change short-horizon Sharpe rankings).
 Standard library only. Run: python3 cost_flip.py
 """
 import random

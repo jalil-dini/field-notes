@@ -1,7 +1,8 @@
 # %% [markdown]
 # # Who are GitHub's cash bounties written for?
 #
-# **Paper:** [An Exploration of Attacks on AI Agent Systems](https://arxiv.org/abs/2610.12524) (Qiao et al., 2026)
+# **Paper:** [Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files](https://arxiv.org/abs/2610.09264) (Wang, Jiang, Wang and Gong, 2026),
+# which shows what content planted in a repository for agents to read can make them do.
 #
 # **Use case:** deciding what an autonomous agent is allowed to act on. An agent sent to "find paid work" will read
 # whatever search returns. This notebook measures how much of one such search is shaped for agents rather than people.
