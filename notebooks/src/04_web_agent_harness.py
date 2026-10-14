@@ -85,13 +85,14 @@ async def hardened():
         browser = await p.chromium.launch()
         page = await browser.new_page()
         await page.goto("file://" + os.path.abspath("tricky_form.html"))
-        best, best_fields = None, []
+        best, best_fields, best_score = None, [], -1
         for frame in page.frames:                                      # every frame, not just the top document
             for form in await frame.query_selector_all("form"):
                 fields = await form.query_selector_all("input, select, textarea")
                 names = [await f.get_attribute("name") or "" for f in fields]
-                if sum(n in PERSON for n in names) > sum((await f.get_attribute("name") or "") in PERSON for f in best_fields):
-                    best, best_fields = form, fields                   # the form with the most address fields wins
+                score = sum(n in PERSON for n in names)
+                if score > best_score:
+                    best, best_fields, best_score = form, fields, score   # the form with the most address fields wins
         steps = []
         for field in best_fields:
             name, kind = await field.get_attribute("name"), await field.evaluate("e => e.type")
