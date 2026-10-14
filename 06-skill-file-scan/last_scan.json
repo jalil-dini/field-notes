@@ -1,0 +1,16 @@
+{
+ "files_read": 300,
+ "files_with_any_flag": 45,
+ "repos_with_any_flag": 44,
+ "checks": {
+  "pre-approves shell access (allowed-tools: Bash)": 15,
+  "handles API keys or other credentials": 15,
+  "POSTs data to an outside server": 10,
+  "mentions sudo": 8,
+  "pipes a download into a shell": 4,
+  "runs an agent with permission prompts off": 4,
+  "installs an unpinned package": 2,
+  "tells the agent to hide something from the user": 0,
+  "overrides earlier instructions": 0
+ }
+}

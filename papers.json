@@ -1,45 +1,11 @@
 {
-  "updated": "2026-10-13",
-  "angle": "Read the paper, then run the experiment. Every post pairs a new arXiv paper with something I built and measured myself, including what went wrong.",
-  "bio": "I read AI papers and then try to break their claims with my own experiments. Agents, guardrails, and why backtests lie. Code for everything I post.",
+  "updated": "2026-10-14",
+  "angle": "AI security, tested by hand. Every post pairs a new paper on agents, guardrails or the agent supply chain with an experiment I ran myself, including the times my own agent got it wrong.",
+  "bio": "AI security: agents, guardrails and the agent supply chain. I read the new papers, then test them myself. Code for every post.",
+  "selection": "Six papers on AI agents and security. Each was kept because I measured something on the same question myself.",
+  "repo": "https://github.com/jalil-dini/field-notes",
+  "repo_note": "Public.",
   "papers": [
-    {
-      "id": "2608.27734",
-      "title": "What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery",
-      "authors": "Eray Gençay",
-      "date": "2026-08-27",
-      "topic": "Backtests",
-      "says": "When an LLM generates many trading strategies and you report the best one, the result is mostly selection luck. The paper counts every strategy the search tried and deflates the result by that count. Under that test, across two frontier models and up to 100 candidates per search, every LLM-discovered strategy was rejected, while passive benchmarks passed.",
-      "mine": "I ran 702 rule-based and model-driven trading agents over one year of daily prices. The ten stock agents leading after the first 70% of days were up between 300% and 400%. On the last 30% of days they averaged -18.6%, and only 2 of 10 made money. The best agent's +483% came mostly from one all-in trade.",
-      "demo": "01-search-aware-backtest",
-      "demo_note": "Random-walk prices with no edge: try 300 rules and the winner shows +24% in-sample, then about -4% on held-out days.",
-      "tweet": "I ran 702 trading agents over a year of prices.\n\nThe 10 leaders after the first 70% of days were up 300-400%.\n\nOn the last 30% they averaged -18.6%. 2 of 10 made money.\n\nThe best of hundreds is mostly luck. This paper shows how to price that in:\nhttps://arxiv.org/abs/2608.27734",
-      "thread": [
-        "A backtest answers one question: how did this strategy do? It does not tell you how many strategies you tried before you found it.\n\nThat second number changes everything. A thread with my own results.",
-        "I built 702 agents: trend, breakout, dip-buying, rotation, plus model-driven ones. Same cash, same costs, one year of daily prices.\n\nBest stock agent: +483%.\n\nLooks like a discovery. It was one all-in trade on a stock that tripled.",
-        "The check: pick the 10 leaders using only the first 70% of days. Then measure them on the last 30%.\n\nThey averaged -18.6%. The median agent did -1.6%. Holding the index did +6.1%.\n\nThe leaders were the worst place to be.",
-        "You can reproduce the effect with no market at all. On random-walk prices, where no skill is possible, trying 300 rules gives you a winner at +24%. Out of sample it loses.\n\n40 lines of Python, in my repo.",
-        "The paper that does this properly counts every strategy an LLM search tried and deflates the result by that count. Every LLM-discovered strategy failed. Passive benchmarks passed.\n\nhttps://arxiv.org/abs/2608.27734"
-      ]
-    },
-    {
-      "id": "2610.05077",
-      "title": "How Execution Assumptions Change Short-Horizon Sharpe Rankings: Evidence from a Synthetic Trading Benchmark",
-      "authors": "Weicheng Xue",
-      "date": "2026-10-04",
-      "topic": "Backtests",
-      "says": "Backtests of LLM trading agents often assume every order fills at the closing price. This paper tests whether that choice only shifts returns or also changes which agent ranks first. Across 2,462 runs, agreement between ideal-fill and stressed-fill rankings fell as low as 0.21 in volatile conditions. The author is careful to say it does not measure trading skill, only that the execution convention can decide the headline.",
-      "mine": "In my per-minute crypto test, each round trip cost 0.4% and a coin rarely moves that much in a few minutes. The busiest strategy made 122 trades in nine hours and 7% of them were profitable. A separate benchmark, Can AI Make Money in Crypto? (arXiv:2609.34510), measures the same gap from backtest to paper trading to real money.",
-      "demo": "02-execution-costs",
-      "demo_note": "Same three traders, same prices. Only the fee changes, and the ranking reverses.",
-      "tweet": "Same strategies. Same prices. I changed one number: the cost per trade.\n\n0%: the scalper makes +0.5%\n0.05%: -7.5%\n0.2%: -27.8%\n\nThe ranking flips before the strategy changes at all.\n\nA careful paper on exactly this:\nhttps://arxiv.org/abs/2610.05077",
-      "thread": [
-        "Most trading-agent backtests assume your order fills at the closing price, for free.\n\nA new paper asks: does that assumption just inflate returns, or does it change who wins? I tested the same thing.",
-        "Three made-up traders on one synthetic price path: a scalper trading on a 3-minute average, a swing trader on a 60-minute average, and a holder.\n\nAt zero cost, the scalper beats the swing trader.",
-        "Charge 0.05% per trade and the scalper is at -7.5%. Charge 0.2% and it is at -27.8% after 165 trades.\n\nThe swing trader loses too, but far less. The holder barely notices.\n\nNothing about the strategies changed.",
-        "The paper found ranking agreement between ideal and stressed fills dropping to 0.21 in volatile conditions. It also says plainly that it is not measuring skill.\n\nReport your execution assumptions next to your returns.\n\nhttps://arxiv.org/abs/2610.05077"
-      ]
-    },
     {
       "id": "2610.12292",
       "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
@@ -63,22 +29,79 @@
       ]
     },
     {
-      "id": "2610.03036",
-      "title": "WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites",
-      "authors": "Jiangang Han",
-      "date": "2026-10-02",
-      "topic": "Web agents",
-      "says": "A web agent that placed second in a live-website challenge. Its argument is that a capable model is necessary but not enough: many failures happen in the harness between the model and the page. Clicks landed at three-quarters of their intended coordinates, and actions on native dropdowns, inside iframes and in text boxes failed silently. Fixing the harness with the same model raised the score from 31.0 to 57.0.",
-      "mine": "My form-filling agent hit the same list. A page reader could not see fields inside an embedded frame. A native dropdown needed three attempts. One form reappeared after submit and the agent pressed Submit four times. Later, a test page I wrote showed it would fill a newsletter box after a successful submit, because it never checked for the thank-you message first.",
+      "id": "2610.07639",
+      "title": "HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?",
+      "authors": "Zhengyang Zhu, Liming Huang, Runmin Ji, Mingxi Ye, Zihan Zhou",
+      "date": "2026-10-06",
+      "topic": "Agent harnesses",
+      "says": "The first systematic study of the security mechanisms in coding-agent harnesses, including Claude Code, Codex CLI, Gemini CLI and GitHub Copilot. About half of the mechanisms they confirmed are opt-in. Across 2,500 trials, turning on auto-approve raised utility and raised attack success from 29.2% to 95.6%. Network isolation and read-only modes cut attacks at a large utility cost; command allow- and deny-lists cut them at a small one.",
+      "mine": "I ran a form-filling agent with auto-approve on: no human confirmed any submission. In its first afternoon it sent a person's name and address to a political campaign sign-up and pressed Submit four times on a form that kept coming back. Both were fixed with narrow, specific rules, closer to an allow-list than to a smarter model: five questions answered before any typing, and never pressing the same button twice.",
       "demo": "04-web-agent-harness",
-      "demo_note": "A small form agent and a local test page with four traps: a decoy newsletter box, a form inside a frame, a native dropdown and a pre-ticked opt-in.",
-      "tweet": "My web agent pressed Submit four times on one form.\n\nThe model's choice was fine each time. The code around it never noticed the same form had come back.\n\nThis paper took a web agent from 31 to 57 without changing the model. Only the harness.\nhttps://arxiv.org/abs/2610.03036",
+      "demo_note": "The agent, its guard questions, and a local test page with the traps that caught it.",
+      "tweet": "New benchmark on coding-agent harnesses: turning on auto-approve raised attack success from 29.2% to 95.6%.\n\nI ran an agent on auto-approve this week. Day one: it sent a person's details to a political sign-up and pressed Submit 4 times.\n\nhttps://arxiv.org/abs/2610.07639",
       "thread": [
-        "\"The model is right but the click is wrong\" is the best paper title I read this month, and it describes most of my week building a form-filling agent.",
-        "Their list of silent failures on live sites: clicks landing at 3/4 of the intended coordinates, native dropdowns, iframes, text boxes.\n\nSame model, harness fixed: score went from 31.0 to 57.0.",
-        "My list:\n\n- a page reader that could not see fields inside an embedded frame\n- a dropdown that took three tries\n- a captcha that only appears after you press Submit\n- a form that came back unchanged, so the agent pressed Submit again. Four times.",
-        "The fix for the last one was not a smarter model. It was one rule: if the same fields come back after a press, stop and ask a person.",
-        "I then wrote a test page with those traps and found one more bug: after a successful submit, the agent went on to fill the newsletter box. It had never checked for the thank-you first.\n\nTest page and agent are in the repo.\n\nhttps://arxiv.org/abs/2610.03036"
+        "Everyone wants agents on auto-approve. A new benchmark measured what that costs: attack success went from 29.2% to 95.6% across six coding-agent harnesses.\n\nI learned the same lesson on a much smaller scale this week.",
+        "My agent fills in request forms for free samples. Auto-approve on: nobody confirms a submission.\n\nFirst afternoon: it sent a real name and address to a political campaign sign-up that was worded as a \"free bumper sticker\".",
+        "Same afternoon, one form kept reappearing after Submit. The agent pressed Submit again. Four times.\n\nNeither was a model failure. The model did what it was asked. The harness let it.",
+        "What fixed it was narrow and boring: five yes/no checks before any typing (is this a sweepstakes, a cause, business-only, out of area?), and a rule that the same button is never pressed twice.",
+        "The paper's finding matches: command allow-lists and deny-lists cut attacks with little utility loss, while blunt isolation cut both. Specific rules beat general caution.\n\nhttps://arxiv.org/abs/2610.07639"
+      ]
+    },
+    {
+      "id": "2610.03089",
+      "title": "Securing Computer-Use Agents Against Branch Steering Attacks",
+      "authors": "Giulio Zingrillo, Hanna Foerster, Ilia Shumailov, Yiren Zhao, Robert Mullins",
+      "date": "2026-10-02",
+      "topic": "Agent security",
+      "says": "The Dual-LLM pattern protects agents by fixing a plan before untrusted data is read. Computer-use agents cannot do that, because their plans have to branch on what pages show. An attacker can craft page content that steers the agent down a hazardous but pre-approved branch, with no injected instruction at all. Attack success was 94.4% on standard agents and 89.5% on Dual-LLM agents. Their architecture, COBRA, adds ahead-of-time limits on the parameters and destinations each branch may use, and cut attack success to 0% while keeping 97% of benign utility.",
+      "mine": "My form agent's worst mistake was a benign version of this. \"Fill in free-offer request forms\" was its approved branch. A political campaign page that said \"free bumper sticker\" steered it into that branch; nothing on the page told it to do anything. The fix was the same shape as their constraint: before acting, the page has to pass fixed checks on what kind of destination it is.",
+      "demo": "03-typed-decision-guardrails",
+      "demo_note": "The five checks every page must pass, their measured scores, and the one page they still get wrong.",
+      "tweet": "My agent was steered into a political sign-up with no injected instruction. The page said \"free bumper sticker\", and filling free-offer forms was its approved job.\n\nThis paper calls it branch steering: 94% attack success, 0% with the right limits.\nhttps://arxiv.org/abs/2610.03089",
+      "thread": [
+        "Most prompt-injection talk is about hidden instructions. A new paper shows you do not need any.\n\nIt is called branch steering, and my own agent fell for a harmless version of it this week.",
+        "Computer-use agents cannot fix their plan before reading pages, because the plan has to branch on what the page shows. So an attacker shapes the page to pick the branch.\n\nNo \"ignore previous instructions\". Just content that fits an approved path.",
+        "My case: the agent's approved branch was \"fill in forms that offer something free\". A campaign sign-up advertised a free bumper sticker. The agent filled it in with a real name and address.",
+        "Their numbers: 94.4% attack success on standard agents, 89.5% on Dual-LLM agents. Their fix, COBRA, limits in advance which parameters and destinations each branch may use: 0% attack success, 97% of benign utility kept.",
+        "My fix had the same shape at toy scale: every page must pass fixed checks about what kind of destination it is before the agent types anything.\n\nhttps://arxiv.org/abs/2610.03089"
+      ]
+    },
+    {
+      "id": "2606.14517",
+      "title": "From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails",
+      "authors": "Yuguang Zhou, Xunguang Wang, Pingchuan Ma, Zhantong Xue, Zhaoyu Wang",
+      "date": "2026-06-12",
+      "topic": "Guardrails",
+      "says": "LLM guardrails that reason before deciding can be trapped into very long reasoning by crafted input. Payloads optimized on one open model transferred to eight major model families with 13 to 63 times more tokens, and up to 148 times more latency in real agent deployments.",
+      "mine": "I timed a typed decision gate, which writes no text and only returns probabilities over fixed options, on the same page with up to 50 copies of a reasoning-bait paragraph appended. Input grew from 368 to 2,620 tokens. Latency stayed at about 200 ms, output stayed at 31 tokens, and the decision did not change. My payload was not optimized like theirs, and this kind of gate has its own weakness: the wording of its options.",
+      "demo": "03-typed-decision-guardrails",
+      "demo_note": "dos_latency.py: the same page with 0, 1, 10 and 50 copies of a reasoning-bait paragraph.",
+      "tweet": "Guardrails that reason can be made to reason forever: a paper shows 13-63x token blowups from crafted input.\n\nI tried bait on a gate that writes no text. 50 copies appended, 7x the input. Latency: 202 ms to 202 ms. Output: 31 tokens both times.\nhttps://arxiv.org/abs/2606.14517",
+      "thread": [
+        "A guardrail that thinks before it decides can be made to think for a very long time. That is the attack in a recent paper: crafted input that traps LLM guardrails in long reasoning.\n\nI tested the same idea on a different kind of gate.",
+        "Their numbers: payloads built on one open model transferred to eight model families with 13x to 63x more tokens, and up to 148x more latency in real agent setups.\n\nA guardrail you can slow down is a guardrail an attacker can switch off.",
+        "My gate is a typed decision model: it writes no text, it only returns probabilities over options I define.\n\nI appended a reasoning-bait paragraph to a page: 0, 1, 10, then 50 copies. Input went from 368 to 2,620 tokens.",
+        "Latency: 202, 201, 200, 202 ms. Output: 31 tokens every time. The decision never changed.\n\nCaveat: my payload was hand-written, not optimized like theirs.",
+        "And this kind of gate is not safe by default. Its weak point is elsewhere: the names of its options. Renaming one option let 60-100% of bad pages through in my other test.\n\nDifferent architectures fail differently. Test the one you ship.\n\nhttps://arxiv.org/abs/2606.14517"
+      ]
+    },
+    {
+      "id": "2609.07360",
+      "title": "Scanning the Harness: Configuration Exposures in AI Coding-Agent Supply Chains",
+      "authors": "Benjamin Kapner, Carmel Soceanu, Alicia Petrunin, Hofni Gartner",
+      "date": "2026-09-07",
+      "topic": "Agent supply chain",
+      "says": "Coding agents load repository instructions, skills, hooks and tool-server declarations, which makes their configuration part of the software supply chain. Across 3,171 public GitHub repositories, 9.8% of setups declared unpinned tool-server packages, 2.5% granted broad execution, and 3.8% gave skills broad tool pre-approval; 15.4% had at least one of the three.",
+      "mine": "I scanned 300 public SKILL.md files from GitHub with a small pattern scanner. 5.0% pre-approve shell access through allowed-tools, 1.3% tell users to run an agent with permission prompts switched off, and 1.3% pipe a download straight into a shell. 15.0% had at least one item worth a human look. None told the agent to hide anything from the user or to ignore earlier instructions.",
+      "demo": "06-skill-file-scan",
+      "demo_note": "The scanner, its nine checks, and the counts from 300 public skill files.",
+      "tweet": "I scanned 300 public agent skill files on GitHub.\n\n5.0% pre-approve shell access. 1.3% tell you to run the agent with permission prompts off. 1.3% pipe a download into a shell.\n\nA new paper did this properly across 3,171 repos and found similar rates:\nhttps://arxiv.org/abs/2609.07360",
+      "thread": [
+        "Agent skills are plain-language files your AI agent loads and follows with your privileges. Thousands are on GitHub.\n\nI scanned 300 to see what they ask an agent to do.",
+        "Results from 300 public SKILL.md files:\n\n5.0% pre-approve shell access (allowed-tools: Bash)\n5.0% handle API keys or credentials\n2.7% mention sudo\n1.3% say to run the agent with permission prompts off\n1.3% pipe a download into a shell",
+        "15% had at least one item that deserves a human look. That is not the same as malicious: an install skill that uses sudo can be completely honest.\n\nWhat I did not find: instructions to hide things from the user, or to ignore earlier instructions. Zero of each.",
+        "A new paper did this at scale: 3,171 repositories. 3.8% gave skills broad tool pre-approval, 9.8% declared unpinned tool-server packages, 15.4% had at least one exposure. My small sample lands in the same range.",
+        "Practical version: before installing a skill, read its allowed-tools line and search it for sudo, curl and pipes. Two minutes.\n\nScanner is in my repo.\n\nhttps://arxiv.org/abs/2609.07360"
       ]
     },
     {
@@ -86,7 +109,7 @@
       "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
       "authors": "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
       "date": "2026-10-07",
-      "topic": "Agent security",
+      "topic": "Agent supply chain",
       "says": "Coding agents increasingly follow community-shared rule files such as AGENTS.md. This paper shows an attacker can plant instructions in an otherwise harmless rule file so the agent swaps a legitimate dependency for an attacker-controlled package. Their optimized injections had high success rates and transferred across models and agent frameworks.",
       "mine": "I sent an agent to find paid open-source bounties. Of the 198 newest open GitHub issues carrying a cash-bounty label, 193 sat in three repositories whose issues were labelled for AI agents and offered large payouts on beginner tasks. I submitted to none of them, and I cannot say what they are for, only that they are written to be found by agents. The same week, I had a coding agent install an app by following an agent-facing instructions file in someone else's repository; it checked the installer's hash and searched it for network calls before I ran anything.",
       "demo": "05-agent-bait",
@@ -100,28 +123,6 @@
         "This paper shows why that habit matters. Instructions planted in an ordinary-looking rule file got coding agents to swap real dependencies for attacker-controlled packages, across models and frameworks.",
         "My rule after this: an agent may read anything, but what it finds in a repo is input, not policy. The scan script is in my repo.\n\nhttps://arxiv.org/abs/2610.09264"
       ]
-    },
-    {
-      "id": "2610.06454",
-      "title": "AgentPrivArena: Evaluating and Auditing Real-world AI Agent Privacy",
-      "authors": "Shouju Wang, Haopeng Zhang",
-      "date": "2026-10-05",
-      "topic": "Agent security",
-      "says": "Most agent privacy benchmarks look at simulated runs and at what leaks in the final answer. This framework runs agents against real tools and self-hosted services, and measures unnecessary access to personal data during the steps of a task, not only at the end. It also adds a runtime auditor. The authors report substantial privacy risks that outcome-only tests miss.",
-      "mine": "My form-filling agent had a person's name, address and email, and the job of requesting free samples. Nothing leaked in any final answer. The harm was mid-task: it typed those details into a political campaign sign-up that was worded as a free bumper sticker. What made it catchable was a per-form record of exactly which fields were filled with what, plus a screenshot.",
-      "demo": "04-web-agent-harness",
-      "demo_note": "The agent returns a list of every field it filled and with what. That list is the audit trail.",
-      "tweet": "My agent never leaked anything in its answers.\n\nIt did type a person's name and address into a political sign-up, mid-task, because the page said \"free bumper sticker\".\n\nAgent privacy fails in the steps, not the summary. This paper measures that:\nhttps://arxiv.org/abs/2610.06454",
-      "thread": [
-        "We mostly test agent privacy by reading what the agent says at the end.\n\nThat would have missed the worst thing my agent did this week.",
-        "The agent's job: request free samples and stickers, using a real name, address and email.\n\nOne page offered a free bumper sticker. It was a campaign sign-up. The agent filled it in and pressed send.",
-        "Its final report said: submitted, no confirmation shown. Accurate, and useless. Nothing in that sentence tells you personal details went to a political list.",
-        "What caught it was boring: a record of every field filled on every form, and a screenshot. I now treat that record as the product, not a debug log.",
-        "This paper makes the same move at scale: real tools, and metrics for unnecessary data access during the run, plus a runtime auditor.\n\nhttps://arxiv.org/abs/2610.06454"
-      ]
     }
-  ],
-  "repo": "https://github.com/jalil-dini/field-notes",
-  "repo_note": "Private for now. Make it public before posting anything that says the code is in the repo.",
-  "selection": "Six papers, one per experiment plus one on agent privacy. Each was kept because its central claim is something I measured myself; papers that only shared a topic were dropped."
+  ]
 }
