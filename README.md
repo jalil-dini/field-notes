@@ -34,6 +34,20 @@ TYPESAFE_API_KEY=... node form_agent.js "file://$PWD/tricky_form.html"
 It fills the test form as the fictional person in `profile.example.json`. Add `--dry` to fill without
 submitting, or `--probe` to print only the guard scores. Point it at real websites with care: it submits.
 
+## Notebooks
+
+Each demo also has a notebook that runs in Google Colab with charts and a written reading of the result.
+
+| Notebook | Needs |
+|---|---|
+| [01 Search-aware backtest](notebooks/01_search_aware_backtest.ipynb) | numpy, matplotlib |
+| [02 Execution costs](notebooks/02_execution_costs.ipynb) | numpy, matplotlib |
+| [03 Typed decision gate](notebooks/03_typed_decision_gate.ipynb) | transformers and an open model; a GPU makes it quick |
+| [04 Web agent harness](notebooks/04_web_agent_harness.ipynb) | Playwright, installed by the first cell |
+| [05 Agent bait scan](notebooks/05_agent_bait_scan.ipynb) | matplotlib, network access to GitHub |
+
+The notebooks are generated from `notebooks/src/*.py` by `tools/build_notebooks.py`.
+
 ## What these are not
 
 - Not trading advice. The trading demos use synthetic prices, and the real results I quote came from
