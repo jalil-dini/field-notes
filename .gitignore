@@ -3,3 +3,4 @@ shots/
 .env
 *.db
 __pycache__/
+notebooks/figures/

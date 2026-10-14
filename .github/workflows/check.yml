@@ -1,0 +1,30 @@
+name: Run the demos
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1"   # weekly, so a broken demo is noticed
+
+jobs:
+  demos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Standard-library demos
+        run: |
+          python 01-search-aware-backtest/best_of_n.py
+          python 02-execution-costs/cost_flip.py
+          python 03-typed-decision-guardrails/guard_table.py
+      - name: Notebooks 01 and 02
+        run: |
+          pip install numpy matplotlib
+          python tools/run_notebook.py notebooks/01_search_aware_backtest.ipynb
+          python tools/run_notebook.py notebooks/02_execution_costs.ipynb
+      - name: Notebooks match their sources
+        run: |
+          python tools/build_notebooks.py
+          git diff --exit-code notebooks/*.ipynb
