@@ -5,7 +5,7 @@
  "checks": {
   "pre-approves shell access (allowed-tools: Bash)": 15,
   "handles API keys or other credentials": 15,
-  "POSTs data to an outside server": 10,
+  "POSTs data to an outside server": 9,
   "mentions sudo": 8,
   "pipes a download into a shell": 4,
   "runs an agent with permission prompts off": 4,

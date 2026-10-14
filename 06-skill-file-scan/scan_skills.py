@@ -28,11 +28,11 @@ LIMIT = int(next((a for a in sys.argv[1:] if a.isdigit()), 300))
 CHECKS = {
     "pre-approves shell access (allowed-tools: Bash)": r"(?m)^allowed-tools:.*\bBash\b",
     "handles API keys or other credentials": r"~/\.ssh|id_rsa|~/\.aws|\.aws/credentials|keychain|\.netrc|printenv|\$\{?[A-Z_]*(API_KEY|TOKEN|SECRET)\b",
-    "POSTs data to an outside server": r"(curl\s[^\n]*-(X\s*POST|d\s|-data)|requests\.post\(|fetch\([^)]*method:\s*['\"]POST)(?![^\n]*(localhost|127\.0\.0\.1))",
+    "POSTs data to an outside server": r"(?m)^(?![^\n]*(localhost|127\.0\.0\.1))[^\n]*(curl\s[^\n]*-(X\s*POST|d\s|-data)|requests\.post\(|fetch\([^)]*method:\s*['\"]POST)",
     "mentions sudo": r"\bsudo\s+\w",
     "pipes a download into a shell": r"(curl|wget)[^\n|]{0,200}\|\s*(sudo\s+)?(ba|z)?sh\b",
     "runs an agent with permission prompts off": r"dangerously-skip-permissions|bypassPermissions|--yolo\b",
-    "installs an unpinned package": r"\b(npx\s+-y\s+[@\w/-]+(?!@\d)|uvx\s+[\w-]+(?!==))",
+    "installs an unpinned package": r"\b(npx\s+-y\s+(?!\S*\w@\d)[@\w/-]+|uvx\s+(?!\S*==)[\w-]+)",
     "tells the agent to hide something from the user": r"(do not|don'?t|never) (tell|inform|mention (it |this )?to|show) the user|without (telling|informing|notifying) the user|hide (this|it) from the user",
     "overrides earlier instructions": r"ignore (all |any )?(previous|prior|above|other) instructions",
 }
@@ -56,10 +56,10 @@ def main():
     if not tok:
         sys.exit("Set GITHUB_TOKEN or log in with the gh CLI; GitHub code search needs a token.")
     found = []
-    for page in range(1, LIMIT // 100 + 2):
+    for page in range(1, LIMIT // 100 + 3):
         items = api("/search/code?" + urllib.parse.urlencode({"q": "filename:SKILL.md", "per_page": 100, "page": page}), tok)["items"]
         found += [(i["repository"]["full_name"], i["path"]) for i in items]
-        if len(items) < 100 or len(found) >= LIMIT:
+        if not items or len(set(found)) >= LIMIT:   # pages can come back a result or two short
             break
         time.sleep(7)                      # code search allows about 10 requests a minute
     found = list(dict.fromkeys(found))[:LIMIT]

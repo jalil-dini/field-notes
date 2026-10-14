@@ -49,6 +49,7 @@ Each demo also has a notebook that runs in Google Colab with charts and a writte
 | [03 Typed decision gate](notebooks/03_typed_decision_gate.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/03_typed_decision_gate.ipynb) | transformers and four open models; a GPU makes it quick |
 | [04 Web agent harness](notebooks/04_web_agent_harness.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/04_web_agent_harness.ipynb) | Playwright, installed by the first cell |
 | [05 Agent bait scan](notebooks/05_agent_bait_scan.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/05_agent_bait_scan.ipynb) | matplotlib, network access to GitHub |
+| [06 Skill file scan](notebooks/06_skill_file_scan.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/06_skill_file_scan.ipynb) | matplotlib; a GitHub token only for the optional live re-run |
 
 The notebooks are generated from `notebooks/src/*.py` by `tools/build_notebooks.py`.
 

@@ -19,11 +19,12 @@ jobs:
           python 01-search-aware-backtest/best_of_n.py
           python 02-execution-costs/cost_flip.py
           python 03-typed-decision-guardrails/guard_table.py
-      - name: Notebooks 01 and 02
+      - name: Notebooks 01, 02 and 06
         run: |
           pip install numpy matplotlib
           python tools/run_notebook.py notebooks/01_search_aware_backtest.ipynb
           python tools/run_notebook.py notebooks/02_execution_costs.ipynb
+          python tools/run_notebook.py notebooks/06_skill_file_scan.ipynb
       - name: Notebooks match their sources
         run: |
           python tools/build_notebooks.py
