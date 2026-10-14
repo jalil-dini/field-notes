@@ -1,0 +1,32 @@
+{
+ "note": "Revised proposal 1 plus proposal 2.",
+ "order": [
+  "sweepstakes",
+  "excluded",
+  "cause",
+  "restricted",
+  "offer"
+ ],
+ "checks": {
+  "offer": {
+   "threshold": 0.5,
+   "question": "Is `page` a form where a person requests a free physical item (sample, stickers, fan pack, catalog) or free information, with no payment? If the page says to request it by mail, with a stamped or self-addressed envelope, or by email instead of with a form, the answer is no. A sign-up form that sends the free item counts. A free sample of a paid report, a price quote or a consultation does not count."
+  },
+  "sweepstakes": {
+   "threshold": 0.7,
+   "question": "Is `page` an entry form for a sweepstakes, contest, raffle or prize drawing, where only chosen winners get something? A free item sent to everyone who asks is not one."
+  },
+  "cause": {
+   "threshold": 0.4,
+   "question": "Is `page` run by a political campaign, candidate, advocacy or activist group, petition, religious organization or charity fundraiser, or does sending the form sign the person up to support a cause?"
+  },
+  "restricted": {
+   "threshold": 0.5,
+   "question": "Is this offer only for businesses, trade professionals, employees, contractors, members of a program, or existing customers with an order, and not for the general public?"
+  },
+  "excluded": {
+   "threshold": 0.6,
+   "question": "Does `page` limit this offer to a place, such as one city, region or country, that would exclude someone living in Orlando, Florida, USA?"
+  }
+ }
+}

@@ -1,0 +1,1304 @@
+{
+ "guards_v0.json": {
+  "summary": {
+   "tune": {
+    "pages": 28,
+    "decision_right": 27,
+    "reason_right": 24,
+    "filled_when_it_should_skip": 1,
+    "skipped_a_real_offer": 0
+   },
+   "held_out": {
+    "pages": 20,
+    "decision_right": 18,
+    "reason_right": 17,
+    "filled_when_it_should_skip": 2,
+    "skipped_a_real_offer": 0
+   },
+   "all": {
+    "pages": 48,
+    "decision_right": 45,
+    "reason_right": 41,
+    "filled_when_it_should_skip": 3,
+    "skipped_a_real_offer": 0
+   }
+  },
+  "rows": [
+   {
+    "id": 1,
+    "split": "tune",
+    "label": "cause",
+    "got": "cause",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.03,
+     "cause": 0.97,
+     "restricted": 0.02,
+     "excluded": 0.09
+    }
+   },
+   {
+    "id": 2,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.12,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.08,
+     "excluded": 0.18
+    }
+   },
+   {
+    "id": 3,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.04,
+     "cause": 0.04,
+     "restricted": 0.03,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 4,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.88,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.05,
+     "excluded": 0.14
+    }
+   },
+   {
+    "id": 5,
+    "split": "tune",
+    "label": "restricted",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.92,
+     "sweepstakes": 0.05,
+     "cause": 0.01,
+     "restricted": 0.94,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 6,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 7,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.96,
+     "sweepstakes": 0.05,
+     "cause": 0.02,
+     "restricted": 0.02,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 8,
+    "split": "tune",
+    "label": "restricted",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.77,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.86,
+     "excluded": 0.15
+    }
+   },
+   {
+    "id": 10,
+    "split": "tune",
+    "label": "restricted",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.95,
+     "sweepstakes": 0.03,
+     "cause": 0.02,
+     "restricted": 0.69,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 11,
+    "split": "held_out",
+    "label": "excluded",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.91,
+     "sweepstakes": 0.09,
+     "cause": 0.01,
+     "restricted": 0.06,
+     "excluded": 0.71
+    }
+   },
+   {
+    "id": 13,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.98,
+     "sweepstakes": 0.07,
+     "cause": 0.07,
+     "restricted": 0.03,
+     "excluded": 0.04
+    }
+   },
+   {
+    "id": 15,
+    "split": "held_out",
+    "label": "restricted",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.48,
+     "sweepstakes": 0.05,
+     "cause": 0.03,
+     "restricted": 0.05,
+     "excluded": 0.22
+    }
+   },
+   {
+    "id": 16,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.85,
+     "sweepstakes": 0.08,
+     "cause": 0.06,
+     "restricted": 0.09,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 17,
+    "split": "held_out",
+    "label": "cause",
+    "got": "cause",
+    "scores": {
+     "offer": 0.98,
+     "sweepstakes": 0.02,
+     "cause": 0.57,
+     "restricted": 0.03,
+     "excluded": 0.04
+    }
+   },
+   {
+    "id": 18,
+    "split": "tune",
+    "label": "excluded",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.96,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.97
+    }
+   },
+   {
+    "id": 19,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.13,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.22,
+     "excluded": 0.1
+    }
+   },
+   {
+    "id": 20,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.63,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 21,
+    "split": "held_out",
+    "label": "restricted",
+    "got": "fill",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.04,
+     "cause": 0.02,
+     "restricted": 0.03,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 23,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.85,
+     "sweepstakes": 0.07,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 24,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.6,
+     "sweepstakes": 0.05,
+     "cause": 0.02,
+     "restricted": 0.08,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 25,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.58,
+     "sweepstakes": 0.05,
+     "cause": 0.02,
+     "restricted": 0.07,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 30,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.14,
+     "sweepstakes": 0.97,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 32,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.05,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.36,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 33,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.06,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.25,
+     "excluded": 0.17
+    }
+   },
+   {
+    "id": 37,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.06,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.04
+    }
+   },
+   {
+    "id": 38,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.11,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.05,
+     "excluded": 0.12
+    }
+   },
+   {
+    "id": 39,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.12,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.06,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 40,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.06,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.09,
+     "excluded": 0.11
+    }
+   },
+   {
+    "id": 41,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.09,
+     "sweepstakes": 0.05,
+     "cause": 0.03,
+     "restricted": 0.16,
+     "excluded": 0.16
+    }
+   },
+   {
+    "id": 42,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.1,
+     "sweepstakes": 0.04,
+     "cause": 0.02,
+     "restricted": 0.08,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 46,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.2,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.04,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 48,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.21,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.04,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 51,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.08,
+     "sweepstakes": 0.98,
+     "cause": 0.02,
+     "restricted": 0.02,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 52,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.58,
+     "sweepstakes": 0.95,
+     "cause": 0.02,
+     "restricted": 0.02,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 53,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.18,
+     "sweepstakes": 0.92,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 54,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.41,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.1
+    }
+   },
+   {
+    "id": 55,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.14,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.97
+    }
+   },
+   {
+    "id": 56,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.25,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.95
+    }
+   },
+   {
+    "id": 57,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.17,
+     "sweepstakes": 0.98,
+     "cause": 0.02,
+     "restricted": 0.02,
+     "excluded": 0.9
+    }
+   },
+   {
+    "id": 64,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.94,
+     "sweepstakes": 0.11,
+     "cause": 0.02,
+     "restricted": 0.05,
+     "excluded": 0.11
+    }
+   },
+   {
+    "id": 65,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "fill",
+    "scores": {
+     "offer": 0.75,
+     "sweepstakes": 0.04,
+     "cause": 0.02,
+     "restricted": 0.11,
+     "excluded": 0.15
+    }
+   },
+   {
+    "id": 66,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.84,
+     "sweepstakes": 0.4,
+     "cause": 0.02,
+     "restricted": 0.07,
+     "excluded": 0.15
+    }
+   },
+   {
+    "id": 67,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.05,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 69,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.94,
+     "sweepstakes": 0.09,
+     "cause": 0.01,
+     "restricted": 0.04,
+     "excluded": 0.04
+    }
+   },
+   {
+    "id": 71,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "fill",
+    "scores": {
+     "offer": 0.52,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.06,
+     "excluded": 0.09
+    }
+   },
+   {
+    "id": 72,
+    "split": "tune",
+    "label": "excluded",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.03,
+     "cause": 0.28,
+     "restricted": 0.02,
+     "excluded": 0.95
+    }
+   },
+   {
+    "id": 73,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.89,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.63,
+     "excluded": 0.12
+    }
+   },
+   {
+    "id": 74,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.04,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.68
+    }
+   }
+  ]
+ },
+ "guards_v2a.json": {
+  "summary": {
+   "tune": {
+    "pages": 28,
+    "decision_right": 28,
+    "reason_right": 25,
+    "filled_when_it_should_skip": 0,
+    "skipped_a_real_offer": 0
+   },
+   "held_out": {
+    "pages": 20,
+    "decision_right": 19,
+    "reason_right": 18,
+    "filled_when_it_should_skip": 1,
+    "skipped_a_real_offer": 0
+   },
+   "all": {
+    "pages": 48,
+    "decision_right": 47,
+    "reason_right": 43,
+    "filled_when_it_should_skip": 1,
+    "skipped_a_real_offer": 0
+   }
+  },
+  "rows": [
+   {
+    "id": 1,
+    "split": "tune",
+    "label": "cause",
+    "got": "cause",
+    "scores": {
+     "offer": 0.96,
+     "sweepstakes": 0.03,
+     "cause": 0.97,
+     "restricted": 0.02,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 2,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.07,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.08,
+     "excluded": 0.19
+    }
+   },
+   {
+    "id": 3,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.94,
+     "sweepstakes": 0.04,
+     "cause": 0.04,
+     "restricted": 0.03,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 4,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.88,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.05,
+     "excluded": 0.15
+    }
+   },
+   {
+    "id": 5,
+    "split": "tune",
+    "label": "restricted",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.92,
+     "sweepstakes": 0.05,
+     "cause": 0.01,
+     "restricted": 0.95,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 6,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.09
+    }
+   },
+   {
+    "id": 7,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.92,
+     "sweepstakes": 0.05,
+     "cause": 0.02,
+     "restricted": 0.02,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 8,
+    "split": "tune",
+    "label": "restricted",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.74,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.85,
+     "excluded": 0.16
+    }
+   },
+   {
+    "id": 10,
+    "split": "tune",
+    "label": "restricted",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.93,
+     "sweepstakes": 0.03,
+     "cause": 0.02,
+     "restricted": 0.73,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 11,
+    "split": "held_out",
+    "label": "excluded",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.91,
+     "sweepstakes": 0.09,
+     "cause": 0.01,
+     "restricted": 0.06,
+     "excluded": 0.69
+    }
+   },
+   {
+    "id": 13,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.97,
+     "sweepstakes": 0.09,
+     "cause": 0.07,
+     "restricted": 0.03,
+     "excluded": 0.04
+    }
+   },
+   {
+    "id": 15,
+    "split": "held_out",
+    "label": "restricted",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.27,
+     "sweepstakes": 0.06,
+     "cause": 0.03,
+     "restricted": 0.05,
+     "excluded": 0.16
+    }
+   },
+   {
+    "id": 16,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.8,
+     "sweepstakes": 0.08,
+     "cause": 0.05,
+     "restricted": 0.08,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 17,
+    "split": "held_out",
+    "label": "cause",
+    "got": "cause",
+    "scores": {
+     "offer": 0.91,
+     "sweepstakes": 0.02,
+     "cause": 0.71,
+     "restricted": 0.03,
+     "excluded": 0.03
+    }
+   },
+   {
+    "id": 18,
+    "split": "tune",
+    "label": "excluded",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.95,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.98
+    }
+   },
+   {
+    "id": 19,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.09,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.23,
+     "excluded": 0.11
+    }
+   },
+   {
+    "id": 20,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.7,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 21,
+    "split": "held_out",
+    "label": "restricted",
+    "got": "fill",
+    "scores": {
+     "offer": 0.94,
+     "sweepstakes": 0.04,
+     "cause": 0.02,
+     "restricted": 0.03,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 23,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.87,
+     "sweepstakes": 0.07,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 24,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.63,
+     "sweepstakes": 0.05,
+     "cause": 0.02,
+     "restricted": 0.08,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 25,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.63,
+     "sweepstakes": 0.05,
+     "cause": 0.02,
+     "restricted": 0.07,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 30,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.15,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 32,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.04,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.4,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 33,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.06,
+     "sweepstakes": 0.99,
+     "cause": 0.01,
+     "restricted": 0.3,
+     "excluded": 0.14
+    }
+   },
+   {
+    "id": 37,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.05,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.04
+    }
+   },
+   {
+    "id": 38,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.06,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.05,
+     "excluded": 0.11
+    }
+   },
+   {
+    "id": 39,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.07,
+     "sweepstakes": 0.02,
+     "cause": 0.02,
+     "restricted": 0.06,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 40,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.04,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.09,
+     "excluded": 0.11
+    }
+   },
+   {
+    "id": 41,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.08,
+     "sweepstakes": 0.04,
+     "cause": 0.03,
+     "restricted": 0.15,
+     "excluded": 0.16
+    }
+   },
+   {
+    "id": 42,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.08,
+     "sweepstakes": 0.05,
+     "cause": 0.02,
+     "restricted": 0.09,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 46,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.09,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.04,
+     "excluded": 0.05
+    }
+   },
+   {
+    "id": 48,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.09,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.04,
+     "excluded": 0.08
+    }
+   },
+   {
+    "id": 51,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.07,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 52,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.48,
+     "sweepstakes": 0.95,
+     "cause": 0.02,
+     "restricted": 0.02,
+     "excluded": 0.07
+    }
+   },
+   {
+    "id": 53,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.2,
+     "sweepstakes": 0.93,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.04
+    }
+   },
+   {
+    "id": 54,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.3,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.1
+    }
+   },
+   {
+    "id": 55,
+    "split": "tune",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.11,
+     "sweepstakes": 0.97,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.97
+    }
+   },
+   {
+    "id": 56,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.13,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.95
+    }
+   },
+   {
+    "id": 57,
+    "split": "held_out",
+    "label": "sweepstakes",
+    "got": "sweepstakes",
+    "scores": {
+     "offer": 0.12,
+     "sweepstakes": 0.98,
+     "cause": 0.01,
+     "restricted": 0.02,
+     "excluded": 0.9
+    }
+   },
+   {
+    "id": 64,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.93,
+     "sweepstakes": 0.1,
+     "cause": 0.02,
+     "restricted": 0.05,
+     "excluded": 0.11
+    }
+   },
+   {
+    "id": 65,
+    "split": "held_out",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.13,
+     "sweepstakes": 0.04,
+     "cause": 0.01,
+     "restricted": 0.1,
+     "excluded": 0.15
+    }
+   },
+   {
+    "id": 66,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.83,
+     "sweepstakes": 0.36,
+     "cause": 0.02,
+     "restricted": 0.07,
+     "excluded": 0.16
+    }
+   },
+   {
+    "id": 67,
+    "split": "tune",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.95,
+     "sweepstakes": 0.03,
+     "cause": 0.02,
+     "restricted": 0.05,
+     "excluded": 0.06
+    }
+   },
+   {
+    "id": 69,
+    "split": "held_out",
+    "label": "fill",
+    "got": "fill",
+    "scores": {
+     "offer": 0.94,
+     "sweepstakes": 0.09,
+     "cause": 0.01,
+     "restricted": 0.04,
+     "excluded": 0.03
+    }
+   },
+   {
+    "id": 71,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "not_offer",
+    "scores": {
+     "offer": 0.18,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.06,
+     "excluded": 0.09
+    }
+   },
+   {
+    "id": 72,
+    "split": "tune",
+    "label": "excluded",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.91,
+     "sweepstakes": 0.03,
+     "cause": 0.33,
+     "restricted": 0.02,
+     "excluded": 0.96
+    }
+   },
+   {
+    "id": 73,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "restricted",
+    "scores": {
+     "offer": 0.9,
+     "sweepstakes": 0.03,
+     "cause": 0.01,
+     "restricted": 0.62,
+     "excluded": 0.13
+    }
+   },
+   {
+    "id": 74,
+    "split": "tune",
+    "label": "not_offer",
+    "got": "excluded",
+    "scores": {
+     "offer": 0.04,
+     "sweepstakes": 0.02,
+     "cause": 0.01,
+     "restricted": 0.03,
+     "excluded": 0.66
+    }
+   }
+  ]
+ }
+}

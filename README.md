@@ -14,6 +14,7 @@ they include what went wrong.
 | [04-web-agent-harness](04-web-agent-harness) | [WebFovea](https://arxiv.org/abs/2610.03036) | A small form-filling agent and a local test page with the traps that broke it on real sites. |
 | [05-agent-bait](05-agent-bait) | [Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files](https://arxiv.org/abs/2610.09264) | A scan of GitHub bounty issues for traits aimed at AI agents. |
 | [06-skill-file-scan](06-skill-file-scan) | [Scanning the Harness](https://arxiv.org/abs/2609.07360) | A scan of 300 public agent skill files: 5.0% pre-approve shell access and 15% contain at least one instruction worth a human look. |
+| [07-self-harness-guards](07-self-harness-guards) | [Self-Harness](https://arxiv.org/abs/2606.09498), [Evolving Agents in the Dark](https://arxiv.org/abs/2606.05922) | A failure-mined, regression-tested fix to a web agent's safety guards: on 48 hand-labelled pages, wrong form fills fell from 3 to 1 (held-out: 2 to 1) with no real offer lost. |
 
 ## Running them
 

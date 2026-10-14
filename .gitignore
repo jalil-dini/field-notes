@@ -4,3 +4,4 @@ shots/
 *.db
 __pycache__/
 notebooks/figures/
+.jev_cache.json

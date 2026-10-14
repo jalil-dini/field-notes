@@ -1,0 +1,3768 @@
+[
+ {
+  "id": 1,
+  "url": "https://actionnetwork.org/forms/get-your-free-bumper-sticker",
+  "label": "cause",
+  "why": "",
+  "page": "Start Organizing: Actions People Support Login or Signup TELL US WHERE TO SEND YOUR STICKER: Not in US? Address City State You may receive email updates from Ready For Warren, the sponsor of this form. Edit Subscription Preferences FLAG AS SPAM Get your free bumper sticker Want a bumper sticker to show that you want to see Elizabeth Warren run for president? Well, today is your lucky day. And, thanks to the generosity of supporters who pitched in to fund them, we're able to give them away for free! Please Note There's a limit of one sticker per person, but if you'd like more you can order a pack of stickers here. SPONSORED BY READY FOR WARREN Action Network is an open platform that empowers individuals and groups to organize for progressive causes. We encourage responsible activism, and do not support using the platform to take unlawful or other improper action. We do not control or endorse the conduct of users and make no representations of any kind about them. This website uses cookies for personalisation. Click here to learn more or change your cookie settings.. By continuing to browse and submitting your information, you agree to our use of cookies. Maps powered by Mapbox. US zip codes to cities powered by SimpleMaps.com. Real-time campaign data for partners powered by HVR. Action Network is proudly union-made by members of the Nonprofit Professional Employees Union, IFPTE Local 70. GET STARTED Mobilize communities, raise money, and engage supporters with tools built for teams just like yours. Sign Up Login TOOLS FOR... Non-Profit Organizations Large National Organizations Advocacy Organizations Political Campaigns ACTION NETWORK Email Mobile Messaging Petitions Events Fundraising Advocacy Automation DISCOVER Get Started Demo Mobile Messaging Demo Careers Contact Us TOOLS TO... Fundraise for your movement Mobilize supporters Organize supporters COMMUNITY Cooperative Development About Us Release Notes Blog SUPPORT Trainings Get Help Developers SQL Mirror Documentation API Documentation oEmbed Documentation Privacy Notice Terms of Service Renewable Energy Cookies Translators Acceptable Use Policy Follow Action Network on Bluesky Link to twitter Link to facebook Link to youtube Link to linkedin ",
+  "fields": {
+   "f0": {
+    "label": "First Name ",
+    "type": "text",
+    "name": "answer[first_name]"
+   },
+   "f1": {
+    "label": "Last Name ",
+    "type": "text",
+    "name": "answer[last_name]"
+   },
+   "f2": {
+    "label": "Email *",
+    "type": "email",
+    "name": "answer[email]"
+   },
+   "f3": {
+    "label": "Zip/Postal Code *",
+    "type": "text",
+    "name": "answer[zip_code]"
+   },
+   "f4": {
+    "label": "Address",
+    "type": "text",
+    "name": "Address"
+   },
+   "f5": {
+    "label": "City",
+    "type": "text",
+    "name": "City"
+   },
+   "f6": {
+    "label": "State",
+    "type": "text",
+    "name": "State"
+   }
+  },
+  "shipped_checks": {
+   "offer": 97,
+   "sweepstakes": 3,
+   "cause": 97,
+   "restricted": 2,
+   "excluded": 7
+  },
+  "split": "tune"
+ },
+ {
+  "id": 2,
+  "url": "https://www.amys.com/contact-us",
+  "label": "not_offer",
+  "why": "",
+  "page": "OUR FOODS Expand RECIPES Expand COMMUNITY Expand OUR STORY Expand WHERE TO BUY CAREERS CONTACT US SEARCH CONTACT US Send us a message about our products Subject* Please select Fan Mail? Where to buy Amy's? Ingredient or nutrition question? Disappointed with an Amy's meal? Coupon request? Trouble finding Amy's near you? Are you looking for Donations, HR, Employment Verification, Logistics, or PR? PREFER TO SPEAK TO SOMEONE? For Product Questions & Concerns Call our friendly Consumer Relations Team 707-781-7535 or 800-643-0570 9am to 4pm (Pacific), Monday through Friday Not a Consumer Looking For Help? Call our front desk 707-781-6600 8am to 4:30pm (Pacific), Monday through Friday LOOKING FOR SOMETHING ELSE? Corporate Office / HR Hours: 8am to 4:30pm (Pacific) \u200bPhone: 707-781-6600 Questions about donations Email us at donations@amys.com Employment Verifications Phone: 404-382-5400 Email us here Amy's Drive Thru Looking for Amy\u2019s Drive Thru? Please visit amysdrivethru.com Public Relations Email us at pr@amys.com Transportation Inquiry Interested in becoming a logistics partner? Fill out this form CAREERS FAQS PRESS ROOM CONTACT US NEWSLETTER SIGNUP PRIVACY & COOKIE POLICY Instagram Facebook footer.social_nav.pinterest.label Youtube Community GuidelinesHuman Rights PolicyTerms of Use \u00a9 2026 Amy's Kitchen, Inc. United States This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. If we have detected an opt-out preference signal then it will be honored. Further information is available in our Privacy Policy Accept All Reject All Manage Preferences protected by reCAPTCHA Select all images with a fire hydrant Click verify once there are none left. VERIFY",
+  "fields": {
+   "f0": {
+    "label": "Subject*",
+    "type": "select",
+    "name": "superrb_form_contactformcomplex[subjects]",
+    "options": [
+     "Please select",
+     "Fan Mail?",
+     "Where to buy Amy's?",
+     "Ingredient or nutrition question?",
+     "Disappointed with an Amy's meal?",
+     "Coupon request?",
+     "Trouble finding Amy's near you?",
+     "Are you looking for Donations, HR, Employment Verification, Logistics, or PR?"
+    ]
+   }
+  },
+  "shipped_checks": {
+   "offer": 11,
+   "sweepstakes": 2,
+   "cause": 2,
+   "restricted": 8,
+   "excluded": 18
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 3,
+  "url": "http://banell.com/SendStickers.htm",
+  "label": "fill",
+  "why": "",
+  "page": " BANELL would like to send you some FREE stuff just for visiting our Web Site, so fill out the form below and we'll drop some of our most recent stickers in the mail to you . . . WE'LL EVEN PICK UP THE POSTAGE ! First: Last Street address: City: State: zip: Age: e mail address: AL AR AZ CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NB NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WI WY 15 and under 16 to 24 25 to 35 36 and older Message: close this window",
+  "fields": {
+   "f0": {
+    "label": "BANELL would like to send you some FREE stuff just for visiting our Web Site, so fill out ",
+    "type": "text",
+    "name": "First"
+   },
+   "f1": {
+    "label": "BANELL would like to send you some FREE stuff just for visiting our Web Site, so fill out ",
+    "type": "text",
+    "name": "Last"
+   },
+   "f2": {
+    "label": "Street address:",
+    "type": "text",
+    "name": "Street_address"
+   },
+   "f3": {
+    "label": "City:",
+    "type": "text",
+    "name": "City"
+   },
+   "f4": {
+    "label": "AL AR AZ CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NB NH NJ NM NY NC ND OH OK OR PA",
+    "type": "select",
+    "name": "State",
+    "options": [
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DE",
+     "FL"
+    ]
+   },
+   "f5": {
+    "label": "AL AR AZ CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NB NH NJ NM NY NC ND OH OK OR PA",
+    "type": "text",
+    "name": "zip"
+   },
+   "f6": {
+    "label": "AL AR AZ CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NB NH NJ NM NY NC ND OH OK OR PA",
+    "type": "select",
+    "name": "Age",
+    "options": [
+     "15 and under",
+     "16 to 24",
+     "25 to 35",
+     "36 and older"
+    ]
+   },
+   "f7": {
+    "label": "AL AR AZ CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NB NH NJ NM NY NC ND OH OK OR PA",
+    "type": "text",
+    "name": "e_mail_address"
+   },
+   "f8": {
+    "label": "Hey - Send me some stickers!",
+    "type": "textarea",
+    "name": "Message"
+   }
+  },
+  "shipped_checks": {
+   "offer": 97,
+   "sweepstakes": 4,
+   "cause": 3,
+   "restricted": 3,
+   "excluded": 8
+  },
+  "split": "tune"
+ },
+ {
+  "id": 4,
+  "url": "https://beelinewoodenware.com/catalog/",
+  "label": "fill",
+  "why": "",
+  "page": "FREE shipping on orders $150+ (continental US) OR save 10% with in-store pickup Connecting Bees and Their Keepers Products search Login $0.00 0 Home Shop Education Commercial Beekeepers About Us Catalog Locate a Dealer Contact Home Shop Education Commercial Beekeepers About Us Catalog Locate a Dealer Contact $0.00 0 The Beeline Catalog Download our catalog to see Beeline's full line of products, place an order with our order form, or place a request for a free catalog to be shipped to your door! Download PDF Download PDF Request a free Catalog Please fill out the form below to request a Beeline Catalog. First Name* Last Name* Email* Phone Address* City* State* Zip Code* Accept a Catalog* I want to recieve a free Beeline catalog mailed to this address. HP Name Request Catalog Get it fast.SHOP ONLINE. Hive Kits Live Bees Frames Foundation Protective Gear Shop Popular Items Deep Hive Body \u2013 Fingerjointed, Wax-Dipped, Millrun 5-frame Nuc Box $26.86 Add To Cart Maxx12 Extractor \u2013 3/12 $1,059.02 Add To Cart SALE! Winter Chip Box Assembled 8-frame with Wood Chips $29.44 Original price was: $29.44. $26.50 Current price is: $26.50. Add To Cart 10\u2033 Heavy Duty Smoker with Beeline Bellows $56.02 Add To Cart SALE! Pro Winter Feed Patties \u2013 1 Gal./10 LB Bucket $29.74 Original price was: $29.74. $26.77 Current price is: $26.77. Add To Cart HiveAlive 500ml \u2013 50 hive treatment $86.25 Add To Cart Contact Us About Us Store Hours and Info Commercial Beekeeping Product Instructions Product Catalog Locate a Dealer Blog Shop Live Bees Hive Kits Hive Bodies/Supers Frames Foundation Protective Gear Colony Maintenance Honey Containers Educational Books Save 5% When You Join Us Join our beekeeping community and save 5% on your first order. Email* Zip Code* HP Name Sign Up Discount valid for 5% off your first order, one per household. By subscribing, you'll receive our newsletter with beekeeping insights, product updates, and exclusive offers. Privacy Policy Terms and Conditions \u00a9 2026 Beeline Apiaries & Woodenware. All Rights Reserved. Website By ZIMMERMAN protected by reCAPTCHA Chat live with an agent now!Close ",
+  "fields": {
+   "f0": {
+    "label": "First Name*",
+    "type": "text",
+    "name": "fields[First Name]"
+   },
+   "f1": {
+    "label": "Last Name*",
+    "type": "text",
+    "name": "fields[Last Name]"
+   },
+   "f2": {
+    "label": "Email*",
+    "type": "email",
+    "name": "fields[Email]"
+   },
+   "f3": {
+    "label": "Phone",
+    "type": "tel",
+    "name": "fields[Phone Number]"
+   },
+   "f4": {
+    "label": "Address*",
+    "type": "text",
+    "name": "fields[Address Line 1]"
+   },
+   "f5": {
+    "label": "City*",
+    "type": "text",
+    "name": "fields[City]"
+   },
+   "f6": {
+    "label": "State*",
+    "type": "text",
+    "name": "fields[State]"
+   },
+   "f7": {
+    "label": "Zip Code*",
+    "type": "text",
+    "name": "fields[Zip Code]"
+   },
+   "f8": {
+    "label": "I want to recieve a free Beeline catalog mailed to this address.",
+    "type": "checkbox",
+    "name": "fields[Accept a Catalog]"
+   },
+   "f9": {
+    "label": "HP Name",
+    "type": "hpinput",
+    "name": "fields[hpname]"
+   },
+   "f10": {
+    "label": "Email*",
+    "type": "email",
+    "name": "fields[email]"
+   },
+   "f11": {
+    "label": "Zip Code*",
+    "type": "text",
+    "name": "fields[zip_code]"
+   },
+   "f12": {
+    "label": "HP Name",
+    "type": "hpinput",
+    "name": "fields[hpname]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 86,
+   "sweepstakes": 3,
+   "cause": 1,
+   "restricted": 5,
+   "excluded": 22
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 5,
+  "url": "https://benchmarkabrasives.com/pages/free-sticker-pack",
+  "label": "restricted",
+  "why": "",
+  "page": "NEXT DAY SHIPPING: Free shipping for order over $100 NEXT DAY SHIPPING: Free shipping for order over $100 Skip to content All categories ------ Backing Pad Blade Buffing Compound Buffing Wheels Carbide Burr Cartridge Roll Change Disc Chop Saw Wheel Convolute Wheel Cut-off Wheel Fiber Disc Flap Disc Flap Wheel Gift Card Grinding Cup Wheel Grinding Wheel Hand Pads Hole Saw Hook & Loop Disc Mandrel Non-Woven Abrasives Nylon Wire Product PSA Disc Recip Blade Shirt Shop Roll Spiral Band Steel Brush Stud Cutter Surface Conditioning TCT Blade - Aluminum TCT Blade - Metal TCT Blade - Wood Vinyl Sticker All categories LOGIN View cart SHOP BY CATEGORY SCRUBNUTZ CLEANING ABOUT CONTACT FAQ BLOG SHIPPING POLICY HOLIDAY BUNDLES SUPER POINTS TOLL FREE: 877-841-1837 SCANNED FROM YOUR PACKING SLIP YOUR ORDER UNLOCKS A FREE 10-PACK STICKER BUNDLE Thanks for supporting Benchmark Abrasives. Claim your shop-ready sticker pack and slap some attitude on your toolbox, welder, fridge, truck, or whatever barely survived this week's project. REDEEM FREE STICKERS 100% Free No product cost 10 Designs Built for shop people Order Verified Keeps it customer-only CLAIM YOUR FREE STICKERS Keep it quick: enter the same name, email, and order number from your Benchmark Abrasives order. We'll verify it and send you the no-cost draft for shipping details. HOW IT WORKS 1 Enter your order info Name, email, and order number from your packing slip. eBay/Amazon customers use the order # from your verification email. 2 We verify the order This keeps the free pack reserved for actual customers. 3 Get a no-cost draft invoice Click complete your purchase and add your shipping details. 4 We ship the sticker pack Your toolbox gets a little more personality. Finally. No card charge for the sticker pack. No weird hoops. No shop foreman lecture. ORDER VERIFICATION SHIPPING DETAILS STICKERS SHIPPED REDEEM NOW Use the email tied to your order so the team can match it fast. Full Name Email Address Order Number REDEEM FREE STICKERS After submitting, a Benchmark team member will verify your order and email a no-cost draft invoice. Use that draft to enter your shipping details. Please allow 2\u20133 days after your redemption for our team to verify your request. Customer-only bonus The QR code on your packing slip unlocks the redemption. Fast form Only three fields. No full checkout until shipping details are needed. Collectible drops Different designs keep the sticker program fresh year-round. BUILT FOR TOOLBOXES, WE",
+  "fields": {
+   "f0": {
+    "label": "All categories ------ Backing Pad Blade Buffing Compound Buffing Wheels Carbide Burr Cartr",
+    "type": "select",
+    "name": "",
+    "options": [
+     "All categories",
+     "------",
+     "Backing Pad",
+     "Blade",
+     "Buffing Compound",
+     "Buffing Wheels",
+     "Carbide Burr",
+     "Cartridge Roll"
+    ]
+   },
+   "f1": {
+    "label": "Search",
+    "type": "text",
+    "name": "q"
+   },
+   "f2": {
+    "label": "Full Name",
+    "type": "text",
+    "name": ""
+   },
+   "f3": {
+    "label": "Email Address",
+    "type": "email",
+    "name": ""
+   },
+   "f4": {
+    "label": "Order Number",
+    "type": "text",
+    "name": ""
+   },
+   "f5": {
+    "label": "First Name",
+    "type": "text",
+    "name": ""
+   },
+   "f6": {
+    "label": "Last Name",
+    "type": "text",
+    "name": ""
+   },
+   "f7": {
+    "label": "Enter your email address...",
+    "type": "email",
+    "name": "email"
+   }
+  },
+  "shipped_checks": {
+   "offer": 92,
+   "sweepstakes": 4,
+   "cause": 1,
+   "restricted": 94,
+   "excluded": 8
+  },
+  "split": "tune"
+ },
+ {
+  "id": 6,
+  "url": "https://www.breatheright.com/samples-sign-up/",
+  "label": "fill",
+  "why": "",
+  "page": "Your Privacy Choices Our Website uses cookies and similar technologies to improve your experience, for analytics and personalized advertising, as described in our Cookie Policy. You may consent to or restrict the use of non-essential cookies, including those used by third parties. Please note that your selections are browser specific. By using our Website, you acknowledge that you have read and understood our Privacy Notice and agree to our Terms of Use. Accept All Reject All Non-Essential Manage Preferences Products Better breathing Get a free sample Find a store Find your perfect strip You\u2019re about to breathe better Try before you buy Better breathing is just a few clicks away. Sign up below to get a free sample of our Extra Strength Tan Breathe Right\u00ae strips sent straight to your door\u2014and thoughtful content about how to breathe better sent straight to your inbox. Please allow 1-2 weeks for delivery. Only one sample allowed per household. *Fields required * First name * Last name * Email address * Address Line 1 Address Line 2 * City * State Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District Of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming * ZIP Code I would also like a coupon By submitting, you accept our Terms of Use. Submit Breathe Right FAQs Get a coupon Package Insert Contact Us Accessibility Statement Privacy Notice Terms of Use Do Not Sell My Personal Information Cookie Policy Your Privacy Choices Site Map Instagram Facebook YouTube Use as directed. \u00a92026 Prestige Consumer Healthcare Inc. All rights reserved. United States protected by reCAPTCHA Select all images with a fire hydrant Click verify once there are none left. VERIFY",
+  "fields": {
+   "f0": {
+    "label": "* First name",
+    "type": "text",
+    "name": ""
+   },
+   "f1": {
+    "label": "* Last name",
+    "type": "text",
+    "name": ""
+   },
+   "f2": {
+    "label": "* Email address",
+    "type": "email",
+    "name": ""
+   },
+   "f3": {
+    "label": "* Address Line 1",
+    "type": "text",
+    "name": ""
+   },
+   "f4": {
+    "label": "Address Line 2",
+    "type": "text",
+    "name": ""
+   },
+   "f5": {
+    "label": "* City",
+    "type": "text",
+    "name": ""
+   },
+   "f6": {
+    "label": "* State",
+    "type": "select",
+    "name": "",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut",
+     "Delaware"
+    ]
+   },
+   "f7": {
+    "label": "* ZIP Code",
+    "type": "text",
+    "name": ""
+   }
+  },
+  "shipped_checks": {
+   "offer": 98,
+   "sweepstakes": 3,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 10
+  },
+  "split": "tune"
+ },
+ {
+  "id": 7,
+  "url": "https://www.carwreckcowboy.com/stickers/",
+  "label": "fill",
+  "why": "Free sticker pack from a law firm, open to US addresses; a real public offer even though it is marketing.",
+  "page": "Skip to content HOME ABOUT US AUTO ACCIDENTS BLOG LOCATIONS CONTACT US 24/7 FREE CONSULTATIONS 1-855-COWBOY9 HOME BLOG CAR WRECK COWBOY STICKERS CAR WRECK COWBOY STICKERS CALL THE CAR WRECK COWBOY 1-855-269-2699 EMAIL US ABOUT YOUR CASE Request a Free Consultation WE\u2019RE AVAILABLE 24 HOURS A DAY Chat Live Right Now JUNE 6, 2025 | BY MONTGOMERY LAW Request a FREE Car Wreck Cowboy Sticker Pack by Mail! NOTE: US addresses only. One request per household. \"*\" indicates required fields FULL NAME* INSTAGRAM HANDLE EMAIL ADDRESS MAILING ADDRESS* Address Line 1 Address Line 2 (optional) City State Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming ZIP Code Message (optional) 0 of 600 max characters If you've been hit & hurt, when should you call the Car Wreck Cowboy?* Next Week Tomorrow RIIIIIIIIGHT NOW! Show us what you do with your stickers! Post on Instagram and tag @CarWreckCowboy to make sure we see it! Post navigation PREVIOUS POST Car Wreck Cowboy Commercials GET A FREE CONSULTATION Full Name* Email Address* Phone Number* Your Message* Send a Message WOULD DEFINITELY RECOMMEND MONTGOMERY LAW \"My lawyers kept in contact with me through everything. The other person\u2019s insurance was taking forever to get things on their end done (almost a whole year), but they were adamant in getting things done and settled on my behalf. Would definitely recommend Montgomery Law for any car accident!\" David R (Car Accident Injury) RECENT ARTICLES 2nd, MAY Car Wreck Cowboy Commercials 20th, MAR Family of Four Among 5 Killed in Austin Truck Crash Have You Been Seriously Hurt in a Car Accident? WE'RE AVAILABLE 24 HOURS A DAY. CALL THE CAR WRECK COWBOY TODAY. 1-855-COWBOY9 OR 1-855-269-2699 LIVE CHAT Contact Us Right Now For a Free Consultation Full Name* Email Address* Phone Number* Your Message* Email Us About Your Case HOME ABOUT US CAR ACCIDENTS TRUCK CRASHES MOTORCYCLE WRECKS BLOG CONTACT US 24/7 FREE CONSULTATIONS 1-855-COWBOY9 FOLLOW US ONLINE TODAY FB. X. YT. IG. Copyright \u00a9 2026 Montgomery Law, PLLC | Car Wreck Cowboy\u2122 | Persona",
+  "fields": {
+   "f0": {
+    "label": "FULL NAME*",
+    "type": "text",
+    "name": "input_1"
+   },
+   "f1": {
+    "label": "INSTAGRAM HANDLE",
+    "type": "text",
+    "name": "input_6"
+   },
+   "f2": {
+    "label": "EMAIL ADDRESS",
+    "type": "email",
+    "name": "input_2"
+   },
+   "f3": {
+    "label": "Address Line 1",
+    "type": "text",
+    "name": "input_5.1"
+   },
+   "f4": {
+    "label": "Address Line 2 (optional)",
+    "type": "text",
+    "name": "input_5.2"
+   },
+   "f5": {
+    "label": "City",
+    "type": "text",
+    "name": "input_5.3"
+   },
+   "f6": {
+    "label": "State",
+    "type": "select",
+    "name": "input_5.4",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut",
+     "Delaware"
+    ]
+   },
+   "f7": {
+    "label": "ZIP Code",
+    "type": "text",
+    "name": "input_5.5"
+   },
+   "f8": {
+    "label": "Message (optional)",
+    "type": "textarea",
+    "name": "input_19"
+   },
+   "f9": {
+    "label": "If you've been hit & hurt, when should you call the Car Wreck Cowboy?*",
+    "type": "select",
+    "name": "input_11",
+    "options": [
+     "Next Week",
+     "Tomorrow",
+     "RIIIIIIIIGHT NOW!"
+    ]
+   },
+   "f10": {
+    "label": "Full Name*",
+    "type": "text",
+    "name": "input_1"
+   },
+   "f11": {
+    "label": "Email Address*",
+    "type": "email",
+    "name": "input_2"
+   },
+   "f12": {
+    "label": "Phone Number*",
+    "type": "tel",
+    "name": "input_3"
+   },
+   "f13": {
+    "label": "Your Message*",
+    "type": "textarea",
+    "name": "input_4"
+   },
+   "f14": {
+    "label": "Full Name*",
+    "type": "text",
+    "name": "input_1"
+   },
+   "f15": {
+    "label": "Email Address*",
+    "type": "email",
+    "name": "input_2"
+   },
+   "f16": {
+    "label": "Phone Number*",
+    "type": "tel",
+    "name": "input_3"
+   },
+   "f17": {
+    "label": "Your Message*",
+    "type": "textarea",
+    "name": "input_4"
+   }
+  },
+  "shipped_checks": {
+   "offer": 96,
+   "sweepstakes": 5,
+   "cause": 2,
+   "restricted": 2,
+   "excluded": 5
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 8,
+  "url": "https://amzlfleethealth.com/hut-sticker-request-form/",
+  "label": "restricted",
+  "why": "",
+  "page": "Skip to content DSP RESOURCE CENTER Hiring and Fleet Resources for DSP's WELCOME HUT STICKER REQUEST FORM HIRING EVENT SUPPORT REQUEST DA TRANSFER REQUEST DRIVER HIRING EVENT RESULT TRACKER HUT STICKER REQUEST FORM DSP NAME DSP SHORT CODE * 0 of 4 max characters. DELIVERY STATION * NAME * FIRST LAST EMAIL * VEHICLE MAKE * VEHICLE YEAR * VIN * TYPE OF FUEL * Diesel Gas EQUIPMENT NUMBER (JJK NUMBER) * NUMBER OF AXLES * UNLOADED WEIGHT * GROSS WEIGHT * LICENSE PLATE * LICENSE PLATE STATE * TEMP TAG * Yes No VEHICLE TYPE * Step Van Box Truck TITLE STATE * MAILING ADDRESS ADDRESS LINE 1 ADDRESS LINE 2 CITY Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming STATE ZIP CODE IF MULTIPLE STICKER REQUESTS, PLEASE USE THE EXCEL TEMPLATE AT THE BOTTOM OF THIS PAGE Click or drag a file to this area to upload. Submit HUT Request Additional VINSDownload Copyright \u00a9 2026 DSP Resource Center \u2013 OnePress theme by FameThemes",
+  "fields": {
+   "f0": {
+    "label": "DSP NAME",
+    "type": "text",
+    "name": "wpforms[fields][10]"
+   },
+   "f1": {
+    "label": "DSP SHORT CODE *",
+    "type": "text",
+    "name": "wpforms[fields][3]"
+   },
+   "f2": {
+    "label": "DELIVERY STATION *",
+    "type": "text",
+    "name": "wpforms[fields][4]"
+   },
+   "f3": {
+    "label": "NAME *",
+    "type": "text",
+    "name": "wpforms[fields][0][first]"
+   },
+   "f4": {
+    "label": "LAST",
+    "type": "text",
+    "name": "wpforms[fields][0][last]"
+   },
+   "f5": {
+    "label": "EMAIL *",
+    "type": "email",
+    "name": "wpforms[fields][1]"
+   },
+   "f6": {
+    "label": "VEHICLE MAKE *",
+    "type": "text",
+    "name": "wpforms[fields][32]"
+   },
+   "f7": {
+    "label": "VEHICLE YEAR *",
+    "type": "number",
+    "name": "wpforms[fields][36]"
+   },
+   "f8": {
+    "label": "VIN *",
+    "type": "text",
+    "name": "wpforms[fields][5]"
+   },
+   "f9": {
+    "label": "TYPE OF FUEL *",
+    "type": "select",
+    "name": "wpforms[fields][34]",
+    "options": [
+     "Diesel",
+     "Gas"
+    ]
+   },
+   "f10": {
+    "label": "EQUIPMENT NUMBER (JJK NUMBER) *",
+    "type": "text",
+    "name": "wpforms[fields][35]"
+   },
+   "f11": {
+    "label": "NUMBER OF AXLES *",
+    "type": "number",
+    "name": "wpforms[fields][20]"
+   },
+   "f12": {
+    "label": "UNLOADED WEIGHT *",
+    "type": "number",
+    "name": "wpforms[fields][37]"
+   },
+   "f13": {
+    "label": "GROSS WEIGHT *",
+    "type": "number",
+    "name": "wpforms[fields][38]"
+   },
+   "f14": {
+    "label": "LICENSE PLATE *",
+    "type": "text",
+    "name": "wpforms[fields][6]"
+   },
+   "f15": {
+    "label": "LICENSE PLATE STATE *",
+    "type": "text",
+    "name": "wpforms[fields][39]"
+   },
+   "f16": {
+    "label": "TEMP TAG *",
+    "type": "select",
+    "name": "wpforms[fields][41]",
+    "options": [
+     "Yes",
+     "No"
+    ]
+   },
+   "f17": {
+    "label": "VEHICLE TYPE *",
+    "type": "select",
+    "name": "wpforms[fields][19]",
+    "options": [
+     "Step Van",
+     "Box Truck"
+    ]
+   },
+   "f18": {
+    "label": "TITLE STATE *",
+    "type": "text",
+    "name": "wpforms[fields][31]"
+   },
+   "f19": {
+    "label": "MAILING ADDRESS",
+    "type": "text",
+    "name": "wpforms[fields][7][address1]"
+   },
+   "f20": {
+    "label": "ADDRESS LINE 2",
+    "type": "text",
+    "name": "wpforms[fields][7][address2]"
+   },
+   "f21": {
+    "label": "CITY",
+    "type": "text",
+    "name": "wpforms[fields][7][city]"
+   },
+   "f22": {
+    "label": "STATE",
+    "type": "select",
+    "name": "wpforms[fields][7][state]",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut",
+     "Delaware"
+    ]
+   },
+   "f23": {
+    "label": "ZIP CODE",
+    "type": "text",
+    "name": "wpforms[fields][7][postal]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 80,
+   "sweepstakes": 2,
+   "cause": 2,
+   "restricted": 84,
+   "excluded": 12
+  },
+  "split": "tune"
+ },
+ {
+  "id": 10,
+  "url": "http://stickers.gprojectgear.com/",
+  "label": "restricted",
+  "why": "",
+  "page": "gprojectgear.com THANKS FOR BUYING A G-PROJECT SPEAKER! Welcome to the G-Crew! Fill out the form below for more information on how to get your free stickers. * * Offer is for customers only who saw this link in a product insert. Share This on Facebook Share This on Twitter ",
+  "fields": {
+   "f0": {
+    "label": "Email Address",
+    "type": "email",
+    "name": "EMAIL"
+   },
+   "f1": {
+    "label": "First Name",
+    "type": "text",
+    "name": "FNAME"
+   },
+   "f2": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "LNAME"
+   },
+   "f3": {
+    "label": "Address 1",
+    "type": "text",
+    "name": "MMERGE2[addr1]"
+   },
+   "f4": {
+    "label": "Address 2",
+    "type": "text",
+    "name": "MMERGE2[addr2]"
+   },
+   "f5": {
+    "label": "City",
+    "type": "text",
+    "name": "MMERGE2[city]"
+   },
+   "f6": {
+    "label": "State",
+    "type": "text",
+    "name": "MMERGE2[state]"
+   },
+   "f7": {
+    "label": "Zip Code",
+    "type": "text",
+    "name": "MMERGE2[zip]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 95,
+   "sweepstakes": 3,
+   "cause": 2,
+   "restricted": 73,
+   "excluded": 6
+  },
+  "split": "tune"
+ },
+ {
+  "id": 11,
+  "url": "https://www.iams-india.com/grab-free-sample",
+  "label": "excluded",
+  "why": "",
+  "page": "FAQ Contact Us Shop Cats Shop Dogs Resources Home Grab Free Samples BOTH Grab Free Samples Name Email Select City Pincode Street Number Street Name Street Address Building Floor Number Door Number Mobile Number Breed Type - Select - Small 5-10 kg Medium 10-25 kg Large 25+ Kg Select Age - Select - < 1 year 1 2 3 4 5 6 7 7+ We\u2019d like to keep you and your [pet] up to date with exciting promotions and new product developments from Mars Petcare and its affiliates. If you would not like to receive communications from us, or are under the age of 16, please un-tick the relevant boxes: IAMS INDIA Mars Petcare and its affiliates I understand that I may change these preferences at any time by [detail mechanism to manage preference]. We may also use your data for research to enhance our product and service offerings. You can find out how Mars Petcare and its affiliates collects and processes your data, contact us with privacy questions, and exercise your personal data rights via the Mars Privacy Statement READ ABOUT OUR RESPONSE TO COVID-19 Shop Dogs Dry Shop Cats Dry Resources Cat Content Dog Content Breed Specific Why IAMS\u2122 Contact Us Site Map Have a question? Send us a message SELECT COUNTRY Privacy Cookies Legal Accessibility Contact Us Copyright \u00a9 Mars 2026, Trademark of Mars Incorporated and its affiliates COOKIES SETTINGS We use cookies to personalize content and ads, to provide social media features and to analyze our traffic. See our cookie policy (opens in a new tab) . You can use cookie settings to change your preferences. Click \"Accept cookies\" to enable all cookies, or \"Reject cookies\" if you do not want them. Cookies Settings Reject All Accept All Cookies ",
+  "fields": {
+   "f0": {
+    "label": "Name",
+    "type": "text",
+    "name": "name"
+   },
+   "f1": {
+    "label": "Email",
+    "type": "email",
+    "name": "email"
+   },
+   "f2": {
+    "label": "Select City",
+    "type": "text",
+    "name": "select_city"
+   },
+   "f3": {
+    "label": "Pincode",
+    "type": "text",
+    "name": "pincode"
+   },
+   "f4": {
+    "label": "Street Number",
+    "type": "text",
+    "name": "street_number"
+   },
+   "f5": {
+    "label": "Street Name",
+    "type": "text",
+    "name": "street_name"
+   },
+   "f6": {
+    "label": "Street Address",
+    "type": "text",
+    "name": "street_address"
+   },
+   "f7": {
+    "label": "Building",
+    "type": "text",
+    "name": "building"
+   },
+   "f8": {
+    "label": "Floor Number",
+    "type": "text",
+    "name": "floor_number"
+   },
+   "f9": {
+    "label": "Door Number",
+    "type": "text",
+    "name": "door_number"
+   },
+   "f10": {
+    "label": "Mobile Number",
+    "type": "tel",
+    "name": "phone"
+   },
+   "f11": {
+    "label": "Breed Type",
+    "type": "select",
+    "name": "breed_type",
+    "options": [
+     "- Select -",
+     "Small 5-10 kg",
+     "Medium 10-25 kg",
+     "Large 25+ Kg"
+    ]
+   },
+   "f12": {
+    "label": "Select Age",
+    "type": "select",
+    "name": "age",
+    "options": [
+     "- Select -",
+     "< 1 year",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "f13": {
+    "label": "IAMS INDIA",
+    "type": "checkbox",
+    "name": "terms_of_service_01"
+   },
+   "f14": {
+    "label": "Mars Petcare and its affiliates",
+    "type": "checkbox",
+    "name": "terms_of_service_02"
+   }
+  },
+  "shipped_checks": {
+   "offer": 91,
+   "sweepstakes": 9,
+   "cause": 1,
+   "restricted": 7,
+   "excluded": 70
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 13,
+  "url": "https://colts.formstack.com/forms/26_ci_fan_pack_request_v2",
+  "label": "fill",
+  "why": "",
+  "page": "Colts Fan Pack Request Thank you for your interest in receiving a fan pack from the Indianapolis Colts. Please note the following: Unfortunately, fan packs are shipped within the United States only and are subject to availability. To support more fans, we limit requests to one fan pack per household per calendar year. Please note that fan packs do not include autographed items. Thank you for your patience as processing and delivery may take up to eight (8) weeks. If you\u2019re requesting a donation from the Indianapolis Colts for a fundraiser or charitable event, please complete our In-Kind Donation Form. Name of Requestor* Name of Requestor* First Name Last Name Requestor Email * Confirm Requestor Email* Requestor Date Of Birth* Month Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Day 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Year 1926 1927 1928 1929 1930 1931 1932 1933 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 Name of Recipient* Name of Recipient* First Name Last Name Shipping Address* Address Line 1 Address Line 2 City Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virgin Islands (US) Virginia Washington West Virginia Wisconsin Wyoming Armed Forces (the) Americas Armed Forces Europe Armed Forces Pacific Army Post Office (U.S. Army and U.S. Air Force) Fleet Post Office (U.S. Navy and U.S. Marine Corps) State ZIP Code Tell us why you\u2019re a fan* Additional Notes By clicking \u201cSubmit Form\u201d, I agree to the Indianapolis Colts' Terms of Service and understand that personal information will be used as described in the Indianapolis Colts' Privacy Policy. Once registered, you will be able to access our prefer",
+  "fields": {
+   "f0": {
+    "label": "First Name",
+    "type": "text",
+    "name": "field191497367-first"
+   },
+   "f1": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "field191497367-last"
+   },
+   "f2": {
+    "label": "Requestor Email *",
+    "type": "email",
+    "name": "field191497369"
+   },
+   "f3": {
+    "label": "Confirm Requestor Email*",
+    "type": "email",
+    "name": "field191497369"
+   },
+   "f4": {
+    "label": "Requestor Date Of Birth-Month",
+    "type": "select",
+    "name": "",
+    "options": [
+     "Month",
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun",
+     "Jul"
+    ]
+   },
+   "f5": {
+    "label": "Requestor Date Of Birth-Day",
+    "type": "select",
+    "name": "",
+    "options": [
+     "Day",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ]
+   },
+   "f6": {
+    "label": "Requestor Date Of Birth-Year",
+    "type": "select",
+    "name": "",
+    "options": [
+     "Year",
+     "1926",
+     "1927",
+     "1928",
+     "1929",
+     "1930",
+     "1931",
+     "1932"
+    ]
+   },
+   "f7": {
+    "label": "First Name",
+    "type": "text",
+    "name": "field191497395-first"
+   },
+   "f8": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "field191497395-last"
+   },
+   "f9": {
+    "label": "Address Line 1",
+    "type": "text",
+    "name": "field191497398-address"
+   },
+   "f10": {
+    "label": "Address Line 2",
+    "type": "text",
+    "name": "field191497398-address2"
+   },
+   "f11": {
+    "label": "City",
+    "type": "text",
+    "name": "field191497398-city"
+   },
+   "f12": {
+    "label": "State",
+    "type": "address",
+    "name": "field191497398-state",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut",
+     "Delaware"
+    ]
+   },
+   "f13": {
+    "label": "ZIP Code",
+    "type": "text",
+    "name": "field191497398-zip"
+   },
+   "f14": {
+    "label": "Tell us why you\u2019re a fan*",
+    "type": "text",
+    "name": "field191497401"
+   },
+   "f15": {
+    "label": "Additional Notes",
+    "type": "text",
+    "name": "field191497402"
+   }
+  },
+  "shipped_checks": {
+   "offer": 98,
+   "sweepstakes": 8,
+   "cause": 7,
+   "restricted": 3,
+   "excluded": 4
+  },
+  "split": "tune"
+ },
+ {
+  "id": 15,
+  "url": "https://chiefs.formstack.com/forms/military_flag_flying_request",
+  "label": "restricted",
+  "why": "A flag-flying service for military members, not a free item for the public.",
+  "page": "Military Flag Flying Request The Kansas City Chiefs offer servicemen and women of the armed forces the opportunity to have their military flag flown outside of Arrowhead Stadium on non-game days in recognition of their service. Military flags are flown on or around March 1 or November 1 of each year. If you are interested in having a military flag flown, please fill out the information below. Name* Name* First Name Last Name Email* Phone* Address* Address Line 1 Address Line 2 City Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virgin Islands (US) Virginia Washington West Virginia Wisconsin Wyoming Armed Forces (the) Americas Armed Forces Europe Armed Forces Pacific Army Post Office (U.S. Army and U.S. Air Force) Fleet Post Office (U.S. Navy and U.S. Marine Corps) State ZIP Code Military Personnel Information Name* Name* First Name Last Name Branch of Military* Years of Service* Additional Information (optional) Please mail your military flag to the address listed below and provide tracking information when it\u2019s available. We ask that you clearly label your flag with your first and last name for easy identification and include a self-addressed paid package that is at least 12.5 x 18 x 2.95\u201d for it to be returned to you. The address for mailing the postage is: Attn: Fan Experience Department One Arrowhead Drive Kansas City, MO 64129 Please Upload Proof of Paid Return Postage * Drag and drop here or Browse files Max file size: 10 MB Checkbox Required field I acknowledge that the Kansas City Chiefs assume no responsibility for any items sent and cannot guarantee that correspondence will be answered, or items returned. Country* United States United Kingdom Ireland Mexico Spain Germany Austria Switzerland --------------------------- Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua And Barbuda Argentina Armenia Aruba Australia Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius And Saba Bosnia And Herzegovina Botswana Bouvet Island Brazil ",
+  "fields": {
+   "f0": {
+    "label": "First Name",
+    "type": "text",
+    "name": "field124276362-first"
+   },
+   "f1": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "field124276362-last"
+   },
+   "f2": {
+    "label": "Email*",
+    "type": "email",
+    "name": "field124276363"
+   },
+   "f3": {
+    "label": "Phone*",
+    "type": "tel",
+    "name": "field124276366"
+   },
+   "f4": {
+    "label": "Address Line 1",
+    "type": "text",
+    "name": "field124276369-address"
+   },
+   "f5": {
+    "label": "Address Line 2",
+    "type": "text",
+    "name": "field124276369-address2"
+   },
+   "f6": {
+    "label": "City",
+    "type": "text",
+    "name": "field124276369-city"
+   },
+   "f7": {
+    "label": "State",
+    "type": "address",
+    "name": "field124276369-state",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut",
+     "Delaware"
+    ]
+   },
+   "f8": {
+    "label": "ZIP Code",
+    "type": "text",
+    "name": "field124276369-zip"
+   },
+   "f9": {
+    "label": "First Name",
+    "type": "text",
+    "name": "field124276411-first"
+   },
+   "f10": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "field124276411-last"
+   },
+   "f11": {
+    "label": "Branch of Military*",
+    "type": "text",
+    "name": "field124276418"
+   },
+   "f12": {
+    "label": "Years of Service*",
+    "type": "text",
+    "name": "field124276484"
+   },
+   "f13": {
+    "label": "Additional Information (optional)",
+    "type": "text",
+    "name": "field124276487"
+   },
+   "f14": {
+    "label": "I acknowledge that the Kansas City Chiefs assume no responsibility for any items sent and cannot guarantee tha",
+    "type": "checkbox",
+    "name": "field124276502[]"
+   },
+   "f15": {
+    "label": "Country* United States United Kingdom Ireland Mexico Spain Germany Austria Switzerland -----------------------",
+    "type": "select",
+    "name": "field196731883",
+    "options": [
+     "United States",
+     "United Kingdom",
+     "Ireland",
+     "Mexico",
+     "Spain",
+     "Germany",
+     "Austria",
+     "Switzerland"
+    ]
+   }
+  },
+  "shipped_checks": {
+   "offer": 51,
+   "sweepstakes": 6,
+   "cause": 4,
+   "restricted": 5,
+   "excluded": 15
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 16,
+  "url": "https://maderaoutdoor.com/pages/free-sticker",
+  "label": "fill",
+  "why": "",
+  "page": "Skip to content Madera is going back to its roots. Read the story. \"Close\" Search Log in Cart SHOP EAT & DRINK BE MERRY STAY ABOUT MADERA & OUR FUTURE NEWS Search \"Close (esc)\" Home / Free Sticker Free Sticker Apply in the next 14 minutes and receive Free Hammock Gear and a $50 Gift Card to thecampingcommunity.com when you become an ambassador. For Real! On us! (Over 3,000 people are getting paid to camp, Join them) CLICK HERE TO APPLY! Keep spreading the Tribe Vibe in new places and we'll keep sending stickers your way. We love our international customers, but at this point we can't ship freebie stickers outside the U.S.A... we're working on it though so don't get too bummed. Due to the volume of sticker requests, we send out quarterly mailings. By submitting your email address you are opting in to receive the maderaoutdoor.com Newsletter. You may opt out at any time. Facebook Twitter Pinterest Instagram Snapchat YouTube Powered by Shopify Rewards Policy/Terms photo/video Help Contact Wholesale Give Back Blog Participate Report Scams / Missing Orders ON SALE SHOP ABOUT PARTICIPATE CONTACT NEWS Subscribe to get special offers, free giveaways, once-in-a-lifetime deals, notified about events and tree planting efforts. ENTER YOUR EMAIL Sticker on us! Celebrating our re-opening + a decade of tree planting Email Get Free Sticker x FREE SHIPPING ON CARTS OVER $40 Something is amiss. We're on it. The address you asked for didn't work for some reason. Here are some possible reasons why: This could be a bug and our team has already been notified. It might be a temporary issue. Please try again. You may have typed the page address incorrectly. Thanks for your patience. Contact Support 1 1 4 3 0 5 0 9 Minutes Seconds ",
+  "fields": {
+   "f0": {
+    "label": "ENTER YOUR EMAIL",
+    "type": "email",
+    "name": "contact[email]"
+   },
+   "f1": {
+    "label": "Email",
+    "type": "email",
+    "name": "email"
+   }
+  },
+  "shipped_checks": {
+   "offer": 84,
+   "sweepstakes": 9,
+   "cause": 6,
+   "restricted": 9,
+   "excluded": 6
+  },
+  "split": "tune"
+ },
+ {
+  "id": 17,
+  "url": "https://zradio.org/resources/stickers/",
+  "label": "cause",
+  "why": "Free stickers from a religious radio station; Orlando is inside its area, but a religious sign-up is the person's own call.",
+  "page": "Skip to content Give Now! Listen Now! Download the App www.facebook.com/Z883FM www.instagram.com/z883fm www.youtube.com/user/PositiveHitsZ883 https://www.tiktok.com/@z88.3orlando Search Home Concerts & Events On Air Give About Business Team Members Prayer Resources Who is Jesus? Window Stickers Window Sticker Request Thank you for requesting a Z88.3 Window Sticker. You can also request a sticker from Hot 95.9 and La Z102.5, GPraise and now TheRockHD. These stations are also part of the Z family. Just fill out the form below, and we\u2019ll get them in the mail for free. Please note that at this time we are only mailing stickers to Central Florida addresses in our immediate listening area. Name* First Last Address* Street Address City Alabama Alaska American Samoa Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Northern Mariana Islands Ohio Oklahoma Oregon Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah U.S. Virgin Islands Vermont Virginia Washington West Virginia Wisconsin Wyoming Armed Forces Americas Armed Forces Europe Armed Forces Pacific State ZIP Code At this time we are only mailing stickers to Central Florida. Phone* Email* Stickers Requested Please select only the stickers you are planning to use. Z88.3 None 1 Sticker 2 Stickers Z88.7 None 1 Sticker 2 Stickers Z99.7 None 1 Sticker 2 Stickers GPraise 106.3 FM Orlando None 1 Sticker 2 Stickers GPraise 93.3 FM Sanford None 1 Sticker 2 Stickers Hot 95.9 FM Orlando None 1 Sticker 2 Stickers Magnet instead of sticker Hot 97.9 FM Melbourne / Palm Bay None 1 Sticker 2 Stickers Hot 103.5 FM Palm Coast None 1 Sticker 2 Stickers La Z 102.5 None 1 Sticker 2 Stickers La Z 104.7 Kissimmee None 1 Sticker 2 Stickers LivingWorship.Radio None 1 sticker 2 stickers RockHD.com None 1 sticker 2 stickers Magnet instead of sticker Give Now! Join the Community! Facebook Instagram YouTube https://www.tiktok.com/@z88.3orlando FCC Online Public Inspection Files: WPOZ, WMYZ, WHYZ, WDOZ, WCYZ, WHGV For disability access assistance, please call 407-869-8000 and ask for Jim. Concerts & Events Z Stops Community Events Z Volunteers Submit Event Contest Rules On Air On-Air Announcements On Air Schedule Birthdays & Anniversar",
+  "fields": {
+   "f0": {
+    "label": "First",
+    "type": "text",
+    "name": "input_1.3"
+   },
+   "f1": {
+    "label": "Last",
+    "type": "text",
+    "name": "input_1.6"
+   },
+   "f2": {
+    "label": "Street Address",
+    "type": "text",
+    "name": "input_2.1"
+   },
+   "f3": {
+    "label": "City",
+    "type": "text",
+    "name": "input_2.3"
+   },
+   "f4": {
+    "label": "State",
+    "type": "select",
+    "name": "input_2.4",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "American Samoa",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut"
+    ]
+   },
+   "f5": {
+    "label": "ZIP Code",
+    "type": "text",
+    "name": "input_2.5"
+   },
+   "f6": {
+    "label": "Phone*",
+    "type": "tel",
+    "name": "input_3"
+   },
+   "f7": {
+    "label": "Email*",
+    "type": "email",
+    "name": "input_4"
+   },
+   "f8": {
+    "label": "Z88.3",
+    "type": "select",
+    "name": "input_16",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f9": {
+    "label": "Z88.7",
+    "type": "select",
+    "name": "input_27",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f10": {
+    "label": "Z99.7",
+    "type": "select",
+    "name": "input_28",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f11": {
+    "label": "GPraise 106.3 FM Orlando",
+    "type": "select",
+    "name": "input_17",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f12": {
+    "label": "GPraise 93.3 FM Sanford",
+    "type": "select",
+    "name": "input_18",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f13": {
+    "label": "Hot 95.9 FM Orlando",
+    "type": "select",
+    "name": "input_20",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f14": {
+    "label": "Hot 97.9 FM Melbourne / Palm Bay",
+    "type": "select",
+    "name": "input_21",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f15": {
+    "label": "Hot 103.5 FM Palm Coast",
+    "type": "select",
+    "name": "input_22",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f16": {
+    "label": "La Z 102.5",
+    "type": "select",
+    "name": "input_23",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f17": {
+    "label": "La Z 104.7 Kissimmee",
+    "type": "select",
+    "name": "input_29",
+    "options": [
+     "None",
+     "1 Sticker",
+     "2 Stickers"
+    ]
+   },
+   "f18": {
+    "label": "LivingWorship.Radio",
+    "type": "select",
+    "name": "input_24",
+    "options": [
+     "None",
+     "1 sticker",
+     "2 stickers"
+    ]
+   },
+   "f19": {
+    "label": "RockHD.com",
+    "type": "select",
+    "name": "input_26",
+    "options": [
+     "None",
+     "1 sticker",
+     "2 stickers"
+    ]
+   }
+  },
+  "shipped_checks": {
+   "offer": 98,
+   "sweepstakes": 3,
+   "cause": 61,
+   "restricted": 3,
+   "excluded": 9
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 18,
+  "url": "http://petchefga.com/sample.php",
+  "label": "excluded",
+  "why": "",
+  "page": "Pet Chef Express Georgia - Free Sample Request Form for residents of Metro Atlanta and surrounding areas - please go to www.petchefexpress.com for other franchise locations First Name * Last Name * Pet's Name * Best Number to Reach You * Delivery Address - If you live in a condo, loft or apartment complex, or subdivision, PLEASE indicate the name and access code if you have one. (ie. Midway Woods code #4437) * Delivery City * Delivery State--Only Metro-Atlanta receives FREE delivery * Delivery Zip * Email Address * Sample Formula Requested * - Select - Adult Maintenance Adult Lean Real Chicken and Rice Lamb Meal with Rice All Breed Puppy Food Catfish & Potato with Duck Meal Venison & Potato with Glucosamine Kitten / Growing Cat Food Adult Cat Food Lean Cat Food How Did You Hear About Us? * - Select - Advertisement Mail Email Website Friend Event Which One? (ie. Pat Thomas, Petapalooza 2007, Powercore, Sevenanda Ad, etc.) *Catfish & Potato, Venison & Potato and Lamb & Rice are all hypoallergenic Only requests for the Metro-Atlanta area can be fulfilled at this time unless you are willing to pay shipping charges. Thank you for your interest! ",
+  "fields": {
+   "f0": {
+    "label": "First Name",
+    "type": "text",
+    "name": "First_Name"
+   },
+   "f1": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "Last_Name"
+   },
+   "f2": {
+    "label": "Pet's Name",
+    "type": "text",
+    "name": "Pet_s_Name"
+   },
+   "f3": {
+    "label": "Best Number to Reach You",
+    "type": "text",
+    "name": "Best_Number_to_Reach_You"
+   },
+   "f4": {
+    "label": "Delivery Address - If you live in a condo, loft or apartment complex, or subdivision, PLEASE indicate the name",
+    "type": "text",
+    "name": "Delivery_Address"
+   },
+   "f5": {
+    "label": "Delivery City",
+    "type": "text",
+    "name": "Delivery_City"
+   },
+   "f6": {
+    "label": "Delivery State--Only Metro-Atlanta receives FREE delivery",
+    "type": "text",
+    "name": "Delivery_State"
+   },
+   "f7": {
+    "label": "Delivery Zip",
+    "type": "text",
+    "name": "Delivery_Zip"
+   },
+   "f8": {
+    "label": "Email Address",
+    "type": "text",
+    "name": "Email_Address"
+   },
+   "f9": {
+    "label": "Sample Formula Requested",
+    "type": "select",
+    "name": "Sample_Formula_Requested",
+    "options": [
+     "- Select -",
+     "Adult Maintenance",
+     "Adult Lean",
+     "Real Chicken and Rice",
+     "Lamb Meal with Rice",
+     "All Breed Puppy Food",
+     "Catfish & Potato with Duck Meal",
+     "Venison & Potato with Glucosamine"
+    ]
+   },
+   "f10": {
+    "label": "How Did You Hear About Us?",
+    "type": "select",
+    "name": "How_Did_You_Hear_About_Us",
+    "options": [
+     "- Select -",
+     "Advertisement",
+     "Mail",
+     "Email",
+     "Website",
+     "Friend",
+     "Event"
+    ]
+   },
+   "f11": {
+    "label": "Which One? (ie. Pat Thomas, Petapalooza 2007, Powercore, Sevenanda Ad, etc.)",
+    "type": "text",
+    "name": "Specifically"
+   }
+  },
+  "shipped_checks": {
+   "offer": 95,
+   "sweepstakes": 3,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 97
+  },
+  "split": "tune"
+ },
+ {
+  "id": 19,
+  "url": "https://www.quiltednorthern.com/contact-us",
+  "label": "not_offer",
+  "why": "",
+  "page": "skip to main content Visit Our Other Brands PRODUCTS COUPONS WHERE TO BUY ABOUT HELP We\u2019re always here to help Topic of Inquiry Please select one of the following Coupon Request Coupon Issue Wholesaler Request Product Concern General Inquiry I acknowledge that I have read and understood the Privacy Policy and that I agree with how Koch, Inc. and/or its affiliate companies use and collect my personal information. Other ways to get in touch Call Us Call with any questions or concerns: (800) 283-5547 Monday - Friday | 8am - 5pm EST Live Chat Chat online with one of our online support specialists: Available 9am - 5pm EST Mail Us Write to us at: Georgia-Pacific Consumer Products 133 Peachtree St., N.E. Atlanta, GA 30303 Information About Us GP Stewardship Terms and Conditions Site Terms of Use Privacy Notice Accessibility Statement Follow Us \u00a9 2026 | Georgia-Pacific Consumer Products. All Rights Reserved Do Not Sell or Share My Personal Information This site is protected by reCAPTCHA. protected by reCAPTCHA This site is exceeding reCAPTCHA Enterprise free quota. ",
+  "fields": {
+   "f0": {
+    "label": "Topic of Inquiry",
+    "type": "select",
+    "name": "topic_of_inquiry",
+    "options": [
+     "Please select one of the following",
+     "Coupon Request",
+     "Coupon Issue",
+     "Wholesaler Request",
+     "Product Concern",
+     "General Inquiry"
+    ]
+   }
+  },
+  "shipped_checks": {
+   "offer": 14,
+   "sweepstakes": 2,
+   "cause": 1,
+   "restricted": 22,
+   "excluded": 11
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 20,
+  "url": "http://mineralhygienics.com/free-sample/free-foundation-sample-new-customer",
+  "label": "fill",
+  "why": "",
+  "page": "Call: 866-628-1038 FREE SHIPPING OVER $75 MADE IN USA My Account Log In Register 100% ALL NATURAL MINERAL MAKEUP LONGEST LASTING BETTER COVERAGE FEWEST INGREDIENTS HOME PRODUCTS MINERAL BENEFITS TRUE STORIES TIPS / TRICKS FAQS SERVICE & INFO CART 0 Free Foundation Sample - New Customer Please: Approximately, which category describes your skin shade. Color Choice Fair Light Medium Tan Warm Dark Do you possibly fall in another color category? Your Selection I\u2019m fairly confident that this is the shade of my skin. I might be slightly lighter. I might be slightly darker. We are going to send you 2 free colors: Foundation Color Please pick the best colors for me based on my selections above. I have a special request and will put it in the notes below. Would you like to upgrade your samples to a regular sized jar? Size Upgrade No Thanks: $0.00 Yes. Please upgrade 1 of my foundation colors. ( +$5.00 ) Yes. Please upgrade both of my foundation colors. ( +$10.00 ) Do you want a tester Kabuki brush to apply the makeup? Kabuki Upgrade No Thanks: $0.00 Yes. Please include a tester Kabuki Brush. ( +$2.00 ) Notes: maximum characters allowed Qty: x Starting at: Need help? Our Experts are here to help! (or browse our FAQs) Toll Free 866-628-1038 E-mail us 24/7 Write a review Goes well with Mineral Eye Shadow - Java Gold Mocha Collection $13.00 Add to Cart Mineral Eye Shadow - Parfait Ultimate Mattes $13.00 Add to Cart Automatic Lip Liner - Coppercino Lip Liner $18.00 Add to Cart Testimonials Description Ask a question My acne is gone! Testimonial By: Erica S. I have suffered from breakouts and blemished skin since I was twelve. I've always felt like my makeup was a catch-22: covering up my existing acne, but also causing new breakouts. However, it was a cycle that I couldn't break because I didn't want my existing acne to be visible. Since starting to use Mineral Hygienics two years ago, my face has significantly cleared up - the catch-22 cycle has been broken! Now I use my makeup to enhance, maintain, and improve the quality of my skin. Thank you, Mineral Hygienics for creating a product that doesn't irritate my acne-prone skin! Thanks! Amazing Products! Testimonial By: Dawn B. Hi, I started using Mineral Hygienics a couple of years ago. I had struggled most of my life with oily skin and breakouts. At 44 years of age, enough was enough. I read about several different natural make-up brands and was most impressed with Mineral Hygienics. From the first week I used Mineral H",
+  "fields": {
+   "f0": {
+    "label": "keyword",
+    "type": "text",
+    "name": "keyword"
+   },
+   "f1": {
+    "label": "Color Choice",
+    "type": "select",
+    "name": "id[37]",
+    "options": [
+     "Fair",
+     "Light",
+     "Medium",
+     "Tan",
+     "Warm",
+     "Dark"
+    ]
+   },
+   "f2": {
+    "label": "I\u2019m fairly confident that this is the shade of my skin.",
+    "type": "radio",
+    "name": "id[38]"
+   },
+   "f3": {
+    "label": "I might be slightly lighter.",
+    "type": "radio",
+    "name": "id[38]"
+   },
+   "f4": {
+    "label": "I might be slightly darker.",
+    "type": "radio",
+    "name": "id[38]"
+   },
+   "f5": {
+    "label": "Please pick the best colors for me based on my selections above.",
+    "type": "radio",
+    "name": "id[41]"
+   },
+   "f6": {
+    "label": "I have a special request and will put it in the notes below.",
+    "type": "radio",
+    "name": "id[41]"
+   },
+   "f7": {
+    "label": "No Thanks: $0.00",
+    "type": "radio",
+    "name": "id[39]"
+   },
+   "f8": {
+    "label": "Yes. Please upgrade 1 of my foundation colors. ( +$5.00 )",
+    "type": "radio",
+    "name": "id[39]"
+   },
+   "f9": {
+    "label": "Yes. Please upgrade both of my foundation colors. ( +$10.00 )",
+    "type": "radio",
+    "name": "id[39]"
+   },
+   "f10": {
+    "label": "No Thanks: $0.00",
+    "type": "radio",
+    "name": "id[40]"
+   },
+   "f11": {
+    "label": "Yes. Please include a tester Kabuki Brush. ( +$2.00 )",
+    "type": "radio",
+    "name": "id[40]"
+   },
+   "f12": {
+    "label": "maximum characters allowed",
+    "type": "text",
+    "name": "remainingTEXT_PREFIX32"
+   },
+   "f13": {
+    "label": "Notes:",
+    "type": "textarea",
+    "name": "id[TEXT_PREFIX32]"
+   },
+   "f14": {
+    "label": "Qty: x",
+    "type": "text",
+    "name": "cart_quantity"
+   },
+   "f15": {
+    "label": "TELL US WHAT YOU THINK ABOUT THIS PRODUCT Write your preview: Your rating:",
+    "type": "textarea",
+    "name": "review_text"
+   },
+   "f16": {
+    "label": "rating",
+    "type": "radio",
+    "name": "rating"
+   },
+   "f17": {
+    "label": "rating",
+    "type": "radio",
+    "name": "rating"
+   },
+   "f18": {
+    "label": "rating",
+    "type": "radio",
+    "name": "rating"
+   },
+   "f19": {
+    "label": "rating",
+    "type": "radio",
+    "name": "rating"
+   },
+   "f20": {
+    "label": "rating",
+    "type": "radio",
+    "name": "rating"
+   },
+   "f21": {
+    "label": "email",
+    "type": "text",
+    "name": "email"
+   }
+  },
+  "shipped_checks": {
+   "offer": 66,
+   "sweepstakes": 4,
+   "cause": 1,
+   "restricted": 3,
+   "excluded": 9
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 21,
+  "url": "https://www.riverbrain.com/sticker/new",
+  "label": "restricted",
+  "why": "Stickers only after you contribute content to the site with an account.",
+  "page": "Skip to content RiverBrain Rivers Flows Map Search Log in Sign up Home / Stickers Free stickers are here Complete the requirements below and we'll send you a free sticker. Stick it on your car, your boat or anywhere you want something stuck. How it works Add some info to Riverbrain. You can add a picture, describe a river hazard, add a rapid description, etc. All you need is some knowledge of your local rivers, a free riverbrain account and the willingness to share that knowledge. Once you've contributed to the site, fill in your mailing address below and we'll send you a sticker. If you live outside of the US we'll still send one, but we are unable to pay international postage \u2014 contact us about postage options first. Name Email Street address Street address (line 2) City State ZIP / postal code The goods. RiverBrain Real-time flows, runs and rapids for paddlers \u2014 powered by USGS and state gauge data since 2009. EXPLORE Rivers & Runs Flows Map ACCOUNT My Account Log in Sign up SITE About Contact Disclaimer Donate Competitions Site Map \u00a9 2026 riverbrain.com \u2014 Know before you go. Water levels change fast; always scout.",
+  "fields": {
+   "f0": {
+    "label": "Name",
+    "type": "text",
+    "name": "sticker[name]"
+   },
+   "f1": {
+    "label": "Email",
+    "type": "email",
+    "name": "sticker[email]"
+   },
+   "f2": {
+    "label": "Street address",
+    "type": "text",
+    "name": "sticker[street_1]"
+   },
+   "f3": {
+    "label": "Street address (line 2)",
+    "type": "text",
+    "name": "sticker[street_2]"
+   },
+   "f4": {
+    "label": "City",
+    "type": "text",
+    "name": "sticker[city]"
+   },
+   "f5": {
+    "label": "State",
+    "type": "text",
+    "name": "sticker[state]"
+   },
+   "f6": {
+    "label": "ZIP / postal code",
+    "type": "text",
+    "name": "sticker[zip]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 97,
+   "sweepstakes": 4,
+   "cause": 2,
+   "restricted": 3,
+   "excluded": 5
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 23,
+  "url": "https://shibumishade.com/pages/sticker-request",
+  "label": "fill",
+  "why": "",
+  "page": "Skip to content Facebook YouTube Instagram TikTok FREE Shipping On Orders Over $50 and FREE 30-Day Returns Shop Learn Blog Search Cart Grab A Free Shibumi Sticker First Name * Last Name * Shipping Address * City * State * State AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY Zip Code * Email * Phone Submit Free Shipping & Returns* Limited Lifetime Warranty Find a Store FAQs Shop Shop All Shades Accessories Gift Cards Refer a Friend, Get $20 Learn FAQ Reviews Find In Stores Community Become a Retailer Corporate Gifting Careers Affiliate Program Free Sticker Press & Media Inquiries Partnerships Support Contact Policies Return Policy Warranty Patents Report Fakes Sign Up And Save Policy Privacy Policy Do not sell or share my personal information Register Your Product Start a Return Your privacy choices Sign up for 10% off A lil' sunshine in your inbox. Stay up to date on product drops, news, and events. Subscribe Follow us Facebook YouTube Instagram TikTok Accessibility Shibumi is committed to making the information on its website accessible to people with disabilities. We want everyone to be able to learn about our products and our story. If you encounter access barriers on the Shibumi website or have ideas for how the site's accessibility could be improved, we welcome your feedback at: accessibility@shibumishade.com \u00a9 2026 Shibumi Shade. This website uses cookies to make sure you get the best experience with us. Privacy Policy Accept all Reject all Customize Save 10% On Your First Order Get 10% off Online Only, Not Available in Stores \u200b Our use of your personal information is subject to our Privacy Policy and our Sign Up and Save Policy. ",
+  "fields": {
+   "f0": {
+    "label": "First Name *",
+    "type": "text",
+    "name": "text"
+   },
+   "f1": {
+    "label": "Last Name *",
+    "type": "text",
+    "name": "text-2"
+   },
+   "f2": {
+    "label": "Shipping Address *",
+    "type": "text",
+    "name": "text-1"
+   },
+   "f3": {
+    "label": "City *",
+    "type": "text",
+    "name": "text-4"
+   },
+   "f4": {
+    "label": "State *",
+    "type": "select",
+    "name": "select-1",
+    "options": [
+     "State",
+     "AL",
+     "AK",
+     "AZ",
+     "AR",
+     "CA",
+     "CO",
+     "CT"
+    ]
+   },
+   "f5": {
+    "label": "Zip Code *",
+    "type": "text",
+    "name": "text-6"
+   },
+   "f6": {
+    "label": "Email *",
+    "type": "text",
+    "name": "email"
+   },
+   "f7": {
+    "label": "Phone",
+    "type": "text",
+    "name": "phone"
+   },
+   "f8": {
+    "label": "Email",
+    "type": "email",
+    "name": "email"
+   },
+   "f9": {
+    "label": "Email Address",
+    "type": "email",
+    "name": "email"
+   }
+  },
+  "shipped_checks": {
+   "offer": 88,
+   "sweepstakes": 7,
+   "cause": 1,
+   "restricted": 3,
+   "excluded": 9
+  },
+  "split": "tune"
+ },
+ {
+  "id": 24,
+  "url": "https://www.weaverarborist.com/pages/free-stickers",
+  "label": "fill",
+  "why": "",
+  "page": "Skip to main content Enable accessibility for low vision Open the accessibility menu Skip to content Search Search Log in Cart Our Products Experience Weaver About Us Find a Retailer Safety Free Stickers At Weaver Arborist, we know that your life depends on your gear. Our team is committed to building high-quality products that you can count on when it matters most. Represent the gear that works as hard as you do with Weaver Arborist stickers! Sign up today and we\u2019ll send you two free Weaver Arborist stickers, perfect for adding a touch of personality to helmets, mugs, and more. Back to top Explore Our Products Experience Weaver About Us Find a Retailer Safety Resources Contact Shipping Policy Refund Policy Affiliate Program Wholesale Newsletter Sign up for exclusive offers, original stories, events and more. Email Subscribe Payment methods accepted \u00a9 2026 Weaver Arborist. Accessibility Statement Privacy Policy Terms of Service Your Privacy Choices This form is currently private and cannot be viewed by the public. ",
+  "fields": {
+   "f0": {
+    "label": "Email",
+    "type": "email",
+    "name": "contact[email]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 59,
+   "sweepstakes": 5,
+   "cause": 2,
+   "restricted": 8,
+   "excluded": 8
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 25,
+  "url": "https://www.weaverleathersupply.com/pages/free-stickers",
+  "label": "fill",
+  "why": "",
+  "page": "Skip to main content Enable accessibility for low vision Open the accessibility menu Skip to content FREE Shipping on Orders over $150 Save 15% on select flash sale items Search Search Log in Cart Leather Tools Hardware Machinery Leather Finishes Shop by Project More SALE What's New Rewards Volume Pricing PREMIER LOGIN Sign Up to Get Your Free Stickers Your creativity and love of all things leather are part of who you are. From the excitement of embarking on a new project to learning a new leathercrafting technique, you\u2019ll find many kindred spirits who share your passion in the Weaver Leather Supply community. Sign up today and we\u2019ll send you two free Weaver Leather Supply stickers, perfect for your workbench, machinery or shop wall. Back to top About Our Story The Weaver Way Commitment to Quality About Chuck Dorsett Featured Craftsman Featured Makers Trade Show & Events IFoLG Locations Learn Getting Started in Leathercrafting Sewing Leather Leather Working Tools Belt Making Dyeing Leather & Finishing Leather Leather Carving Leather Stamping Leather 101 Blog Help Help Center Rewards Rewards Terms & Conditions Military Discount Affiliate Program Shipping Information Returns Free Leather Returns Reviews Volume Pricing FAQs Ask an Expert New Product Suggestions Newsletter Sign up for exclusive offers, original stories, events and more. Email Subscribe Payment methods accepted \u00a9 2026 Weaver Leather Supply. Accessibility Statement Privacy Policy Terms & Conditions Your Privacy Choices This form is currently private and cannot be viewed by the public. You need to enable JavaScript to run this app.window.performance&&\"function\"==typeof window.performance.mark&&window.performance.mark(\"lc_html_loaded\") ",
+  "fields": {
+   "f0": {
+    "label": "Email",
+    "type": "email",
+    "name": "contact[email]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 54,
+   "sweepstakes": 5,
+   "cause": 2,
+   "restricted": 7,
+   "excluded": 10
+  },
+  "split": "tune"
+ },
+ {
+  "id": 30,
+  "url": "https://www.guitarcenter.com/KHS-Sweepstakes.gc",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "We use cookies, pixels and other trackers on this website for purposes detailed in our Privacy Policy. Some trackers are offered by third parties and involve collection of your personal data by those third parties so they can provide services to us. By using this website, you agree to such uses and our Terms of Use. Cookie Preferences Deny Cookies Accept All Cookies Skip to main content Skip to footer Hottest Deals Beat Lab: Up to 20%* Off-Thru. Oct. 28 | Save 10%* Off Used & Vintage \u2014 Thru Oct. 21 | Up to 20%* Off Fender\u00ae\u2014Thru Oct. 28 Pro Gear Advisers Chat \u2022 866-498-7882 Select Store Sign In New Arrivals Used Deals Guitars Amps & Effects Keys & MIDI Drums DJ Gear Basses Recording More - Categories Lessons Repairs Rentals Riffs Blog Help KHS Sweepstakes \u00bfPrefieres espa\u00f1ol? Haz clic aqu\u00ed para ver esta p\u00e1gina en espa\u00f1ol. One winner will receive: H. Jimenez LBQ1E El Esta'ndar Acoustic-Electric Bajo Quinto $919.00 Capital Edition CEB-660L Student Trumpet Outfit $1292.00 Hohner Corona C-II FBbEb Accordion $2329.00 Capital Edition CEC-635 Clarinet Outfit $927.00 First Name* Last Name* Email* Phone* State* State* Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District Of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming ENTER Yes, I would like to receive emails from Guitar Center. NO PURCHASE NECESSARY TO ENTER OR WIN. VOID WHERE PROHIBITED BY LAW. Sweepstakes begins at 12:00:00 AM ET on 9/17/2026, and ends at 11:59:59 PM ET on 10/14/2026. Limited to legal residents of the 50 United States or District of Columbia who are at least 18 years of age or older at the time of entry. Sponsor: Guitar Center Stores, Inc., 5795 Lindero Canyon Road, Westlake Village, CA 91362. By submitting my entry, I acknowledge that I have read and agree to abide by the Official Rules. I also agree to receive emails, recurring automated SMS messages and phone calls about events, deals and promotions from Guitar Center. Consent is not a condition of purchase. View the Guitar Guitar Center Privacy Policy and Mobile Terms & Conditions . View the KHS America privacy policy . Guitar Center KHS SWEEPSTAKES OFFICIAL R",
+  "fields": {
+   "f0": {
+    "label": "Search for New and Used gear",
+    "type": "text",
+    "name": ""
+   },
+   "f1": {
+    "label": "First Name*",
+    "type": "text",
+    "name": "formFirstName"
+   },
+   "f2": {
+    "label": "Last Name*",
+    "type": "text",
+    "name": "formLastName"
+   },
+   "f3": {
+    "label": "Email*",
+    "type": "email",
+    "name": "formEmail"
+   },
+   "f4": {
+    "label": "Phone*",
+    "type": "tel",
+    "name": "formPhone"
+   },
+   "f5": {
+    "label": "State*",
+    "type": "select",
+    "name": "formState",
+    "options": [
+     "State*",
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut"
+    ]
+   },
+   "f6": {
+    "label": "Yes, I would like to receive emails from Guitar Center.",
+    "type": "checkbox",
+    "name": "consentCap-264"
+   },
+   "f7": {
+    "label": "Email Address (Required)",
+    "type": "email",
+    "name": "NewsLetterEmail"
+   },
+   "f8": {
+    "label": "Yes, I would like to receive emails with news and offers from Guitar Center.",
+    "type": "checkbox",
+    "name": "consentCap-33"
+   },
+   "f9": {
+    "label": "Email",
+    "type": "email",
+    "name": "email"
+   },
+   "f10": {
+    "label": "Allow All",
+    "type": "checkbox",
+    "name": "check"
+   },
+   "f11": {
+    "label": "advertising-checkbox",
+    "type": "checkbox",
+    "name": "check"
+   },
+   "f12": {
+    "label": "analytics-checkbox",
+    "type": "checkbox",
+    "name": "check"
+   },
+   "f13": {
+    "label": "First Name",
+    "type": "text",
+    "name": "firstName"
+   },
+   "f14": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "lastName"
+   },
+   "f15": {
+    "label": "Email Address",
+    "type": "text",
+    "name": "email"
+   },
+   "f16": {
+    "label": "Phone Number",
+    "type": "text",
+    "name": "phoneNumber"
+   },
+   "f17": {
+    "label": "Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Colum",
+    "type": "text",
+    "name": "state",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut",
+     "Delaware"
+    ]
+   }
+  },
+  "shipped_checks": {
+   "offer": 17,
+   "sweepstakes": 98,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 5
+  },
+  "split": "tune"
+ },
+ {
+  "id": 32,
+  "url": "https://www.siriusxm.com/survivorseries2026",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "Enter for your chance to win a trip to WWE Survivor Series: WarGames 2026 in Houston! SUBSCRIBER-ONLY enter by November 2 SiriusXM has your chance to win a trip to WWE Survivor Series: WarGames 2026 in Houston! No Purchase Necessary. U.S./21+. See Official Rules for details. Void where prohibited. Sponsored by Sirius XM Radio LLC, NY, NY. Prize Info Daikin Park in Houston, TX will host WWE Survivor Series: WarGames 2026 on Saturday, November 28, and SiriusXM has your chance to be there! One Grand Prize winner will receive a round-trip for 2, including a 2-night hotel stay, coach airfare, and 2 tickets for Survivor Series: WarGames 2026, scheduled for November 28! For full Survivor Series details visit, HERE. How to Enter SiriusXM Subscribers & Trialers Only Complete and submit the entry form below from now through November 2, 2026. NO PURCHASE NECESSARY TO ENTER OR WIN. Must be a U.S. resident, 21 years of age or older to enter. Void where prohibited. Open only to SiriusXM subscribers as of September 30, 2026 (self-paid or introductory trial). See Official Rules for details and eligibility requirements. Please review our Privacy Policy here. Entry Form Contact Information First Name Last Name Email address Confirm Email Phone Address (include Apt/Suite/Unit) City State (Required) Zip Code Select one (Required) Agreements I am over 21 and I have read and agree to the Official Rules. ENTER GET SIRIUSXM In-car and App Plans Try SiriusXM for Free Military Discount Student Plan Shop Radios Infotainment Marine Aviation Fleets SiriusXM for Business ACCOUNT MANAGEMENT Sign In Create Account Make a Payment Transfer Subscription Request Radio Signal Add New Vehicle SIRIUSXM CORPORATE About SiriusXM Investor Relations Newsroom Become an Affiliate Advertise with Us Careers MORE Blog Ways to Listen Merch Store SiriusXM Gift Cards Canada CUSTOMER SUPPORT Contact Us Frequently Asked Questions Help Center Website Terms Customer Agreement Privacy Policy Your Ad Choices Do Not Call Policy Your Privacy Choices FCC Public File FCC Info Manage Cookies \u00a92026 Sirius XM Radio LLC We use cookies to support our sites, services and marketing. Manage Cookies Deny Non-Essential Cookies ",
+  "fields": {
+   "f0": {
+    "label": "First Name",
+    "type": "text",
+    "name": "firstName"
+   },
+   "f1": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "lastName"
+   },
+   "f2": {
+    "label": "Email address",
+    "type": "email",
+    "name": "email"
+   },
+   "f3": {
+    "label": "Confirm Email",
+    "type": "email",
+    "name": "confirmEmail"
+   },
+   "f4": {
+    "label": "Phone",
+    "type": "tel",
+    "name": "phone"
+   },
+   "f5": {
+    "label": "Address (include Apt/Suite/Unit)",
+    "type": "text",
+    "name": "address1"
+   },
+   "f6": {
+    "label": "City",
+    "type": "text",
+    "name": "city"
+   },
+   "f7": {
+    "label": "Zip Code",
+    "type": "text",
+    "name": "zip"
+   },
+   "f8": {
+    "label": "I am over 21 and I have read and agree to the Official Rules.",
+    "type": "checkbox",
+    "name": "acceptLegal"
+   }
+  },
+  "shipped_checks": {
+   "offer": 5,
+   "sweepstakes": 98,
+   "cause": 1,
+   "restricted": 40,
+   "excluded": 6
+  },
+  "split": "tune"
+ },
+ {
+  "id": 33,
+  "url": "https://www.siriusxm.com/arcangel2026",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "Enter for your chance to see Arc\u00e1ngel in LA! Sweepstakes | 5 days to enter Puerto Rican artist, Arc\u00e1ngel, is about to embark on the U.S. leg of his La 8va Maravilla 20 Aniversario Tour! Arc\u00e1ngel will kick off the 17-date trek on Oct. 9 in Orlando, and will continue throughout the fall months in key cities including Miami, New York, San Jose & more! SiriusXM is giving YOU the chance to win a trip to see Arc\u00e1ngel in LA! No Purchase Necessary. U.S./21+. See Official Rules for details. Void where prohibited. Sponsored by SiriusXM Radio LLC, NY. The Prize One Grand Prize winner will receive: Round-trip flights for 2 to Los Angeles, CA 2-night hotel stay Two tickets to see Arc\u00e1ngel on his La 8va Maravilla World Tour on Friday, November 20, 2026 at the YouTube Theater. PLUS, a signed merchandise item for both the winner and their guest! For more information to see Arc\u00e1ngel on the La 8va Maravilla World Tour visit HERE. Enter here for your chance to win! Contact Information First Name Last Name Email address Confirm Email Phone Address (include Apt/Suite/Unit) City State (Required) Zip Code How did you hear about this sweepstakes? Select one (Required) Agreements I am over 21 and I have read and agree to the Official Rules. Go behind the velvet rope. Sign up for texts for exclusive content, special offers, access to unique events & opportunities to engage with your favorite stars. (Optional) By checking this box and clicking \u201cEnter,\u201d I agree to receive recurring automated marketing text messages from SiriusXM to the phone number provided above and to SiriusXM\u2019s SMS Terms (including arbitration). Consent is not required to purchase. ENTER NO PURCHASE NECESSARY TO ENTER OR WIN. Must be a U.S. resident, 21 years of age or older to enter. Void where prohibited. Open only to active SiriusXM subscribers as of September 17, 2026 (self-paid or introductory trial). See Official Rules for details and eligibility requirements. Please review our Privacy Policy here. GET SIRIUSXM In-car and App Plans Try SiriusXM for Free Military Discount Student Plan Shop Radios Infotainment Marine Aviation Fleets SiriusXM for Business ACCOUNT MANAGEMENT Sign In Create Account Make a Payment Transfer Subscription Request Radio Signal Add New Vehicle SIRIUSXM CORPORATE About SiriusXM Investor Relations Newsroom Become an Affiliate Advertise with Us Careers MORE Blog Ways to Listen Merch Store SiriusXM Gift Cards Canada CUSTOMER SUPPORT Contact Us Frequently Asked Questions Help Center Website",
+  "fields": {
+   "f0": {
+    "label": "First Name",
+    "type": "text",
+    "name": "firstName"
+   },
+   "f1": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "lastName"
+   },
+   "f2": {
+    "label": "Email address",
+    "type": "email",
+    "name": "email"
+   },
+   "f3": {
+    "label": "Confirm Email",
+    "type": "email",
+    "name": "confirmEmail"
+   },
+   "f4": {
+    "label": "Phone",
+    "type": "tel",
+    "name": "phone"
+   },
+   "f5": {
+    "label": "Address (include Apt/Suite/Unit)",
+    "type": "text",
+    "name": "address1"
+   },
+   "f6": {
+    "label": "City",
+    "type": "text",
+    "name": "city"
+   },
+   "f7": {
+    "label": "Zip Code",
+    "type": "text",
+    "name": "zip"
+   },
+   "f8": {
+    "label": "I am over 21 and I have read and agree to the Official Rules.",
+    "type": "checkbox",
+    "name": "acceptLegal"
+   },
+   "f9": {
+    "label": "By checking this box and clicking \u201cEnter,\u201d I agree to receive recurring automated marketing text messages from",
+    "type": "checkbox",
+    "name": "smsOptIn"
+   }
+  },
+  "shipped_checks": {
+   "offer": 6,
+   "sweepstakes": 98,
+   "cause": 1,
+   "restricted": 28,
+   "excluded": 14
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 37,
+  "url": "https://ballarddesigns.attn.tv/p/Kn3/landing-page",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "Enter for a chance to win! $7,000 Cozy Up for Fall Giveaway Sign up for texts and be entered to win one $7,000 Ballard Designs gift certificate Already signed up? Text WIN to 31593 to enter today By submitting this form, you agree to receive recurring automated marketing text messages (e.g. AI content, cart reminders) from Ballard Designs at the number you provide. Consent not a condition of purchase. We may share info with service providers per our Privacy Policy. Reply HELP for help & STOP to cancel. Msg frequency varies. Msg & data rates may apply. By submitting this form, you also agree to our Terms (incl. arbitration) & Privacy Policy. NO PURCHASE NECESSARY TO ENTER OR WIN. A PURCHASE WILL NOT INCREASE YOUR CHANCES OF WINNING. Open to legal res. of the 50 U.S. and Territories, 18+. Begins approx. 10/06/26 at 12:01AM ET; until 11/06/26 at 11:59PM ET. Total ARV of all prizes: $7,000. For odds of winning, limitations, and to find out details on how to enter without joining text program, see Official Rules. Sponsor: Ballard Designs, Inc. By entering, you agree to Rules and our decisions. Mobile Number ENTER TO WIN when you sign up for texts",
+  "fields": {
+   "f0": {
+    "label": "Mobile Number",
+    "type": "tel",
+    "name": ""
+   }
+  },
+  "shipped_checks": {
+   "offer": 6,
+   "sweepstakes": 98,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 4
+  },
+  "split": "tune"
+ },
+ {
+  "id": 38,
+  "url": "https://garagesalefinder.com/contactus/",
+  "label": "not_offer",
+  "why": "",
+  "page": "2767 sales this week! Get local yard sale alerts Post a Sale Home I'm a Shopper I'm a Seller Tips Contact Sign In/Register Contact Us Thanks for your interest in GarageSaleFinder.com! We are very interested in your input (good or bad) and will respond within 24 hours. To contact us please fill out this form. Name (optional) Email Message Submit Cancel The largest network of garage, yard and estate sale listing websites. PlanGardens Find Garage Sales List Your Garage Sale For Free Find Garage Sales by Map Find Garage Sales by City and State Find Garage Sales by Zip Code About About Us Contact Garage Sale Tips \u00a9 2026 GarageSaleFinder.com Privacy Terms Sitemap Method Not Allowed ",
+  "fields": {
+   "f0": {
+    "label": "Jane Doe",
+    "type": "text",
+    "name": "name"
+   },
+   "f1": {
+    "label": "you@yourdomain.com",
+    "type": "text",
+    "name": "from"
+   },
+   "f2": {
+    "label": "Message",
+    "type": "textarea",
+    "name": "body"
+   }
+  },
+  "shipped_checks": {
+   "offer": 12,
+   "sweepstakes": 2,
+   "cause": 1,
+   "restricted": 5,
+   "excluded": 11
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 39,
+  "url": "https://www.newyorkjets.com/faqs/contact-us",
+  "label": "not_offer",
+  "why": "",
+  "page": "Skip to main content NEWS VIDEO PHOTOS SCHEDULE TEAM COMMUNITY FAN ZONE TICKETS MY JETS ACCOUNT SHOP WATCH FAQs Home Tickets FAQ Mobile Tickets FAQ Stadium FAQ Parking FAQ Transportation FAQ Contact Us Contact Us: PHONE 800-469-JETS (5387) Click Here to Contact Us CLUB LINKS ABOUT THE JETS FAQs Careers Terms of Use Jets Shop Email Signup Contact Us TICKETS My Jets Account Season Tickets Group Tickets Single Game Tickets Suites NFL Ticket Exchange Tickets FAQs TickPick Fan Experiences STADIUM Seating Information FAQs Parking and Maps Transportation TEAM INFO Roster Schedule Coaches Front Office Depth Chart Injury Report Stats NEWS Latest News Video Photos Podcasts NFL CLUBS MORE NFL SITES Download the Official Jets Mobile App COPYRIGHT \u00a9 2026 NEW YORK JETS PRIVACY POLICY ACCESSIBILITY CONTACT US TERMS OF USE SITE MAP AD CHOICES YOUR PRIVACY CHOICES COOKIE SETTINGS PREFERENCE CENTER By clicking any of the buttons in this banner, or by clicking \"X\" to close the banner, and continuing on the site, you agree to our Terms and Conditions, including the arbitration and class action waiver provisions, and acknowledge our Privacy Policy, including the operation and use of tracking technologies. We and our partners use cookies and similar technologies (e.g., pixels) on this website to enhance site navigation, analyze your use of the site, and assist in marketing efforts, including targeted advertising, as explained in our Privacy Policy. You may \u201cReject Optional Tracking,\u201d though some site services may not be available or work as intended. Note that some of these technologies are necessary to the function of the site and cannot be turned off, and that in some instances cookies may persist, but we send consent signals to third parties to restrict the processing of your information consistent with your privacy preferences. For more information or to further customize your tracking preferences, use these Cookie Settings. Reject Optional Tracking Acknowledge Tracking Email* Name Name First Name Last Name Subject Tickets/Stadium Football Careers Webmaster Community Relations Advertising Message* Country* United States United Kingdom Ireland Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua And Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius And Saba Bosnia And Herzegovina Botswana Bouvet Island Brazi",
+  "fields": {
+   "f0": {
+    "label": "Email*",
+    "type": "email",
+    "name": "field17037669"
+   },
+   "f1": {
+    "label": "First Name",
+    "type": "text",
+    "name": "field17037665-first"
+   },
+   "f2": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "field17037665-last"
+   },
+   "f3": {
+    "label": "Subject Tickets/Stadium Football Careers Webmaster Community Relations Advertising",
+    "type": "select",
+    "name": "field17037700",
+    "options": [
+     "Tickets/Stadium",
+     "Football",
+     "Careers",
+     "Webmaster",
+     "Community Relations",
+     "Advertising"
+    ]
+   },
+   "f4": {
+    "label": "Message*",
+    "type": "text",
+    "name": "field17037670"
+   },
+   "f5": {
+    "label": "Country* United States United Kingdom Ireland Afghanistan Aland Islands Albania Algeria American Samoa Andorra",
+    "type": "select",
+    "name": "field197918448",
+    "options": [
+     "United States",
+     "United Kingdom",
+     "Ireland",
+     "Afghanistan",
+     "Aland Islands",
+     "Albania",
+     "Algeria",
+     "American Samoa"
+    ]
+   }
+  },
+  "shipped_checks": {
+   "offer": 12,
+   "sweepstakes": 2,
+   "cause": 2,
+   "restricted": 6,
+   "excluded": 10
+  },
+  "split": "tune"
+ },
+ {
+  "id": 40,
+  "url": "https://www.earthboundfarm.com/contact-us/",
+  "label": "not_offer",
+  "why": "",
+  "page": "We value your privacy We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies. View Privacy Policy CUSTOMIZE REJECT ALL ACCEPT ALL Skip to the content Psst\u2026Earth is calling Tap here to answer. Where to buy Contact us earthboundfarm Our Food Recipes Our Story Farm Stand EN Contact Us Customer Service Your voice matters to us. Whether you have questions, need help, or just want to share a story about how our greens have brightened your day, we\u2019re here to listen. PRODUCT CONCERNS QUESTIONS & COMPLIMENTS PRESS & MEDIA INQUIRIES CONTENT CREATORS Product Information Product Name* Store Name* Acme Ahold Albertsons Aldi Alfalfa's Amazon Amigos Andronico's Atlantic Supermarket Avanti Market Balduccis Basha's Bel Air Berkeley Bowl Bi-Lo BJs Bozzutos Bristol Farms Brookshire Bulkley Valley Busch's Caputo's Cash & Carry Central Market City Market Coborn's Commissary-Any Co-Op- Any Corrado's Family Market Cost Less Foods Costco Cub Foods D'Agostinos Dave's Market Deccico's Dierbergs Dillon's Dollar General Dominion Earth Fare Econo Foods Fairway Family Fare Farm Boy Festival Foods Food 4 Less Food Emporium Food Lion Foodland FoodMaxx Foods Co. FoodTown Fred Meyer Fresh Market Fresh Thyme Freshco Fry's Gerbes Giant Giant Eagle Giant Tiger Gourmet Garage Gristede's Grocery Outlet H & R Food Center Hannaford Harmon's Harris Teeter Harvey's Supermarket Health Food Store-Any HEB Heinen's Holiday Market Hy-Vee IGA Ingles Jay C Food Stores Jewel Jewel Osco Joe V's Key Foods King Kullen Kings Kings Soopers Kowalski's Kroger Lazy Acres LIDL Loblaws Longo's Lucky Lunardi's Lunds & Byerlys Major Market Mariano's Market Basket Market District Market of Choice Market Street Martin's Meijer Metro Foods Metro Market Mi Tienda Milams Market Mollie Stones Mom's Organic Market N/A Natural Grocers Neighborhood Market New Seasons Market Nob Hill Nofrills Nugget Markets Oleson's Food Store Olivers Organic Garage Other / Not listed Overwaitea Pak'n Save Pavillions Pay Less Super Markets Pick n Save Piggly Wiggly Price Chopper Price Cutter Proud Market Provigo Publix QFC Raley's Supermarkets Ralph's Randals Real Canadian Superstore Reasors Food Restaurant Depot Rosauers Roundy's Ruler Foods S mart Safeway Sam's Club Save Easy Save On Foods Save-A-Lot Savemart Schnucks Shaw's Shoppers Drug Mart ShopRite Smart & Final Smith's Sobeys Spartan Nash Spencer's Fresh Market Sprouts Sta",
+  "fields": {
+   "f0": {
+    "label": "Product Name*",
+    "type": "text",
+    "name": "input_26"
+   },
+   "f1": {
+    "label": "Store Name*",
+    "type": "select",
+    "name": "input_29",
+    "options": [
+     "Acme",
+     "Ahold",
+     "Albertsons",
+     "Aldi",
+     "Alfalfa's",
+     "Amazon",
+     "Amigos",
+     "Andronico's"
+    ]
+   },
+   "f2": {
+    "label": "Use By Date*",
+    "type": "text",
+    "name": "input_38"
+   },
+   "f3": {
+    "label": "Manufacturing Code*",
+    "type": "text",
+    "name": "input_28"
+   },
+   "f4": {
+    "label": "Complaint Description - please share as many details as possible*",
+    "type": "textarea",
+    "name": "input_32"
+   },
+   "f5": {
+    "label": "First Name*",
+    "type": "text",
+    "name": "input_1"
+   },
+   "f6": {
+    "label": "Last Name*",
+    "type": "text",
+    "name": "input_3"
+   },
+   "f7": {
+    "label": "Email Address*",
+    "type": "email",
+    "name": "input_4"
+   },
+   "f8": {
+    "label": "Address*",
+    "type": "text",
+    "name": "input_47"
+   },
+   "f9": {
+    "label": "City*",
+    "type": "text",
+    "name": "input_18"
+   },
+   "f10": {
+    "label": "State*",
+    "type": "select",
+    "name": "input_19",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "American Samoa",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut"
+    ]
+   },
+   "f11": {
+    "label": "Postal Code*",
+    "type": "text",
+    "name": "input_23"
+   },
+   "f12": {
+    "label": "Country*",
+    "type": "select",
+    "name": "input_15",
+    "options": [
+     "Canada",
+     "Mexico",
+     "USA"
+    ]
+   },
+   "f13": {
+    "label": "Phone Number*",
+    "type": "tel",
+    "name": "input_5"
+   }
+  },
+  "shipped_checks": {
+   "offer": 5,
+   "sweepstakes": 2,
+   "cause": 1,
+   "restricted": 9,
+   "excluded": 12
+  },
+  "split": "tune"
+ },
+ {
+  "id": 41,
+  "url": "https://beechershandmadecheese.com/contact/",
+  "label": "not_offer",
+  "why": "",
+  "page": "We value your privacy We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies. CUSTOMIZE REJECT ALL ACCEPT ALL Skip to content OUR FOOD CHEESES NEW DELICIOUSNESS ENTREES & SIDES SOUPS CRACKERS OUR STORY CAF\u00c9S PIKE PLACE MARKET BELLEVUE OVERLAKE AIRPORT CAF\u00c9S RECIPES WHERE TO BUY GET IN TOUCH Beecher\u2019s Contact For questions about the world of Beecher\u2019s: customerlove@beecherscheese.com Need Support? Check out our Help Center Join Us Looking to join our team? view open positions Donation Inquiries For general questions related to donations: donations@sugarmtn.net Media Inquiries Please contact public relations at: press@sugarmtn.net Wholesale Information For more information, help finding a distributor, and to contact our sales team, email: wholesale@beecherscheese.com LEARN MORE WHOLESALE INFORMATION MEDIA INQUIRIES DONATION INQUIRIES Sign up for our newsletter CONTACT BLOG SUPPORT Beecher's Cheese Instagram Beecher's Cheese Facebook Twitter Beecher's Handmade Cheese is a part of the Sugar Mountain family of businesses. \u00a92026 Beecher's Handmade Cheese Terms of Use Privacy Policy ",
+  "fields": {
+   "f0": {
+    "label": "Email Address *",
+    "type": "email",
+    "name": "EMAIL"
+   },
+   "f1": {
+    "label": "First Name",
+    "type": "text",
+    "name": "FNAME"
+   },
+   "f2": {
+    "label": "Last Name",
+    "type": "text",
+    "name": "LNAME"
+   },
+   "f3": {
+    "label": "Postal / Zip Code",
+    "type": "text",
+    "name": "ADDRESS[zip]"
+   },
+   "f4": {
+    "label": "b_ff6a29d8ff34aad8f640a434b_8c0c59cc5d",
+    "type": "text",
+    "name": "b_ff6a29d8ff34aad8f640a434b_8c0c59cc5d"
+   }
+  },
+  "shipped_checks": {
+   "offer": 9,
+   "sweepstakes": 4,
+   "cause": 3,
+   "restricted": 17,
+   "excluded": 19
+  },
+  "split": "tune"
+ },
+ {
+  "id": 42,
+  "url": "https://sunnyd.com/contact-us/",
+  "label": "not_offer",
+  "why": "",
+  "page": "Press Option+1 for screen-reader mode, Option+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window FLAVORS RECIPES SUNNYD SESSIONS CAREERS CONTACT US Contact Us We're always happy to answer your questions and hear your comments. So we can better assist you, please provide all the information below and click submit. We\u2019ll try to respond the next business day. In the meantime, you can check our Frequently Asked Questions page. * required field State* AK AL AR AZ CA CO CT DE FL GA HI IA ID IL IN KS KY LA MA MD ME MI MN MO MS MT NC ND NE NH NJ NM NV NY OH OK OR PA RI SC SD TN TX UT VA VT WA WI WV WY Country* United States Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos Islands Colombia Comoros Congo, Democratic Republic of the Congo, Republic of the Cook Islands Costa Rica Croatia Cuba Cura\u00e7ao Cyprus Czech Republic C\u00f4te d'Ivoire Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini (Swaziland) Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard and McDonald Islands Holy See Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macau Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland ",
+  "fields": {
+   "f0": {
+    "label": "Imp_First_Name*",
+    "type": "text",
+    "name": "input_4"
+   },
+   "f1": {
+    "label": "Imp_Last_Name",
+    "type": "text",
+    "name": "input_5"
+   },
+   "f2": {
+    "label": "Enter Email",
+    "type": "email",
+    "name": "input_2"
+   },
+   "f3": {
+    "label": "Confirm Email",
+    "type": "email",
+    "name": "input_2_2"
+   },
+   "f4": {
+    "label": "Imp_Address*",
+    "type": "text",
+    "name": "input_27"
+   },
+   "f5": {
+    "label": "Imp_Address_2",
+    "type": "text",
+    "name": "input_28"
+   },
+   "f6": {
+    "label": "Imp_Phone",
+    "type": "text",
+    "name": "input_33"
+   },
+   "f7": {
+    "label": "Imp_City",
+    "type": "text",
+    "name": "input_23"
+   },
+   "f8": {
+    "label": "Imp_State*",
+    "type": "select",
+    "name": "input_26",
+    "options": [
+     "State*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT"
+    ]
+   },
+   "f9": {
+    "label": "Imp_Country*",
+    "type": "select",
+    "name": "input_29",
+    "options": [
+     "Country*",
+     "United States",
+     "Afghanistan",
+     "Albania",
+     "Algeria",
+     "American Samoa",
+     "Andorra",
+     "Angola"
+    ]
+   },
+   "f10": {
+    "label": "Imp_Zip*",
+    "type": "text",
+    "name": "input_30"
+   },
+   "f11": {
+    "label": "Imp_Product",
+    "type": "select",
+    "name": "input_31",
+    "options": [
+     "Product Line",
+     "Tangy Original",
+     "Smooth Orange",
+     "Orange Strawberry",
+     "Passion Fruit",
+     "Orange Mango",
+     "Orange Peach",
+     "Mango"
+    ]
+   },
+   "f12": {
+    "label": "Imp_UPC_Code*",
+    "type": "text",
+    "name": "input_9"
+   },
+   "f13": {
+    "label": "Imp_Best_By_Date*",
+    "type": "text",
+    "name": "input_10"
+   },
+   "f14": {
+    "label": "Imp_Mfg_Code*",
+    "type": "text",
+    "name": "input_35"
+   },
+   "f15": {
+    "label": "Imp_Comments*",
+    "type": "textarea",
+    "name": "input_14"
+   }
+  },
+  "shipped_checks": {
+   "offer": 12,
+   "sweepstakes": 5,
+   "cause": 2,
+   "restricted": 9,
+   "excluded": 8
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 46,
+  "url": "https://www.bigelowtea.com/pages/contact-us",
+  "label": "not_offer",
+  "why": "",
+  "page": "Press Option+1 for screen-reader mode, Option+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window Skip to content Pause slideshow Sweet Savings! Save 20% on Bigelow Dessert Teas -enter code DESSERTDAY at checkout Bigelow Tea Search Search Sign Up for Email Contact Us ACCOUNT CART SHOP TEA ABOUT OUR TEA THE BIGELOW STORY OUR IMPACT WHAT'S BREWING Get in touch Have a specific question, please visit our FAQ page. We\u2019d love to hear from you. Just fill out the form below, and we\u2019ll get back to you as soon as we can. Special Note : If you\u2019re reporting a defect or flavor issue, please include the name of the tea and the code #, which can be found on bottom of the box or back or foil packet (198654aGH6 12:45) *We are delighted you enjoy Bigelow Tea and want to thank you for that, but we are no longer offering any coupons or samples. We wish we could honor all requests, but as a small family company our ability to accommodate all of the wonderful consumers that contact us is beyond our means. We hope you understand. Thank you again for thinking of us, we work hard every day to delight you with the most flavorful teas possible. Contact Us Required fields: First Name, Email, phone number and address fields First name* Last name Email * Phone Address1 Address2 City State Select State AK AL AR AS AZ CA CO CT DC DE FL GA GU HI IA ID IL IN KS KY LA MA MD ME MI MN MO MP MS MT NC ND NE NH NJ NM NV NY OH OK OR PA PR RI SC SD TN TX UM UT VA VI VT WA WI WV WY Country Select Country Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, Democratic Republic of the Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands (Malvinas) Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar",
+  "fields": {
+   "f0": {
+    "label": "First name*",
+    "type": "text",
+    "name": "contact[FIRST_NAME]"
+   },
+   "f1": {
+    "label": "Last name",
+    "type": "text",
+    "name": "contact[LAST_NAME]"
+   },
+   "f2": {
+    "label": "Email *",
+    "type": "email",
+    "name": "contact[email]"
+   },
+   "f3": {
+    "label": "Phone",
+    "type": "tel",
+    "name": "contact[phone]"
+   },
+   "f4": {
+    "label": "Address1",
+    "type": "text",
+    "name": "contact[address1]"
+   },
+   "f5": {
+    "label": "Address2",
+    "type": "text",
+    "name": "contact[address2]"
+   },
+   "f6": {
+    "label": "City",
+    "type": "text",
+    "name": "contact[city]"
+   },
+   "f7": {
+    "label": "State",
+    "type": "select",
+    "name": "contact[state]",
+    "options": [
+     "Select State",
+     "AK",
+     "AL",
+     "AR",
+     "AS",
+     "AZ",
+     "CA",
+     "CO"
+    ]
+   },
+   "f8": {
+    "label": "Country",
+    "type": "select",
+    "name": "contact[country]",
+    "options": [
+     "Select Country",
+     "Afghanistan",
+     "Aland Islands",
+     "Albania",
+     "Algeria",
+     "American Samoa",
+     "Andorra",
+     "Angola"
+    ]
+   },
+   "f9": {
+    "label": "Postal/Zip code",
+    "type": "text",
+    "name": "contact[zip]"
+   },
+   "f10": {
+    "label": "I am contacting Bigelow in regards to: *",
+    "type": "select",
+    "name": "contact[reason]",
+    "options": [
+     "Choose a reason",
+     "Product Information",
+     "Order Inquiry",
+     "General Inquiry",
+     "Other"
+    ]
+   },
+   "f11": {
+    "label": "Message",
+    "type": "textarea",
+    "name": "contact[body]"
+   },
+   "f12": {
+    "label": "Enter your email",
+    "type": "email",
+    "name": "contact[email]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 23,
+   "sweepstakes": 3,
+   "cause": 1,
+   "restricted": 4,
+   "excluded": 7
+  },
+  "split": "tune"
+ },
+ {
+  "id": 48,
+  "url": "https://www.jif.com/contact-us",
+  "label": "not_offer",
+  "why": "",
+  "page": "Products Recipes About Us CONTACT US We want to make your experience That Jifing Good\u2122 and as pleasurable as possible. Many of your questions already might have been answered on our Frequently Asked Questions (FAQ) page. If not, please enter your information and inquiries in the fields below. We'll be happy to respond to your questions. Before contacting us, please review our Terms of Use and Privacy Policy. PRODUCT INFORMATION Product Category Select a Product Category Creamy Peanut Butter Spreads Crunchy Peanut Butter Spreads Jif To Go\u00ae Jif\u00ae Peanut Butter & Chocolate Flavored Spread Jif\u00ae Simply Peanut Butter Spreads Jif\u00ae Squeeze Peanut Butter Spreads Natural Peanut Butter Spreads Peanut Butter Spreads Product Select a Product What is the UPC on your product? What is the best if used by (biub) date? What is the production code? Comments * YOUR INFORMATION First Name * Last Name * Email Address * Phone Number * Address 1 * Address 2 City * State * ... Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington Washington, DC West Virginia Wisconsin Wyoming American Samoa Armed Forces of the Americas (AA) Armed Forces of Europe (AE) Armed Forces of the Pacific (AP) Guam Northern Mariana Islands Puerto Rico U.S. Minor Outlying Islands U.S. Virgin Islands U.S. Zip Code * Date of Birth Month * ... January February March April May June July August September October November December Date of Birth Year * SUBMIT For additional support, please contact us at 1-800-283-8915. Monday through Friday \u2014 8am\u20135pm EST* *business hours subject to change Follow: Instagram Facebook TikTok Contact Us Where To Buy Away From Home Frequently Asked Questions Careers California Transparency in Supply Chains Act About Our Ads Terms of Use Privacy Policy Notice at Collection Do Not Sell/Share My Personal Information *Based on Circana MULO Latest 52 weeks ending 8.11.24. Product formulation and packaging may change. For the most current information regarding a particular product, please refer to the product package. \u00a9/TM/\u00ae THE J.M. SMUCKER COMPANY Effective September 2026, we have updated our Privacy Policy. This",
+  "fields": {
+   "f0": {
+    "label": "Product Category",
+    "type": "select",
+    "name": "select-category",
+    "options": [
+     "Select a Product Category",
+     "Creamy Peanut Butter Spreads",
+     "Crunchy Peanut Butter Spreads",
+     "Jif To Go\u00ae",
+     "Jif\u00ae Peanut Butter & Chocolate Flavored Spread",
+     "Jif\u00ae Simply Peanut Butter Spreads",
+     "Jif\u00ae Squeeze Peanut Butter Spreads",
+     "Natural Peanut Butter Spreads"
+    ]
+   },
+   "f1": {
+    "label": "Product",
+    "type": "select",
+    "name": "select-product",
+    "options": [
+     "Select a Product"
+    ]
+   },
+   "f2": {
+    "label": "What is the UPC on your product?",
+    "type": "tel",
+    "name": "productUPC"
+   },
+   "f3": {
+    "label": "What is the best if used by (biub) date?",
+    "type": "text",
+    "name": "bestByDate"
+   },
+   "f4": {
+    "label": "What is the production code?",
+    "type": "text",
+    "name": "productionCode"
+   },
+   "f5": {
+    "label": "Comments *",
+    "type": "textarea",
+    "name": "commentInput"
+   },
+   "f6": {
+    "label": "First Name *",
+    "type": "text",
+    "name": "firstName"
+   },
+   "f7": {
+    "label": "Last Name *",
+    "type": "text",
+    "name": "lastName"
+   },
+   "f8": {
+    "label": "Email Address *",
+    "type": "email",
+    "name": "emailAddress"
+   },
+   "f9": {
+    "label": "Phone Number *",
+    "type": "tel",
+    "name": "phone"
+   },
+   "f10": {
+    "label": "Address 1 *",
+    "type": "text",
+    "name": "address1"
+   },
+   "f11": {
+    "label": "Address 2",
+    "type": "text",
+    "name": "address2"
+   },
+   "f12": {
+    "label": "City *",
+    "type": "text",
+    "name": "city"
+   },
+   "f13": {
+    "label": "State *",
+    "type": "select",
+    "name": "state",
+    "options": [
+     "...",
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut"
+    ]
+   },
+   "f14": {
+    "label": "U.S. Zip Code *",
+    "type": "tel",
+    "name": "postalCode"
+   },
+   "f15": {
+    "label": "Date of Birth Month *",
+    "type": "select",
+    "name": "dobMonth",
+    "options": [
+     "...",
+     "January",
+     "February",
+     "March",
+     "April",
+     "May",
+     "June",
+     "July"
+    ]
+   },
+   "f16": {
+    "label": "Date of Birth Year *",
+    "type": "tel",
+    "name": "dobYear"
+   }
+  },
+  "shipped_checks": {
+   "offer": 22,
+   "sweepstakes": 3,
+   "cause": 1,
+   "restricted": 4,
+   "excluded": 9
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 51,
+  "url": "https://www.vikingknowyourscore.com/sweepstakes/",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "Sweepstakes Learn your BMI score and enter for a chance to win a Luxury Wellness Weekend at Miraval Resort Arizona. This wellness retreat package includes a 3-day/2-night stay for two guests, including health conscious and mindful activities at Miraval Resort in Arizona including airfare and ground transportation. ENTER FOR A CHANCE TO WIN \u2192 7 in 10 Americans living with excess weight 47% US adults with hypertension 15.8% US adults with diabetes 9 in 10 US adults with 1 cardiovascular- kidney-metabolic disease risk factor Your Weight, Your Health, And a Chance to Win A luxury wellness weekend *Prize valued at up to $17,500. A healthy weight isn't just a number on a scale. It's where the evidence shows your risk of serious disease is lowest. Getting there, and staying there, is now an achievable goal for more patients than ever. That's why we want you to Know Your Score. Reset and refocus on your health intentions with a luxury wellness weekend at Miraval Resort Arizona. Enter for a chance to win & Know Your Score Get Your BMI Score - (Optional) 1 How tall are you? Feet --Select Option-- 3 ft 4 ft 5 ft 6 ft 7 ft Inches --Select Option-- 0 in 1 in 2 in 3 in 4 in 5 in 6 in 7 in 8 in 9 in 10 in 11 in 2 How much do you weigh? Weight 3 What is your sex? I am 18 years or older and would like to receive additional email marketing from Viking Therapeautics. Privacy Policy * Yes, I have read and agree to the Official Rules Verification * *Required Fields. Calculating your BMI Score is not necessary for entry. NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN. Open to legal residents of the 48 contiguous U.S./D.C., age 18+. Void in AK, HI, outside the 48 contiguous U.S./D.C., and where prohibited. Sweepstakes ends at 11:59:59 PM PT on 12/31/26. Odds of winning depend on the number of entries received. For full Official Rules, click here. Sponsor: Evolve MKD, 49 W 24th Street, Floor 7, New York, NY 10010. Evolve MKD Privacy Policy Viking Therapeutics Privacy Policy WIN WITH WELNESS Win a 3-day wellness retreat for two people at Miraval Arizona, with airfare and ground transportation. *Valued at up to $17,500 At Miraval Resorts and Spas our mission of creating a life in balance through mindfulness has been guiding individuals to elevate their well-being for three decades. We offer innovative experiences and intentional journeys for guests to consciously explore the connection of body, mind, and spirit. We meet guests where they are by encouraging them to embrace the pre",
+  "fields": {
+   "f0": {
+    "label": "First Name *",
+    "type": "text",
+    "name": "data[Sweepuserentry][first_name]"
+   },
+   "f1": {
+    "label": "Last Name *",
+    "type": "text",
+    "name": "data[Sweepuserentry][last_name]"
+   },
+   "f2": {
+    "label": "Email *",
+    "type": "text",
+    "name": "data[Sweepuserentry][email]"
+   },
+   "f3": {
+    "label": "Feet",
+    "type": "select",
+    "name": "data[Userfield][field1]",
+    "options": [
+     "--Select Option--",
+     "3 ft",
+     "4 ft",
+     "5 ft",
+     "6 ft",
+     "7 ft"
+    ]
+   },
+   "f4": {
+    "label": "Inches",
+    "type": "select",
+    "name": "data[Userfield][field2]",
+    "options": [
+     "--Select Option--",
+     "0 in",
+     "1 in",
+     "2 in",
+     "3 in",
+     "4 in",
+     "5 in",
+     "6 in"
+    ]
+   },
+   "f5": {
+    "label": "Weight",
+    "type": "text",
+    "name": "data[Userfield][field3]"
+   },
+   "f6": {
+    "label": "Male",
+    "type": "text",
+    "name": "gender"
+   },
+   "f7": {
+    "label": "Female",
+    "type": "text",
+    "name": "gender"
+   },
+   "f8": {
+    "label": "I am 18 years or older and would like to receive additional email marketing from Viking Therapeautics. Privacy",
+    "type": "checkbox",
+    "name": "data[Sweepuserentry][newsletter_subscribed]"
+   },
+   "f9": {
+    "label": "* Yes, I have read and agree to the Official Rules",
+    "type": "checkbox",
+    "name": "data[Sweepuserentry][rules]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 8,
+   "sweepstakes": 98,
+   "cause": 2,
+   "restricted": 2,
+   "excluded": 7
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 52,
+  "url": "https://www.ahxlegoland.com/",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "We need a little info to start Date of birth MM DD YYYY State of residence Choose a state By clicking continue, I have read and agree to the Terms of Use and Privacy Policy of this website. *Required Continue Privacy Policy | Terms of Use | Do Not Sell or Share My Information | CCPA Privacy Policy NO PURCHASE NECESSARY. Starts 10/1/2026 and ends at 11:59 p.m. ET on 12/31/2026. Open to legal residents of the 50 US/DC, 18+ only. Click here for Official Rules, including how to enter, alternate method of entry, odds, prize details & restrictions. Void where prohibited. Msg & data rates may apply. Sponsor: Church & Dwight Co., Inc. Princeton South Corporate Center 500 Charles Ewing Blvd. Ewing, NJ 08628. \u00a92026 Church & Dwight Co., Inc. \u00a92026 The LEGO Group. We use cookies and other tracking technologies to collect and record information about you and your interaction with our site to enhance site navigation, analyze site usage, and to enable us and our advertising partners to serve you personalized advertising content. See our Privacy Notice for more details. To opt out of the use of these technologies, click Do not Sell or Share my Personal Information and set your preferences. By continuing to use our site, you agree to our use of such technologies, our Privacy Notice and Terms and Conditions Do not Sell or Share my Personal Information ",
+  "fields": {
+   "f0": {
+    "label": "MM",
+    "type": "number",
+    "name": "month"
+   },
+   "f1": {
+    "label": "DD",
+    "type": "number",
+    "name": "day"
+   },
+   "f2": {
+    "label": "YYYY",
+    "type": "number",
+    "name": "year"
+   }
+  },
+  "shipped_checks": {
+   "offer": 54,
+   "sweepstakes": 95,
+   "cause": 2,
+   "restricted": 2,
+   "excluded": 6
+  },
+  "split": "tune"
+ },
+ {
+  "id": 53,
+  "url": "https://curdtoberfest.culvers.com/",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "Culver's Curdtoberfest Sweepstakes READY TO JOIN THE CELEBRATION? Enter your email below to get in on the Curdtoberfest fun. Email Address GET STARTED Official Rules Privacy Policy FAQ Sign Up for Delicious Rewards Contact Us NO PURCHASE NECESSARY. Legal residents of the 50 U.S. (D.C.) 18 years or older. Ends 10/31/26. See Official Rules for how to enter, alternate method of entry, odds, prize descriptions and all details. Void where prohibited. Sponsor: Culver Franchising System, LLC, 1240 Water St., Prairie du Sac, WI 53578 Copyright \u00a9 2026 Culver Franchising System, LLC. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Cookie Usage Notification Our site uses cookies and similar technology to assist in registration and limit fraudulent or unfair activity. Cookies are a mandatory part of the process, and the information obtained is for administering the promotion only. The Official Rules are available for reference, and if you have questions about how we use your personal information, please visit our Privacy Policy. CONTINUE protected by reCAPTCHA ",
+  "fields": {
+   "f0": {
+    "label": "Email Address",
+    "type": "email",
+    "name": "email"
+   }
+  },
+  "shipped_checks": {
+   "offer": 18,
+   "sweepstakes": 93,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 5
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 54,
+  "url": "https://www.mustang50fever.com/",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "Enter For A Chance To Win A 2026 FORD MUSTANG\u00ae GT Enter Now Privacy Policy Fields with * are required First Name * Last Name * Email Address * Confirm Email Address * Address * City * State * State * Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming Zip * Phone * Next > Privacy Policy Fields with * are required Please, send me information on the following vehicle(s): Select a Vehicle Bronco Bronco Sport Electric Vehicles Escape Expedition Explorer Explorer Tremor F-150 F-150 Lightning F-150 Raptor R Ford GT Ford Racing - Cars Ford Racing - Trucks Maverick Mustang Mustang GTD Mustang Mach-E Ranger Super Duty (F-250) Transit Transit Connect Wagon 2027 Super Duty 2027 Bronco 2027 Expedition 30th Anniversary Select a Vehicle Bronco Bronco Sport Electric Vehicles Escape Expedition Explorer Explorer Tremor F-150 F-150 Lightning F-150 Raptor R Ford GT Ford Racing - Cars Ford Racing - Trucks Maverick Mustang Mustang GTD Mustang Mach-E Ranger Super Duty (F-250) Transit Transit Connect Wagon 2027 Super Duty 2027 Bronco 2027 Expedition 30th Anniversary Select a Vehicle Bronco Bronco Sport Electric Vehicles Escape Expedition Explorer Explorer Tremor F-150 F-150 Lightning F-150 Raptor R Ford GT Ford Racing - Cars Ford Racing - Trucks Maverick Mustang Mustang GTD Mustang Mach-E Ranger Super Duty (F-250) Transit Transit Connect Wagon 2027 Super Duty 2027 Bronco 2027 Expedition 30th Anniversary Yes, I am 18 years of age or older. * Yes, I have read and agree to be bound by the Rules. * Request More Information: (Note: Requesting information from Ford Motor Company will not increase chances of winning.) Yes, email me communications, including product information, offers and incentives from Ford Motor Company and the local dealer. I agree to Ford\u2019s Privacy Policy. Yes, I\u2019d like to receive information and e-mail communications from Ford Racing. I agree to Ford\u2019s Privacy Policy. Enter > Privacy Policy Copyright \u00a9 2026 Ford Motor Company Home | Official Rules | Privacy Notice | Cookie Settings | Your Privacy Choices | Contact Us | Interest Ba",
+  "fields": {
+   "f0": {
+    "label": "First Name *",
+    "type": "text",
+    "name": "Sweepstakes[first_name]"
+   },
+   "f1": {
+    "label": "Last Name *",
+    "type": "text",
+    "name": "Sweepstakes[last_name]"
+   },
+   "f2": {
+    "label": "Email Address *",
+    "type": "email",
+    "name": "Sweepstakes[email]"
+   },
+   "f3": {
+    "label": "Confirm Email Address *",
+    "type": "email",
+    "name": "Sweepstakes[confirm_email]"
+   },
+   "f4": {
+    "label": "Address *",
+    "type": "text",
+    "name": "Sweepstakes[address]"
+   },
+   "f5": {
+    "label": "City *",
+    "type": "text",
+    "name": "Sweepstakes[city]"
+   },
+   "f6": {
+    "label": "State *",
+    "type": "select",
+    "name": "Sweepstakes[state]",
+    "options": [
+     "State *",
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut"
+    ]
+   },
+   "f7": {
+    "label": "Zip *",
+    "type": "text",
+    "name": "Sweepstakes[zip]"
+   },
+   "f8": {
+    "label": "Phone *",
+    "type": "text",
+    "name": "Sweepstakes[phone]"
+   },
+   "f9": {
+    "label": "Vehicle 1",
+    "type": "select",
+    "name": "Sweepstakes[vehicle_1]",
+    "options": [
+     "Select a Vehicle",
+     "Bronco",
+     "Bronco Sport",
+     "Electric Vehicles",
+     "Escape",
+     "Expedition",
+     "Explorer",
+     "Explorer Tremor"
+    ]
+   },
+   "f10": {
+    "label": "Vehicle 2",
+    "type": "select",
+    "name": "Sweepstakes[vehicle_2]",
+    "options": [
+     "Select a Vehicle",
+     "Bronco",
+     "Bronco Sport",
+     "Electric Vehicles",
+     "Escape",
+     "Expedition",
+     "Explorer",
+     "Explorer Tremor"
+    ]
+   },
+   "f11": {
+    "label": "Vehicle 3",
+    "type": "select",
+    "name": "Sweepstakes[vehicle_3]",
+    "options": [
+     "Select a Vehicle",
+     "Bronco",
+     "Bronco Sport",
+     "Electric Vehicles",
+     "Escape",
+     "Expedition",
+     "Explorer",
+     "Explorer Tremor"
+    ]
+   },
+   "f12": {
+    "label": "Yes, I am 18 years of age or older. *",
+    "type": "checkbox",
+    "name": "Sweepstakes[age_confirm]"
+   },
+   "f13": {
+    "label": "Yes, I have read and agree to be bound by the Rules. *",
+    "type": "checkbox",
+    "name": "Sweepstakes[rules_confirm]"
+   },
+   "f14": {
+    "label": "Yes, email me communications, including product information, offers and incentives from Ford Motor Company and",
+    "type": "checkbox",
+    "name": "Sweepstakes[dealer_optin]"
+   },
+   "f15": {
+    "label": "Yes, I\u2019d like to receive information and e-mail communications from Ford Racing. I agree to Ford\u2019s Privacy Pol",
+    "type": "checkbox",
+    "name": "Sweepstakes[performance_optin]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 40,
+   "sweepstakes": 97,
+   "cause": 1,
+   "restricted": 3,
+   "excluded": 11
+  },
+  "split": "tune"
+ },
+ {
+  "id": 55,
+  "url": "https://www.improveitusa.com/sweepstakes/",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "We use cookies to improve your experience. Please read our Privacy Policy or click Accept. \u00d7 Skip to content NEW CUSTOMER BONUS! Save an additional $200 when you book online! 855 637-2999 Home Makeover Sweepstakes The Grand Prize winner of our annual home improvement sweepstakes gets their choice of a new bath or shower system, kitchen remodel, or a houseful of new windows. We guarantee 53 winners in all. Don\u2019t miss your chance to win! OPEN TO RESIDENTS OF OHIO, KENTUCKY, TENNESSEE & INDIANA ONLY FIRST NAME* LAST NAME* EMAIL* PHONE* ADDRESS* STREET ADDRESS CITY STATE Alabama Alaska American Samoa Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Northern Mariana Islands Ohio Oklahoma Oregon Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah U.S. Virgin Islands Vermont Virginia Washington West Virginia Wisconsin Wyoming Armed Forces Americas Armed Forces Europe Armed Forces Pacific ZIP CODE Sweepstakes only valid in Ohio, Kentucky and Indiana PROJECT TYPE* - Please Select - Bathrooms Windows Kitchen Remodel ARE YOU A HOME OWNER?* - Please Select - Yes No KEEP IN TOUCH* By checking this box and clicking \u201csubmit\u201d, you consent to receive recurring promotional and personalized marketing phone & text messages, including by an automatic telephone dialing system or artificial or prerecorded voices (including traditionally pre-recorded messages and voices generated by Artificial Intelligence), from Improveit to the number provided above. Consent to receive these marketing calls and texts is not a condition of purchase, and you can instead call us at 1-800-644-6674 to arrange for a free estimate. You may revoke this consent at any time by contacting us or, for texts, by replying STOP to any text message. Message frequency varies. Message and data rates may apply. You have read and understood the terms and conditions of our website including the dispute resolution policy. Your personal information will be processed in accordance with our Privacy Policy, and please be aware that all calls with Improveit are recorded for quality and safety purposes. Enter Now! Click for terms, conditions and official rules. One valid entry per person per year. Meet Our Most Rece",
+  "fields": {
+   "f0": {
+    "label": "FIRST NAME*",
+    "type": "text",
+    "name": "input_14"
+   },
+   "f1": {
+    "label": "LAST NAME*",
+    "type": "text",
+    "name": "input_15"
+   },
+   "f2": {
+    "label": "EMAIL*",
+    "type": "email",
+    "name": "input_2"
+   },
+   "f3": {
+    "label": "PHONE*",
+    "type": "tel",
+    "name": "input_3"
+   },
+   "f4": {
+    "label": "STREET ADDRESS",
+    "type": "text",
+    "name": "input_13.1"
+   },
+   "f5": {
+    "label": "CITY",
+    "type": "text",
+    "name": "input_13.3"
+   },
+   "f6": {
+    "label": "STATE",
+    "type": "select",
+    "name": "input_13.4",
+    "options": [
+     "Alabama",
+     "Alaska",
+     "American Samoa",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut"
+    ]
+   },
+   "f7": {
+    "label": "ZIP CODE",
+    "type": "text",
+    "name": "input_13.5"
+   },
+   "f8": {
+    "label": "PROJECT TYPE*",
+    "type": "select",
+    "name": "input_5",
+    "options": [
+     "- Please Select -",
+     "Bathrooms",
+     "Windows",
+     "Kitchen Remodel"
+    ]
+   },
+   "f9": {
+    "label": "ARE YOU A HOME OWNER?*",
+    "type": "select",
+    "name": "input_16",
+    "options": [
+     "- Please Select -",
+     "Yes",
+     "No"
+    ]
+   },
+   "f10": {
+    "label": "By checking this box and clicking \u201csubmit\u201d, you consent to receive recurring promotional and personalized mark",
+    "type": "checkbox",
+    "name": "input_7.1"
+   }
+  },
+  "shipped_checks": {
+   "offer": 18,
+   "sweepstakes": 97,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 96
+  },
+  "split": "tune"
+ },
+ {
+  "id": 56,
+  "url": "https://www.clearchoicehomeimprovement.com/sweepstakes",
+  "label": "not_offer",
+  "why": "Called a sweepstakes in its URL, but the page is a quote request for home remodelling.",
+  "page": "For a limited time, save 30% off ALL PROJECTS, this month only! Learn More\u200b (888) 851-4857 Get a Free Quote Baths Roofing Gutters Windows Doors Siding Projects About The CLEAR CHOICE for Your Home Remodeling Needs Southern New Hampshire and Northern Massachusetts Home Improvements Backed by Local Expertise Since 2004. THIS MONTH ONLY 30% Off Any Project! Plus, No Interest & No Payments for 18 Months! Terms and Conditions Apply. Name Email Phone Address service Service Schedule An Appointment Check Get a Free Quote By submitting this form, I authorize Clear Choice Home Improvements to contact me with information about its products via mail, email, phone and/or text at the contact information provided above using automated telephone technology and prerecorded messages, even if I am on the National or Local Do Not Call List. I understand that consent is not a condition of purchase. Message/data rates apply . I may opt out at any time by texting STOP. Terms of Use and Privacy Policy. Our Trusted Brands Previous Next Windows, Roofing, & Baths Clear Choice Home Improvements helps homeowners across Southern NH and Northern MA protect and upgrade their homes through expert craftsmanship, premium products, and remodeling solutions built to last. Bathroom Remodeling Our experts provide fast bathroom remodels to give homeowners safer, low-maintenance, and lifetime-backed tubs and showers. Learn More Roofing Our contractors replace and protect roofs fast, keeping your home weather-tight and energy-efficient. Learn More Gutters Choose seamless gutters and gutter guards to stop clogs, channel water safely, and lower maintenance for you. Learn More Windows Install energy-saving windows from brands like OKNA that cut drafts and lower utility bills. Learn More Doors We can install durable, customized entry and patio doors to boost your home's security and style. Learn More Siding Upgrade with new siding installation and boost curb appeal while protecting your home for decades. Learn More Limited Time Offers 30% Off Any Project Upgrade your home for less with 30% off ANY window, roofing, siding, gutter or bathroom project. Expires 10/19/2026 Share Learn More BUY NOW, PAY LATER with FLEXIBLE FINANING OPTIONS Financing options include no Interest and no payments for 18 months. Terms and conditions apply. Share Learn More Protect Your Investment with Strong Warranties Enjoy added peace of mind with warranty options for your home improvement project. Share Learn More View All O",
+  "fields": {
+   "f0": {
+    "label": "Name",
+    "type": "text",
+    "name": "name"
+   },
+   "f1": {
+    "label": "Email",
+    "type": "text",
+    "name": "email"
+   },
+   "f2": {
+    "label": "Phone",
+    "type": "text",
+    "name": "phone"
+   },
+   "f3": {
+    "label": "Address",
+    "type": "text",
+    "name": "address"
+   },
+   "f4": {
+    "label": "By submitting this form, I authorize Clear Choice Home Improvements to contact me with information about its p",
+    "type": "checkbox",
+    "name": "agree"
+   }
+  },
+  "shipped_checks": {
+   "offer": 23,
+   "sweepstakes": 2,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 96
+  },
+  "split": "tune"
+ },
+ {
+  "id": 57,
+  "url": "https://hometownrestyling.com/home-makeover-sweepstakes/",
+  "label": "sweepstakes",
+  "why": "",
+  "page": "*Limited Time Offer* Up to $250 off per Window, or 0% Financing for 60 Months. Learn More About Services Financing Sweepstakes Blog Inspiration Contact Free Quote 319-378-1221 Home Makeover Sweepstakes Win a $15,000 Dream Home Makeover Enter Now To celebrate 40 years and to say thank you to homeowners in Eastern Iowa, we\u2019re giving away $30,000 through two Home Makeover Sweepstakes in 2026. Each sweepstakes will award one winner a $15,000 Hometown Restyling gift certificate. The good news! You only have to enter once by filling out the form below to make yourself eligible to win either of the two 2026 sweepstakes. Note: you can only win one of the sweepstakes! (See rules). So, whether you want to replace old windows or doors, remodel your kitchen or bath, or add a sunroom or deck to your home, our Hometown Restyling team is excited to make your dreams come true. Fill out the form, and you could be our next lucky winner! Winners Announced A winner for the first sweepstakes will be announced after June 30, 2026. A winner for the second sweepstakes will be announced after December 30, 2026. Fill Out the Form Be sure to complete all of the fields or we may not be able to process your entry. Fields marked with an * are required First Name * Last Name * Address * Zip / Post Code * Phone * Email * I would be most interested in the following: * --- Windows Doors Siding Deck Pergola Sunroom Bath Remodel Where did you hear about our website? * --- Better Business Bureau Google Search TV Commercial Facebook Home Show Yard Sign Val Pak Flyer in the mail Previous Customer Referral from a Friend, Neighbor Other Yes, I would also like to discuss a project with a Home Town expert. (Choose Any/All That Apply) Windows Siding Entry Doors Patio Doors Sunrooms Pergola Decks Bathroom Remodeling By completing this form, I agree to be contacted by phone, text message and email to inform me of sweepstake results, and to learn more about future sales, events, or promotions. By entering this contest, I also understand that Hometown Restyling may contact me by phone, text message or email. By pressing Submit I agree to receive text messages from Home Town Restyling to the provided mobile number and also agree to the Home Town Restyling Terms & Conditions and Privacy Policy, which state that we will never share your personal information or spam you. Sweepstakes Rules Previous Sweepstakes Winners Kyle and Sarah Gardiner Coralville, IA - 2019 Amy and Brent Paulson Cedar Rapids, IA - 2019",
+  "fields": {
+   "f0": {
+    "label": "First Name *",
+    "type": "text",
+    "name": "nf-field-88-textbox"
+   },
+   "f1": {
+    "label": "Last Name *",
+    "type": "text",
+    "name": "lname"
+   },
+   "f2": {
+    "label": "Address *",
+    "type": "text",
+    "name": "address"
+   },
+   "f3": {
+    "label": "Zip / Post Code *",
+    "type": "text",
+    "name": "zip"
+   },
+   "f4": {
+    "label": "Phone *",
+    "type": "tel",
+    "name": "phone"
+   },
+   "f5": {
+    "label": "Email *",
+    "type": "email",
+    "name": "email"
+   },
+   "f6": {
+    "label": "Select a Product *",
+    "type": "select",
+    "name": "nf-field-95",
+    "options": [
+     "---",
+     "Windows",
+     "Doors",
+     "Siding",
+     "Deck",
+     "Pergola",
+     "Sunroom",
+     "Bath Remodel"
+    ]
+   },
+   "f7": {
+    "label": "Referral Source *",
+    "type": "select",
+    "name": "nf-field-97",
+    "options": [
+     "---",
+     "Better Business Bureau",
+     "Google Search",
+     "TV Commercial",
+     "Facebook",
+     "Home Show",
+     "Yard Sign",
+     "Val Pak"
+    ]
+   },
+   "f8": {
+    "label": "Windows",
+    "type": "checkbox",
+    "name": "nf-field-99"
+   },
+   "f9": {
+    "label": "Siding",
+    "type": "checkbox",
+    "name": "nf-field-99"
+   },
+   "f10": {
+    "label": "Entry Doors",
+    "type": "checkbox",
+    "name": "nf-field-99"
+   },
+   "f11": {
+    "label": "Patio Doors",
+    "type": "checkbox",
+    "name": "nf-field-99"
+   },
+   "f12": {
+    "label": "Sunrooms",
+    "type": "checkbox",
+    "name": "nf-field-100"
+   },
+   "f13": {
+    "label": "Pergola",
+    "type": "checkbox",
+    "name": "nf-field-100"
+   },
+   "f14": {
+    "label": "Decks",
+    "type": "checkbox",
+    "name": "nf-field-100"
+   },
+   "f15": {
+    "label": "Bathroom Remodeling",
+    "type": "checkbox",
+    "name": "nf-field-100"
+   }
+  },
+  "shipped_checks": {
+   "offer": 16,
+   "sweepstakes": 98,
+   "cause": 1,
+   "restricted": 2,
+   "excluded": 89
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 64,
+  "url": "https://subrosabrand.com/freestickers/",
+  "label": "fill",
+  "why": "",
+  "page": "HOME SHOP ZINE BIKE CHECK VIDEO TEAM INFO ABOUT US COOKIE POLICY RETURN POLICY CONTACT & WARRANTY TERMS & CONDITIONS NEWSLETTER Facebook-f Twitter Instagram Youtube Tiktok FREE STICKER REQUEST FREE STICKERS Name * Email * Phone * Address * Address Address City City State/Province State/Province Zip/Postal Zip/Postal Country Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi C\u00f4te d'Ivoire Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands (Malvinas) Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russia Rwanda Saint Barthelemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Island",
+  "fields": {
+   "f0": {
+    "label": "Name *",
+    "type": "text",
+    "name": "item_meta[17]"
+   },
+   "f1": {
+    "label": "Email *",
+    "type": "email",
+    "name": "item_meta[18]"
+   },
+   "f2": {
+    "label": "Phone *",
+    "type": "tel",
+    "name": "item_meta[28]"
+   },
+   "f3": {
+    "label": "Address",
+    "type": "text",
+    "name": "item_meta[22][line1]"
+   },
+   "f4": {
+    "label": "Address",
+    "type": "text",
+    "name": "item_meta[22][line2]"
+   },
+   "f5": {
+    "label": "City",
+    "type": "text",
+    "name": "item_meta[22][city]"
+   },
+   "f6": {
+    "label": "State/Province",
+    "type": "text",
+    "name": "item_meta[22][state]"
+   },
+   "f7": {
+    "label": "Zip/Postal",
+    "type": "text",
+    "name": "item_meta[22][zip]"
+   },
+   "f8": {
+    "label": "Country",
+    "type": "select",
+    "name": "item_meta[22][country]",
+    "options": [
+     "Afghanistan",
+     "Aland Islands",
+     "Albania",
+     "Algeria",
+     "American Samoa",
+     "Andorra",
+     "Angola",
+     "Anguilla"
+    ]
+   },
+   "f9": {
+    "label": "How did you hear about Subrosa? *",
+    "type": "textarea",
+    "name": "item_meta[23]"
+   },
+   "f10": {
+    "label": "Who is your favorite Subrosa Team Rider *",
+    "type": "text",
+    "name": "item_meta[24]"
+   },
+   "f11": {
+    "label": "Your riding style *",
+    "type": "select",
+    "name": "item_meta[25]",
+    "options": [
+     "Dirt",
+     "Racing",
+     "Street",
+     "Skatepark"
+    ]
+   },
+   "f12": {
+    "label": "Skateboard",
+    "type": "checkbox",
+    "name": "item_meta[26][]"
+   },
+   "f13": {
+    "label": "Mountain Bike",
+    "type": "checkbox",
+    "name": "item_meta[26][]"
+   },
+   "f14": {
+    "label": "Scooter",
+    "type": "checkbox",
+    "name": "item_meta[26][]"
+   },
+   "f15": {
+    "label": "Motocross",
+    "type": "checkbox",
+    "name": "item_meta[26][]"
+   },
+   "f16": {
+    "label": "Apparel",
+    "type": "checkbox",
+    "name": "item_meta[27][]"
+   },
+   "f17": {
+    "label": "Grips",
+    "type": "checkbox",
+    "name": "item_meta[27][]"
+   },
+   "f18": {
+    "label": "Frame",
+    "type": "checkbox",
+    "name": "item_meta[27][]"
+   },
+   "f19": {
+    "label": "Pegs",
+    "type": "checkbox",
+    "name": "item_meta[27][]"
+   },
+   "f20": {
+    "label": "Other",
+    "type": "checkbox",
+    "name": "item_meta[27][other_4]"
+   },
+   "f21": {
+    "label": "If you are human, leave this field blank.",
+    "type": "text",
+    "name": "frm_verify"
+   }
+  },
+  "shipped_checks": {
+   "offer": 93,
+   "sweepstakes": 11,
+   "cause": 2,
+   "restricted": 5,
+   "excluded": 14
+  },
+  "split": "tune"
+ },
+ {
+  "id": 65,
+  "url": "https://dblongboards.com/db-longboards-sticker-requests",
+  "label": "not_offer",
+  "why": "Stickers are requested by mailing a stamped envelope; the page's form is something else.",
+  "page": "SKIP TO CONTENT LOGIN FOR WHOLESALE PRICES. NO ACCOUNT? CALL TO APPLY: +1 (253) 235-0747 SIGN IN CREATE AN ACCOUNT ALL BOARDS COMPONENTSACCESSORIES SALE SEARCH SEARCH MY CART HOME DB LONGBOARDS STICKER REQUESTS If you would like to receive some DB stickers or a DB product catalog please follow these directions. 1. Get out two envelopes and two Stamps. 2. On the first envelope write your home address in the center of the envelope (the section of the letter designated for the recipient). 3. Put a stamp on the letter. 4. Now, place the letter you just put your address on into another envelope and seal it. 5. Put your address in the top left as the \"sender\" and put: DB Longboards: ATTN Free stickers 2519 Pacific Highway E STE B Fife WA 98424 Make sure to draw some kind of picture on the back of the envelope that will entertain us! No picture, No stickers. Put a stamp on the envelope and put it into a postal box. A couple weeks later you'll find some DB stickers in your mailbox in the self addressed envelope that you mailed us. (253) 235 1811 hello@origindistribution.com COMPANY About Us Contact Us New Dealer Info FAQ Warranty Info Privacy Policy BRAND LINKS DB Longboards DB Skimboards Rayne Cloudride Atlas Flow Surf Skates LET'S STAY IN TOUCH! Sign Up Recently Viewed Copyrights \u00ae 2020 by Origin Distribution. All Rights Reserved. ",
+  "fields": {
+   "f0": {
+    "label": "SEARCH",
+    "type": "text",
+    "name": "q"
+   },
+   "f1": {
+    "label": "Enter your email address",
+    "type": "email",
+    "name": "email"
+   }
+  },
+  "shipped_checks": {
+   "offer": 69,
+   "sweepstakes": 4,
+   "cause": 1,
+   "restricted": 12,
+   "excluded": 17
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 66,
+  "url": "https://www.freestyleusa.com/pages/sticker-request-form",
+  "label": "fill",
+  "why": "",
+  "page": "\u25a1 Skip to content FREE SHIPPING ON DOMESTIC ORDERS $60+ | SHIPPING INFO WATCHES APPLE WATCH\u2122 STRAPS SMART STRAPS STRAPS | PARTS APPAREL | ACCESSORIES SALE GIFT CARD BRAND HELP 0 Cart, with 0 items SPEND $60 AND GET FREE DOMESTIC SHIPPING. You have no items in your cart! YOU MIGHT ALSO LIKE THESE STICKER Sale Price: $5 Regular Price: $10 SURF CITY Retro Cutback Snapback Hat $35 Continue Shopping STICKER REQUEST Join Our Newsletter support@freestyleusa.com Call Toll-Free +1 (800) 776-6449 , opens in a new tab , opens in a new tab , opens in a new tab , opens in a new tab , opens in a new tab , opens in a new tab CUSTOMER SUPPORT FAQ Repairs & Spare Parts Warranty Instruction Manuals How-to Videos Store Locator Giveaway Terms & Conditions Contact Us ORDERS AND RETURNS Shipping Track Your Order Returns/Exchanges EU Withdrawal Request Military/First Responders Discount BRAND Our Story VIP Rewards Collabs Become an Ambassador Sponsorships Lookbook Terms of Service | Privacy Policy | Accessibility Statement | \u00a9 1995-2026 Freestyle Brands, LLC Do not sell or share my personal information | Customer data requests Untitled Form Sticker Request FIRST NAME: * LAST NAME: * EMAIL * ADDRESS STREET ADDRESS * ADDRESS LINE 2 CITY * STATE / PROVINCE / REGION * POSTAL / ZIP CODE * Afghanistan Albania Algeria Andorra Antigua and Barbuda Argentina Armenia Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bhutan Bolivia Bosnia and Herzegovina Botswana Brazil Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Central African Republic Chad Chile China Colombia Comoros Congo Cook Islands and Niue Costa Rica C\u00f4te d'Ivoire Croatia Cuba Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Fiji Finland France Gabon Gambia Georgia Germany Ghana Greece Grenada Guatemala Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kiribati North Korea South Korea Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Mauritania Mauritius Mexico Micronesia Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Norway Oman Pakistan Palau Panama Papua New Gu",
+  "fields": {
+   "f0": {
+    "label": "Your Email",
+    "type": "email",
+    "name": "email"
+   },
+   "f1": {
+    "label": "FIRST NAME: *",
+    "type": "text",
+    "name": "first_name"
+   },
+   "f2": {
+    "label": "LAST NAME: *",
+    "type": "text",
+    "name": "last_name"
+   },
+   "f3": {
+    "label": "email",
+    "type": "text",
+    "name": "email"
+   },
+   "f4": {
+    "label": "STREET ADDRESS *",
+    "type": "text",
+    "name": "address_street"
+   },
+   "f5": {
+    "label": "ADDRESS LINE 2",
+    "type": "text",
+    "name": "address_street2"
+   },
+   "f6": {
+    "label": "CITY *",
+    "type": "text",
+    "name": "address_city"
+   },
+   "f7": {
+    "label": "STATE / PROVINCE / REGION *",
+    "type": "text",
+    "name": "address_state"
+   },
+   "f8": {
+    "label": "POSTAL / ZIP CODE *",
+    "type": "text",
+    "name": "address_zip"
+   },
+   "f9": {
+    "label": "COUNTRY *",
+    "type": "select",
+    "name": "address_country",
+    "options": [
+     "Afghanistan",
+     "Albania",
+     "Algeria",
+     "Andorra",
+     "Antigua and Barbuda",
+     "Argentina",
+     "Armenia",
+     "Australia"
+    ]
+   },
+   "f10": {
+    "label": "MALE",
+    "type": "radio",
+    "name": "gender"
+   },
+   "f11": {
+    "label": "FEMALE",
+    "type": "radio",
+    "name": "gender"
+   },
+   "f12": {
+    "label": "MM/",
+    "type": "text",
+    "name": "dob_month"
+   },
+   "f13": {
+    "label": "DD/",
+    "type": "text",
+    "name": "dob_day"
+   },
+   "f14": {
+    "label": "YYYY",
+    "type": "text",
+    "name": "dob_year"
+   }
+  },
+  "shipped_checks": {
+   "offer": 84,
+   "sweepstakes": 39,
+   "cause": 2,
+   "restricted": 7,
+   "excluded": 17
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 67,
+  "url": "https://www.sugarloaf.com/sticker-requests",
+  "label": "fill",
+  "why": "",
+  "page": "We use cookies and analytics tools to share your browsing activity\u2014like pages and products viewed\u2014with our service providers and advertising networks. By using our website, you agree to this. We also share this information to improve our site, promote it to you, and enable social media sharing. For details, see our Privacy Policy. Privacy Policy Manage Cookie Settings SKIP TO MAIN CONTENT Sugarloaf Open conditions trails menu 48\u00b0F Open or Close main menu Sugarloaf Stickers SUGARLOAF STICKER INSTAGRAM PAGE Home Sticker Requests GET YOURS Sugarloaf Stickers SUGARLOAF STICKER INSTAGRAM PAGE RECOGNIZABLE WORLDWIDE Sugarloaf Sticker As a Sugarloafer, it doesn't matter where you are\u2014spot that beautiful blue triangle, and you know you're among friends. The ubiquitous Sugarloaf sticker has been spotted virtually everywhere\u2013 from the top of Mount Everest to the Great Wall of China, even down in Antarctica. If you need some stickers to share your Sugarloaf love, fill out the form below, and we'll send you up to 5 stickers at no cost. And wherever your sticker ends up, snap a photo and hashtag #sugarloafsticker on Instagram\u2013 We will share your snap on the Sugarloaf Sticker Instagram page. Help Help Center Contact Media & Press Charitable Causes Donation Requests Boyne Forever Foundation Accessibility Policies Shop Logowear Shop My Account Boyne Rewards Gift Cards Retail Shops Terms and Conditions Resort Employment Resort Safety Partners Parking & Shuttles Mountainside Real Estate Sugarloaf App News & Updates Get snow alerts, offers, updates, and more. Sign Up for Email Sign Up for Texts 1-800-843-5623 5092 Sugarloaf Access Rd. Carrabassett Valley, Maine 04947 Facebook Instagram X YouTube Terms & Conditions Privacy Policy Web Accessibility Cookie Preferences Do Not Sell or Share \u00a9 Sugarloaf 2026 Sugarloaf Sticker Request Name * First Last Email * Address * Street Address Address Line 2 City State / Province / Region Postal / Zip Code United States United Kingdom Australia Canada France New Zealand India Brazil ---- Afghanistan \u00c5land Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua & Barbuda Argentina Armenia Aruba Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia & Herzegovina Botswana Bouvet Island British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Cape Verde Caribbean Netherlands Cayman Islands Central African Rep",
+  "fields": {
+   "f0": {
+    "label": "First",
+    "type": "text",
+    "name": "Field1"
+   },
+   "f1": {
+    "label": "Last",
+    "type": "text",
+    "name": "Field2"
+   },
+   "f2": {
+    "label": "Email *",
+    "type": "email",
+    "name": "Field3"
+   },
+   "f3": {
+    "label": "Street Address",
+    "type": "text",
+    "name": "Field4"
+   },
+   "f4": {
+    "label": "Address Line 2",
+    "type": "text",
+    "name": "Field5"
+   },
+   "f5": {
+    "label": "City",
+    "type": "text",
+    "name": "Field6"
+   },
+   "f6": {
+    "label": "State / Province / Region",
+    "type": "text",
+    "name": "Field7"
+   },
+   "f7": {
+    "label": "Postal / Zip Code",
+    "type": "text",
+    "name": "Field8"
+   },
+   "f8": {
+    "label": "Country",
+    "type": "select",
+    "name": "Field9",
+    "options": [
+     "United States",
+     "United Kingdom",
+     "Australia",
+     "Canada",
+     "France",
+     "New Zealand",
+     "India",
+     "Brazil"
+    ]
+   },
+   "f9": {
+    "label": "How many stickers do you need? (Max 5 per request.) *",
+    "type": "select",
+    "name": "Field10",
+    "options": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "shipped_checks": {
+   "offer": 96,
+   "sweepstakes": 2,
+   "cause": 2,
+   "restricted": 5,
+   "excluded": 5
+  },
+  "split": "tune"
+ },
+ {
+  "id": 69,
+  "url": "https://www.saucony.com/en/stickers",
+  "label": "fill",
+  "why": "",
+  "page": "Skip to content FREE SHIPPING ON ORDERS $75+ DON'T SWEAT IT. RETURNS ARE FREE. FREE SHIPPING ON ORDERS $75+ SHOP AI BETA SHOP AI - AI Assistant Beta Chat is powered by AI. We may store chat history to improve results. Avoid sharing personal or sensitive information. See Privacy Policy. HELP Find a store 3 MEN WOMEN KIDS SALE LIMITED TIME OFFER Free Express Shipping On Select Endorphin Styles With Code: FAST Home Sticker Request * First Name: * Last Name: * Email Address: * Street Address: * City State Select... AA - Armed Forces AE - Armed Forces AP - Armed Forces Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont US Virgin Islands Virginia Washington West Virginia Wisconsin Wyoming * Zip Code Yes, I am over the age of 13. * Yes, I'd like to receive email marketing communications from Saucony. Privacy Policy Submit At this time, the sticker request is open only to U.S. consumers. Sign up to get the inside scoop on fresh releases, limited editions, and exclusive offers. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Saucony Privacy Policy \u2192 Submit Follow us on our social networks: Instagram Facebook LinkedIn Footer Links THE ORIGINAL RUNNING BRAND 1898 is where it all began. Since then, Saucony has rightfully taken its place as one of the world's leading running companies. Built on a legacy of performance, Saucony continues to offer best-in-class running shoes, running apparel, and timeless retro footwear that has helped shape who we are today. The next great innovation has always been right at our fingertips\u2014from speed shoes to trail running shoes and walking shoes to casual classics. Get exclusive access to new arrivals, top sellers, sales, extended sizes, and online-only offers. POPULAR LINKS Shoe Advisor Men's Running Women's Running Size Chart Gift Cards Promotions Military & Medical Discounts Student Discounts Sale MY ACCOUNT Order Status Sign In Order Return Form RESOURCES About Us Limited Warranty Careers FAQ Customer Service Shipping Policy Contact Us Find a Store Product Testing Affiliates Unsubscribe ",
+  "fields": {
+   "f0": {
+    "label": "Search for products",
+    "type": "text",
+    "name": "q"
+   },
+   "f1": {
+    "label": "* First Name:",
+    "type": "text",
+    "name": "dwfrm_stickers_a__FirstName"
+   },
+   "f2": {
+    "label": "* Last Name:",
+    "type": "text",
+    "name": "dwfrm_stickers_b__LastName"
+   },
+   "f3": {
+    "label": "* Email Address:",
+    "type": "text",
+    "name": "dwfrm_stickers_c__Email"
+   },
+   "f4": {
+    "label": "* Street Address:",
+    "type": "text",
+    "name": "dwfrm_stickers_d__Address"
+   },
+   "f5": {
+    "label": "* City",
+    "type": "text",
+    "name": "dwfrm_stickers_e__City"
+   },
+   "f6": {
+    "label": "State",
+    "type": "select",
+    "name": "dwfrm_stickers_f__State_stateUS",
+    "options": [
+     "Select...",
+     "AA - Armed Forces",
+     "AE - Armed Forces",
+     "AP - Armed Forces",
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas"
+    ]
+   },
+   "f7": {
+    "label": "* Zip Code",
+    "type": "text",
+    "name": "dwfrm_stickers_g__ZipCode"
+   },
+   "f8": {
+    "label": "Required checkbox for 13 or older age verification.",
+    "type": "checkbox",
+    "name": "dwfrm_sticker_age"
+   },
+   "f9": {
+    "label": "Yes, I'd like to receive email marketing communications from Saucony.",
+    "type": "checkbox",
+    "name": "dwfrm_stickers_h__EmailOptIn"
+   },
+   "f10": {
+    "label": "Your Email",
+    "type": "email",
+    "name": "EmailAddress"
+   }
+  },
+  "shipped_checks": {
+   "offer": 95,
+   "sweepstakes": 7,
+   "cause": 1,
+   "restricted": 3,
+   "excluded": 4
+  },
+  "split": "held_out"
+ },
+ {
+  "id": 71,
+  "url": "https://www.bodyglove.com/pages/request-stickers",
+  "label": "not_offer",
+  "why": "Stickers are requested by mail with a self-addressed envelope; there is no request form.",
+  "page": "TRANSLATION MISSING: EN.ACCESSIBILITY.SKIP_TO_TEXT ORDERS $150+ SHIP FREE! EXCLUDES OVERSIZE JOIN THE CREW - SIGN UP & SAVE 15% ORDERS $150+ SHIP FREE! EXCLUDES OVERSIZE JOIN THE CREW - SIGN UP & SAVE 15% ORDERS $150+ SHIP FREE! EXCLUDES OVERSIZE || PAUSE SLIDE ROTATION STORES 0 WOMEN MEN KIDS WETSUITS LIFE JACKETS ACCESSORIES PET DIVISION SALE BLOG Search REQUEST BODY GLOVE STICKERS Looking for Body Glove stickers? We're happy to send them your way! Just send your sticker request with a self-addressed envelope to: Body Glove Customer Service 504 Big Bear Blvd. Columbia, MO 65202 Subscribe To Emails Get 15% off your first order when you subscribe to our emails. EMAIL GO About Us Our Story Team Blog Gift Cards PFD Buying Guide Wetsuits Buying Guide Customer Service Help Center Contact Us Returns Klarna FAQ Afterpay FAQ Size & Fit Guide Privacy Policy Privacy Request Form Terms of Use CONNECT Connect with us on our socials! MEN WOMEN Accepted Payments \u00a9 2026 Body Glove. ",
+  "fields": {
+   "f0": {
+    "label": "EMAIL",
+    "type": "email",
+    "name": "contact[email]"
+   }
+  },
+  "shipped_checks": {
+   "offer": 55,
+   "sweepstakes": 3,
+   "cause": 1,
+   "restricted": 6,
+   "excluded": 10
+  },
+  "split": "tune"
+ },
+ {
+  "id": 72,
+  "url": "https://www.hupy.com/reports/slow-down-save-lives-bumper-sticker.cfm",
+  "label": "excluded",
+  "why": "Free bumper sticker mailed only to Wisconsin, Illinois and Iowa residents.",
+  "page": "ESPA\u00d1OL 1-800-800-5678 ALWAYS OPEN - Available 24/7/365 HOME WHO WE ARE WHAT WE DO RESULTS RESOURCE CENTER LOCATIONS CONTACT Home Promotions Slow Down, Save Lives Bumper Sticker Request a FREE \"SLOW DOWN. SAVE LIVES\" Bumper Sticker! Fill Out the Form State * Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming I am a resident of WI, IA, or IL * Please sign me up for your ENewsletter SUBMIT Protected By Google reCAPTCHAPrivacy - Terms The National Highway Traffic Safety Administration (NHTSA) reports that nearly a third of all motor vehicle fatalities from 1997 to 2017 involved speeding. Speeding doesn't just endanger the safety of those who do it, it puts the lives of everybody else on the road in jeopardy. Often, drivers that speed, believe they are justified in doing so; perhaps they're running late or attempting to escape traffic congestion. However, posted speed limits exist for a reason, and to ignore them is both perilous and irresponsible. Help Hupy and Abraham raise awareness of the dangers of speeding with a free \u201cSLOW DOWN. SAVE LIVES.\u201d sticker. Put the sticker on your car or bike to remind others exactly what's at stake when they drive aggressively. To request your FREE sticker, please complete the form on the page. * Due to an overwhelming response, stickers will be mailed only to residents in Wisconsin, Illinois, and Iowa. If you have a special need and reside outside of this service area, please send an email, detailing your request to info@hupy.com. Thank you! \"Slow Down. Save Lives.\" yard signs are also available at our Milwaukee personal injury law office. LOCATIONS WISCONSIN ILLINOIS IOWA Milwaukee Appleton Green Bay Madison Wausau Bloomington Gurnee Rockford Cedar Rapids West Des Moines Davenport Hupy and Abraham, S.C., P.C. 2020 Kimberly Rd, Ste B Davenport, IA 52807 Phone: 563-275-6892 Toll Free: 888-807-2752 Fax: 563-359-0592 Office Hours: Available 24/7/365 OFFICE INFO GET DIRECTIONS Hupy and Abraham, S.C. 111 E Kilbourn Ave Ste 1100 Milwaukee, WI 53202 Phone: 414-223-4800 Toll Free: 1-800-800-5678 Fax",
+  "fields": {
+   "f0": {
+    "label": "First Name *",
+    "type": "text",
+    "name": "firstname"
+   },
+   "f1": {
+    "label": "Last Name *",
+    "type": "text",
+    "name": "lastname"
+   },
+   "f2": {
+    "label": "Street Address *",
+    "type": "text",
+    "name": "address"
+   },
+   "f3": {
+    "label": "City *",
+    "type": "text",
+    "name": "city"
+   },
+   "f4": {
+    "label": "State *",
+    "type": "select",
+    "name": "state",
+    "options": [
+     "State *",
+     "Alabama",
+     "Alaska",
+     "Arizona",
+     "Arkansas",
+     "California",
+     "Colorado",
+     "Connecticut"
+    ]
+   },
+   "f5": {
+    "label": "Zip *",
+    "type": "text",
+    "name": "zip"
+   },
+   "f6": {
+    "label": "Phone",
+    "type": "tel",
+    "name": "phone"
+   },
+   "f7": {
+    "label": "Email *",
+    "type": "email",
+    "name": "email"
+   },
+   "f8": {
+    "label": "I am a resident of WI, IA, or IL *",
+    "type": "checkbox",
+    "name": "resident"
+   },
+   "f9": {
+    "label": "Please sign me up for your ENewsletter",
+    "type": "checkbox",
+    "name": "checkboxes"
+   }
+  },
+  "shipped_checks": {
+   "offer": 97,
+   "sweepstakes": 3,
+   "cause": 33,
+   "restricted": 2,
+   "excluded": 95
+  },
+  "split": "tune"
+ },
+ {
+  "id": 73,
+  "url": "https://www.theinsightpartners.com/sample/TIPRE00006491",
+  "label": "not_offer",
+  "why": "A free sample of a paid market-research report: a sales lead form.",
+  "page": "Home Industries Report Store Services Resources eInsights Contact Food and Beverages Pet Food Market... Request Free Sample Get Free Sample for Pet Food Market Full Name * Phone * Country * Select Country Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Caribbean Netherlands Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, Democratic Republic of Cook Islands Costa Rica Cote dIvoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Global Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard and McDonald Islands Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kuwait Kyrgyzstan Lao Peoples Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macau Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Barthelemy Saint Helena Saint Kitts and Nevis Saint Lucia Saint Vincent and the Grenadines Saint-Martin (France) Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka St. Pierre and Miquelon Sud",
+  "fields": {
+   "f0": {
+    "label": "Full Name *",
+    "type": "text",
+    "name": "firstname"
+   },
+   "f1": {
+    "label": "Phone *",
+    "type": "text",
+    "name": "phone"
+   },
+   "f2": {
+    "label": "Email ID * (Use your business email for a faster response)",
+    "type": "email",
+    "name": "email"
+   },
+   "f3": {
+    "label": "Company *",
+    "type": "text",
+    "name": "company"
+   },
+   "f4": {
+    "label": "Job Title *",
+    "type": "text",
+    "name": "job_title"
+   },
+   "f5": {
+    "label": "Additional Comments",
+    "type": "textarea",
+    "name": "comment"
+   }
+  },
+  "shipped_checks": {
+   "offer": 90,
+   "sweepstakes": 3,
+   "cause": 1,
+   "restricted": 62,
+   "excluded": 15
+  },
+  "split": "tune"
+ },
+ {
+  "id": 74,
+  "url": "https://www.magazinesdirect.com/row/ultimate-nba-fan-pack/dp/e0ee424f",
+  "label": "not_offer",
+  "why": "An NBA fan pack magazine for sale.",
+  "page": "Search Deliver to Australia Renew subscription Account Basket MAGAZINES A-Z CATEGORIES GUIDES & SPECIALS SINGLE ISSUES BINDERS CLEARANCE GIFTING 1 Product current 2 Basket pending 3 Your details pending 4 Payment pending SHOP WITH CONFIDENCE Direct from the publisher Secure checkout direct from the official publisher Delivery included Never miss an issue Ultimate NBA Fan Pack Includes 8 Gifts Inside Founded over 75 years ago, the NBA has seen more than 4,000 players suit up and take to the court in that time. In NBA All-Stars we\u2019re here to celebrate the league\u2019s undisputed kings of the court, from the sharp shooters, showmen and floor generals who get the fans up out of their seats to the giants who have turned defense into an art form. Turn the page to discover the fascinating stories of legends from the NBA\u2019s most iconic eras, such as Michael Jordan, Wilt Chamberlain and Larry Bird, as well as today\u2019s hottest prospects and modern greats, including Victor Wembanyama, Luka Don\u010di\u0107 and LeBron James. You\u2019ll also discover the greatest games, coaches, teams and more from the NBA\u2019s rich history. And that\u2019s not all \u2013 we\u2019ve also got eight eye-catching A3 posters of your favourite NBA stars inside! Read more details Confirm your choice Print Print magazine delivered to your door Digital Instant digital access This order will be a gift Total price today: $22.99 Add to basket Footer MAGAZINES Women'sMen'sCountry and EquestrianFashion and CelebritySportsHomes and GardensFood and LifestyleHobbies and LeisureTV & FilmGift IdeasMusicTechGamingMagazine Finder CUSTOMER SERVICE Contact usManage SubscriptionFAQsDigital DownloadsImages to Purchase CORPORATE About UsTerms and ConditionsLicensing & SyndicationPrivacy PolicyCookie Information \u00a9 2026 Future Publishing Limited. All rights reserved. Welcome to Magazines Direct Please select your delivery country to ensure: Your address is available to select at checkout You see the correct pricing and delivery times Delivery country Search options: Confirm Cancel Your basket No items 0 items in your basket Total: 0 Go to basket Checkout ",
+  "fields": {
+   "f0": {
+    "label": "Search magazines",
+    "type": "text",
+    "name": ""
+   },
+   "f1": {
+    "label": "Search options:",
+    "type": "text",
+    "name": ""
+   }
+  },
+  "shipped_checks": {
+   "offer": 5,
+   "sweepstakes": 2,
+   "cause": 1,
+   "restricted": 3,
+   "excluded": 80
+  },
+  "split": "tune"
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "note": "Proposal 1, from tune page #71 (stickers requested by mail): the offer must be requested through a form on the page.",
+ "order": [
+  "sweepstakes",
+  "excluded",
+  "cause",
+  "restricted",
+  "offer"
+ ],
+ "checks": {
+  "offer": {
+   "threshold": 0.5,
+   "question": "Is `page` a form where a person requests a free physical item (sample, stickers, fan pack, catalog) or free information, with no payment? It must be requested by filling in and sending a form on this page. If the page says to ask by mail, with an envelope, or by email, or the only form here is for something else such as a newsletter, the answer is no."
+  },
+  "sweepstakes": {
+   "threshold": 0.7,
+   "question": "Is `page` an entry form for a sweepstakes, contest, raffle or prize drawing, where only chosen winners get something? A free item sent to everyone who asks is not one."
+  },
+  "cause": {
+   "threshold": 0.4,
+   "question": "Is `page` run by a political campaign, candidate, advocacy or activist group, petition, religious organization or charity fundraiser, or does sending the form sign the person up to support a cause?"
+  },
+  "restricted": {
+   "threshold": 0.5,
+   "question": "Is this offer only for businesses, trade professionals, employees, contractors, members of a program, or existing customers with an order, and not for the general public?"
+  },
+  "excluded": {
+   "threshold": 0.6,
+   "question": "Does `page` limit this offer to a place, such as one city, region or country, that would exclude someone living in Orlando, Florida, USA?"
+  }
+ }
+}
