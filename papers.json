@@ -135,6 +135,46 @@
         "That is the setting prompt-injection research keeps warning about. An agent that reads the open web will read things written for it. This paper walks through how injected instructions leak data and spread between agents.",
         "My rule after this: an agent may read anything, but an offer it finds is not an instruction. The scan script is in the repo.\n\nhttps://arxiv.org/abs/2610.12524"
       ]
+    },
+    {
+      "id": "2610.06454",
+      "title": "AgentPrivArena: Evaluating and Auditing Real-world AI Agent Privacy",
+      "authors": "Shouju Wang, Haopeng Zhang",
+      "date": "2026-10-05",
+      "topic": "Agent security",
+      "says": "Most agent privacy benchmarks look at simulated runs and at what leaks in the final answer. This framework runs agents against real tools and self-hosted services, and measures unnecessary access to personal data during the steps of a task, not only at the end. It also adds a runtime auditor. The authors report substantial privacy risks that outcome-only tests miss.",
+      "mine": "My form-filling agent had a person's name, address and email, and the job of requesting free samples. Nothing leaked in any final answer. The harm was mid-task: it typed those details into a political campaign sign-up that was worded as a free bumper sticker. What made it catchable was a per-form record of exactly which fields were filled with what, plus a screenshot.",
+      "demo": "04-web-agent-harness",
+      "demo_note": "The agent returns a list of every field it filled and with what. That list is the audit trail.",
+      "tweet": "My agent never leaked anything in its answers.\n\nIt did type a person's name and address into a political sign-up, mid-task, because the page said \"free bumper sticker\".\n\nAgent privacy fails in the steps, not the summary. This paper measures that:\nhttps://arxiv.org/abs/2610.06454",
+      "thread": [
+        "We mostly test agent privacy by reading what the agent says at the end.\n\nThat would have missed the worst thing my agent did this week.",
+        "The agent's job: request free samples and stickers, using a real name, address and email.\n\nOne page offered a free bumper sticker. It was a campaign sign-up. The agent filled it in and pressed send.",
+        "Its final report said: submitted, no confirmation shown. Accurate, and useless. Nothing in that sentence tells you personal details went to a political list.",
+        "What caught it was boring: a record of every field filled on every form, and a screenshot. I now treat that record as the product, not a debug log.",
+        "This paper makes the same move at scale: real tools, and metrics for unnecessary data access during the run, plus a runtime auditor.\n\nhttps://arxiv.org/abs/2610.06454"
+      ]
+    },
+    {
+      "id": "2610.09264",
+      "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+      "authors": "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
+      "date": "2026-10-07",
+      "topic": "Agent security",
+      "says": "Coding agents increasingly follow community-shared rule files such as AGENTS.md. This paper shows an attacker can plant instructions in an otherwise harmless rule file so the agent swaps a legitimate dependency for an attacker-controlled package. Their optimized injections had high success rates and transferred across models and agent frameworks.",
+      "mine": "I had a coding agent install a small Mac app by following an instructions file written for agents in the app's repository. The file itself was careful: it told the agent never to run sudo and to verify checksums. The agent still checked independently. It compared the installer script's hash with the release notes, searched the script for network calls, and read what it would write with admin rights. The session's own safety layer then refused the download, and I ran those steps by hand.",
+      "demo": "",
+      "demo_note": "",
+      "tweet": "I had a coding agent install an app by following a file written for agents in someone else's repo.\n\nIt went fine. That's the problem: \"it went fine\" is how you learn to trust those files.\n\nThis paper poisons rule files to swap your dependencies:\nhttps://arxiv.org/abs/2610.09264",
+      "thread": [
+        "More and more repositories ship a file meant for AI agents: how to build, how to install, what to avoid.\n\nI followed one this week. Then I read a paper about poisoning them.",
+        "The file I followed was well written. It told the agent never to run sudo itself and to verify the download's checksum before installing.\n\nGood instructions. Also exactly what a malicious file would say to look trustworthy.",
+        "What the agent did that the file did not ask for: compared the installer script's hash against the release notes, searched it for network calls, and read what it would write with admin rights.",
+        "Then the tool's own safety layer refused the download anyway, and handed me the commands to run by hand. Annoying in the moment. Correct in general.",
+        "The paper shows injected rule-file text getting coding agents to replace real dependencies with attacker packages, with high success across models.\n\nTreat agent-facing files as input, not as policy.\n\nhttps://arxiv.org/abs/2610.09264"
+      ]
     }
-  ]
+  ],
+  "repo": "https://github.com/jalil-dini/field-notes",
+  "repo_note": "Private for now. Make it public before posting anything that says the code is in the repo."
 }
