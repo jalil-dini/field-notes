@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Free sticker request (test page)</title>
+<h1>Request a free sticker</h1>
+<p>Fill out the form and we'll mail you a sticker. This is a local test page with the traps that broke our agent on real sites.</p>
+<!-- Trap 1: a newsletter box outside the real form -->
+<form id="newsletter"><label>Join our newsletter <input name="newsletter_email" placeholder="Email"></label><button>Sign up</button></form>
+<!-- Trap 2: the real form lives inside a frame, where a page reader that only walks the top document sees nothing -->
+<iframe title="request form" style="width:100%;height:520px;border:1px solid #ccc" srcdoc='
+  <form id="req" onsubmit="event.preventDefault(); document.body.innerHTML = `<h2>Thank you! Your sticker request was received.</h2>`">
+    <table>
+      <tr><td>First name *</td><td><input name="fn" required></td></tr>
+      <tr><td>Last name *</td><td><input name="ln" required></td></tr>
+      <tr><td>Email *</td><td><input name="em" type="email" required></td></tr>
+      <tr><td>Street address *</td><td><input name="a1" required></td></tr>
+      <tr><td>City *</td><td><input name="city" required></td></tr>
+      <!-- Trap 3: a native dropdown -->
+      <tr><td>State *</td><td><select name="st" required><option value="">Choose</option><option>Alabama</option><option>Florida</option><option>Georgia</option></select></td></tr>
+      <tr><td>ZIP *</td><td><input name="zip" required></td></tr>
+    </table>
+    <!-- Trap 4: a marketing opt-in that arrives ticked -->
+    <p><label><input type="checkbox" name="optin" checked> Yes, send me offers and news by email</label></p>
+    <p><label><input type="checkbox" name="adult" required> I am 18 or older *</label></p>
+    <button type="submit">Send my sticker</button>
+  </form>'></iframe>

@@ -1,0 +1,140 @@
+{
+  "updated": "2026-10-13",
+  "angle": "Read the paper, then run the experiment. Every post pairs a new arXiv paper with something I built and measured myself, including what went wrong.",
+  "bio": "I read AI papers and then try to break their claims with my own experiments. Agents, guardrails, and why backtests lie. Code for everything I post.",
+  "papers": [
+    {
+      "id": "2608.27734",
+      "title": "What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery",
+      "authors": "Eray Gençay",
+      "date": "2026-08-27",
+      "topic": "Backtests",
+      "says": "When an LLM generates many trading strategies and you report the best one, the result is mostly selection luck. The paper counts every strategy the search tried and deflates the result by that count. Under that test, across two frontier models and up to 100 candidates per search, every LLM-discovered strategy was rejected, while passive benchmarks passed.",
+      "mine": "I ran 702 rule-based and model-driven trading agents over one year of daily prices. The ten stock agents leading after the first 70% of days were up between 300% and 400%. On the last 30% of days they averaged -18.6%, and only 2 of 10 made money. The best agent's +483% came mostly from one all-in trade.",
+      "demo": "01-search-aware-backtest",
+      "demo_note": "Random-walk prices with no edge: try 300 rules and the winner shows +24% in-sample, then about -4% on held-out days.",
+      "tweet": "I ran 702 trading agents over a year of prices.\n\nThe 10 leaders after the first 70% of days were up 300-400%.\n\nOn the last 30% they averaged -18.6%. 2 of 10 made money.\n\nThe best of hundreds is mostly luck. This paper shows how to price that in:\nhttps://arxiv.org/abs/2608.27734",
+      "thread": [
+        "A backtest answers one question: how did this strategy do? It does not tell you how many strategies you tried before you found it.\n\nThat second number changes everything. A thread with my own results.",
+        "I built 702 agents: trend, breakout, dip-buying, rotation, plus model-driven ones. Same cash, same costs, one year of daily prices.\n\nBest stock agent: +483%.\n\nLooks like a discovery. It was one all-in trade on a stock that tripled.",
+        "The check: pick the 10 leaders using only the first 70% of days. Then measure them on the last 30%.\n\nThey averaged -18.6%. The median agent did -1.6%. Holding the index did +6.1%.\n\nThe leaders were the worst place to be.",
+        "You can reproduce the effect with no market at all. On random-walk prices, where no skill is possible, trying 300 rules gives you a winner at +24%. Out of sample it loses.\n\n40 lines of Python, in my repo.",
+        "The paper that does this properly counts every strategy an LLM search tried and deflates the result by that count. Every LLM-discovered strategy failed. Passive benchmarks passed.\n\nhttps://arxiv.org/abs/2608.27734"
+      ]
+    },
+    {
+      "id": "2609.34510",
+      "title": "Can AI Make Money in Crypto? Measuring the Gap from Backtests to Real Markets",
+      "authors": "Xingtong Yu, Jiarun Zhou, Guanlin Ding, Wenkang Wei",
+      "date": "2026-09-28",
+      "topic": "Backtests",
+      "says": "Most AI trading methods are judged on historical backtests. This benchmark runs machine learning, reinforcement learning, LLM and agent-based methods through three stages in crypto markets: backtest, forward paper trading on an exchange, and real-money live trading. The point is to measure how much performance is lost between each stage.",
+      "mine": "I ran a model-driven crypto trader on 1-minute candles with pretend money. Backtest over nine hours: -12.5%. Forward paper trading over the next 18 hours: 110 trades, 6 profitable, down about 13% on a $500 account. A fixed-rule trend follower on daily candles, with no AI in it, was the only crypto approach that survived a held-out check.",
+      "demo": "02-execution-costs",
+      "demo_note": "A scalper that makes +0.5% at zero cost loses 27.8% once each trade costs 0.2%.",
+      "tweet": "I let an AI trade crypto every minute with pretend money.\n\n18 hours. 110 trades. 6 winners. Down 13%.\n\nIts backtest had already said it would lose. The live run agreed.\n\nA new benchmark measures this gap properly, from backtest to paper to real money:\nhttps://arxiv.org/abs/2609.34510",
+      "thread": [
+        "\"Can AI make money in crypto?\" is the title of a new benchmark paper. I had just finished running my own small version of the question.\n\nMy answer so far: not the way I built it. Details below.",
+        "Setup: a fast decision model reads 1-minute candles for 12 coins and picks buy, hold or sell every minute. Pretend money, 0.2% cost per fill.\n\nBacktest, nine hours: -12.5%.",
+        "Then I let it run forward on prices it had never seen.\n\n110 trades in 18 hours. 6 were profitable. The account was down about 13%.\n\nMost trades were small losses that were smaller than the cost of making them.",
+        "What held up better: a plain trend rule on daily candles, no AI. Picked on the first 70% of the year, it still made money on the last 30%. It trailed just holding Bitcoin through a rally.",
+        "The paper runs many method families through backtest, exchange paper trading and real money, and reports how much each loses at each step. That is the comparison I want to see more of.\n\nhttps://arxiv.org/abs/2609.34510"
+      ]
+    },
+    {
+      "id": "2610.05077",
+      "title": "How Execution Assumptions Change Short-Horizon Sharpe Rankings: Evidence from a Synthetic Trading Benchmark",
+      "authors": "Weicheng Xue",
+      "date": "2026-10-04",
+      "topic": "Backtests",
+      "says": "Backtests of LLM trading agents often assume every order fills at the closing price. This paper tests whether that choice only shifts returns or also changes which agent ranks first. Across 2,462 runs, agreement between ideal-fill and stressed-fill rankings fell as low as 0.21 in volatile conditions. The author is careful to say it does not measure trading skill, only that the execution convention can decide the headline.",
+      "mine": "In my per-minute crypto test, each round trip cost 0.4% and a coin rarely moves that much in a few minutes. The busiest strategy made 122 trades in nine hours and 7% of them were profitable.",
+      "demo": "02-execution-costs",
+      "demo_note": "Same three traders, same prices. Only the fee changes, and the ranking reverses.",
+      "tweet": "Same strategies. Same prices. I changed one number: the cost per trade.\n\n0%: the scalper makes +0.5%\n0.05%: -7.5%\n0.2%: -27.8%\n\nThe ranking flips before the strategy changes at all.\n\nA careful paper on exactly this:\nhttps://arxiv.org/abs/2610.05077",
+      "thread": [
+        "Most trading-agent backtests assume your order fills at the closing price, for free.\n\nA new paper asks: does that assumption just inflate returns, or does it change who wins? I tested the same thing.",
+        "Three made-up traders on one synthetic price path: a scalper trading on a 3-minute average, a swing trader on a 60-minute average, and a holder.\n\nAt zero cost, the scalper beats the swing trader.",
+        "Charge 0.05% per trade and the scalper is at -7.5%. Charge 0.2% and it is at -27.8% after 165 trades.\n\nThe swing trader loses too, but far less. The holder barely notices.\n\nNothing about the strategies changed.",
+        "The paper found ranking agreement between ideal and stressed fills dropping to 0.21 in volatile conditions. It also says plainly that it is not measuring skill.\n\nReport your execution assumptions next to your returns.\n\nhttps://arxiv.org/abs/2610.05077"
+      ]
+    },
+    {
+      "id": "2609.05663",
+      "title": "What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets",
+      "authors": "T. J. Barton, Chris Constantakis, Patti Hauseman, Annie Mous",
+      "date": "2026-09-04",
+      "topic": "Agents in production",
+      "says": "A six-month record of thousands of autonomous LLM trading agents with real money. The main finding is that the system around the model shapes behavior more than the strategy text does: a risk slider explains leverage, and a leaderboard cutoff steers what gets picked. Sizing ignored volatility, agents gave back gains they had reached, and neither fleet showed a directional edge.",
+      "mine": "My stock paper trader made no trades on its first day, and the model was not the reason. For the first hour it was reading yesterday's prices. Then its candidate list was too narrow. Then it compared part-day volume with full-day averages, so everything looked quiet. Then a price feed stalled and froze it. Every fault was in the plumbing.",
+      "demo": "04-web-agent-harness",
+      "demo_note": "A different agent, the same lesson: most failures were in the code between the model and the world.",
+      "tweet": "My trading agent made zero trades on day one. I blamed the model.\n\nIt was reading yesterday's prices. Then comparing 30 minutes of volume to full-day averages. Then a stalled feed froze it.\n\nA 6-month study of real agent fleets found the same at scale:\nhttps://arxiv.org/abs/2609.05663",
+      "thread": [
+        "What do LLM trading agents actually do when you give them real money?\n\nA new paper has six months of data from thousands of them. Its first finding matches what I saw on day one of my own small test.",
+        "Their finding: the operating layer decides behavior more than anything written in the strategy prompt. A risk slider explained leverage. A leaderboard cutoff steered selection.",
+        "Mine: day one, zero trades. Four causes, none of them the model.\n\n1. Stale prices from a feed that only refreshes after the close\n2. A candidate list that was too narrow\n3. Part-day volume compared with full-day averages\n4. A stalled request that froze the loop",
+        "Other findings worth your time: sizing ignored volatility, and agents closed at a loss on nearly half the positions that had been well in profit. Neither fleet showed a directional edge.",
+        "If you are building an agent, log what it was shown, not just what it decided. Most of my bugs were visible there.\n\nhttps://arxiv.org/abs/2609.05663"
+      ]
+    },
+    {
+      "id": "2610.12292",
+      "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
+      "authors": "Seyedarmin Azizi, Erfan Baghaei Potraghloo, Massoud Pedram",
+      "date": "2026-10-08",
+      "topic": "Guardrails",
+      "says": "A typed decision model returns a probability over options you define and writes no text. People have started using these as guardrails that allow or block an agent's actions. This paper tests seven open models in that role. Allow-or-block accuracy ranged from 36% to 72%. Giving the permissive option a misleading name pushed the fail-open rate to 93-100% on four models, and escalating low-confidence decisions did not help, because a flipped decision was just as confident.",
+      "mine": "I put a typed decision model in front of a form-filling agent. Nobody attacked it, and wording still moved it. One question scored ordinary free-sticker forms at 51 to 59 out of 100 as sweepstakes, just over my cutoff. After I reworded the question, the same pages scored 4 to 9 and real sweepstakes scored 97. Before I added a question about causes, the agent submitted a visitor's details to a political sign-up.",
+      "demo": "03-typed-decision-guardrails",
+      "demo_note": "Our full score table for ten pages, including the one decision the gate still gets wrong.",
+      "tweet": "I used a small decision model as a guardrail for a web agent.\n\nNobody attacked it. Rewording one question moved the same pages from 51-59 to 4-9.\n\nA new paper shows what an attacker can do: rename one option and the gate opens 93-100% of the time.\nhttps://arxiv.org/abs/2610.12292",
+      "thread": [
+        "There is a newer kind of guardrail for agents: a model that writes no text and only returns probabilities over options you define.\n\nI used one this week. A paper out a few days ago shows how fragile they can be. Both stories below.",
+        "My setup: before a form-filling agent types anything, the gate answers five yes/no questions about the page. Is this a real free offer? A sweepstakes? A political sign-up? Business only? Limited to another region?",
+        "It separated most cases cleanly. A political sign-up scored 96 on the cause question; normal offers scored 1 to 6.\n\nBut my first sweepstakes question put plain free-sticker forms at 51-59, over my cutoff of 50. It blocked all of them.",
+        "I reworded the question to say a free item sent to everyone is not a sweepstakes. Same pages: 4 to 9. Real sweepstakes: 97.\n\nI had changed the gate's behavior with one sentence, and I was not even trying to break it.",
+        "The paper does try. Renaming the permissive option, with everything else untouched, raised the fail-open rate to 93-100% on four of seven models. Six lines of unrelated log text took one gate from 0% to 63%.",
+        "The part that worried me most: escalating low-confidence decisions did not help. A decision the attack had flipped was no less confident than the original.\n\nMy score table is in the repo.\n\nhttps://arxiv.org/abs/2610.12292"
+      ]
+    },
+    {
+      "id": "2610.03036",
+      "title": "WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites",
+      "authors": "Jiangang Han",
+      "date": "2026-10-02",
+      "topic": "Web agents",
+      "says": "A web agent that placed second in a live-website challenge. Its argument is that a capable model is necessary but not enough: many failures happen in the harness between the model and the page. Clicks landed at three-quarters of their intended coordinates, and actions on native dropdowns, inside iframes and in text boxes failed silently. Fixing the harness with the same model raised the score from 31.0 to 57.0.",
+      "mine": "My form-filling agent hit the same list. A page reader could not see fields inside an embedded frame. A native dropdown needed three attempts. One form reappeared after submit and the agent pressed Submit four times. Later, a test page I wrote showed it would fill a newsletter box after a successful submit, because it never checked for the thank-you message first.",
+      "demo": "04-web-agent-harness",
+      "demo_note": "A small form agent and a local test page with four traps: a decoy newsletter box, a form inside a frame, a native dropdown and a pre-ticked opt-in.",
+      "tweet": "My web agent pressed Submit four times on one form.\n\nThe model's choice was fine each time. The code around it never noticed the same form had come back.\n\nThis paper took a web agent from 31 to 57 without changing the model. Only the harness.\nhttps://arxiv.org/abs/2610.03036",
+      "thread": [
+        "\"The model is right but the click is wrong\" is the best paper title I read this month, and it describes most of my week building a form-filling agent.",
+        "Their list of silent failures on live sites: clicks landing at 3/4 of the intended coordinates, native dropdowns, iframes, text boxes.\n\nSame model, harness fixed: score went from 31.0 to 57.0.",
+        "My list:\n\n- a page reader that could not see fields inside an embedded frame\n- a dropdown that took three tries\n- a captcha that only appears after you press Submit\n- a form that came back unchanged, so the agent pressed Submit again. Four times.",
+        "The fix for the last one was not a smarter model. It was one rule: if the same fields come back after a press, stop and ask a person.",
+        "I then wrote a test page with those traps and found one more bug: after a successful submit, the agent went on to fill the newsletter box. It had never checked for the thank-you first.\n\nTest page and agent are in the repo.\n\nhttps://arxiv.org/abs/2610.03036"
+      ]
+    },
+    {
+      "id": "2610.12524",
+      "title": "An Exploration of Attacks on AI Agent Systems",
+      "authors": "Cathleen Qiao, Layah Vigneaud, Chloe Brandon, Max Cabilangan",
+      "date": "2026-10-08",
+      "topic": "Agent security",
+      "says": "A study of how prompt injection can exploit both direct user input and messages between agents to leak information and spread from one agent to another. Most of its tests expose weaknesses in single-agent systems, and it extends the attacks to multi-agent setups.",
+      "mine": "I went looking for paid open-source bounties an agent could work on. Of the 198 newest open issues on GitHub carrying a cash-bounty label, 193 sat in three repositories whose issues carried labels addressed to AI agents and large payouts on beginner tasks. I did not submit to any of them. I cannot say what those repositories are for, only that they are built to attract agents.",
+      "demo": "05-agent-bait",
+      "demo_note": "A script that runs the same GitHub search and counts the traits. Run it yourself; the numbers move.",
+      "tweet": "I searched GitHub for paid bounties an AI agent could work on.\n\n198 newest open bounty issues. 193 of them sat in 3 repos, labelled for AI agents, with big payouts on beginner tasks.\n\nSomeone is building things for agents to find. Worth reading alongside:\nhttps://arxiv.org/abs/2610.12524",
+      "thread": [
+        "I asked an agent to earn its first dollar. It went looking for open-source bounties.\n\nWhat it found says something about where agent security is heading.",
+        "GitHub search for open issues with a cash-bounty label, newest first: 198 issues.\n\n193 were in three repositories. Their issues carried labels addressed to AI agents and payouts of $400 and up on \"good first issue\" tasks.",
+        "I do not know what those repositories are for, and I am not accusing anyone. What I can say: they are shaped to be found by an autonomous agent, not by a person browsing for work.",
+        "That is the setting prompt-injection research keeps warning about. An agent that reads the open web will read things written for it. This paper walks through how injected instructions leak data and spread between agents.",
+        "My rule after this: an agent may read anything, but an offer it finds is not an instruction. The scan script is in the repo.\n\nhttps://arxiv.org/abs/2610.12524"
+      ]
+    }
+  ]
+}

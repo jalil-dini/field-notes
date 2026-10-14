@@ -1,0 +1,1 @@
+{ "name": "web-agent-harness-demo", "private": true, "dependencies": { "playwright-core": "1.63.0" } }

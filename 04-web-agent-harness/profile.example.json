@@ -1,0 +1,6 @@
+{
+  "name": "Sam Example",
+  "email": "sam@example.com",
+  "address_lines": ["100 Example Street, Apt 4", "Springfield, FL 32000"],
+  "shirt_size": "L"
+}
