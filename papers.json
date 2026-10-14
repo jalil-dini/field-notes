@@ -1,7 +1,7 @@
 {
  "updated": "2026-10-14",
  "angle": "AI security, tested by hand. Every post pairs a new paper on agents, guardrails or the agent supply chain with an experiment I ran myself, including the times my own agent got it wrong.",
- "bio": "AI security: agents, guardrails and the agent supply chain. I read the new papers, then test them myself. Code for every post.",
+ "bio": "AI and software development: coding agents, guardrails and the agent supply chain. I read the new papers, then test them myself. Code for every post.",
  "selection": "Six papers on AI agents and security. Each was kept because I measured something on the same question myself.",
  "repo": "https://github.com/jalil-dini/field-notes",
  "repo_note": "Public.",
@@ -143,6 +143,76 @@
     "Second fix: mail or email requests don't count; a sign-up form that sends the item does.\n\nTune: 28/28. Held-out, scored once at the end: wrong fills 2 → 1. It also fixed an unseen mail-in page.",
     "The one left: a sticker you only get after contributing to the site. No tune page showed that failure, so the loop couldn't find it.\n\nThat's the method's real limit: it fixes the failures you have, not the ones you haven't met yet.",
     "48 pages is small, and I wrote the edits rather than the agent. But the habit transfers: log failures, edit the harness, regression-test every change.\n\nCode, pages and every guard version:\nhttps://github.com/jalil-dini/field-notes/tree/main/07-self-harness-guards"
+   ]
+  },
+  {
+   "id": "2610.14662",
+   "topic": "Coding agents",
+   "title": "Does Failure Feedback Direct Agent Self-Modification?",
+   "authors": "Rong He",
+   "date": "October 2026",
+   "says": "Across 145 self-modifications in public Darwin Gödel Machine logs, an agent fixing a chosen failure was no better at that failure than at its other failures. In controlled tests, targeted feedback raised repair by 20 points for Qwen3-4B, but fixing the target did not reliably improve held-out tasks; held-out gains came where the failure had an identifiable, repairable cause.",
+   "mine": "My guard-fixing loop (demo 07) fits that pattern. The fix for a mail-in sticker page also fixed an unseen mail-in page, but a different failure, a sticker you only get after contributing, stayed broken.",
+   "demo": "07-self-harness-guards",
+   "demo_note": "One accepted edit, tune and held-out pages scored separately.",
+   "tweet": "\"The agent improved itself\" often means less than it sounds.\n\nA new paper checked 145 self-edits in public Darwin Gödel Machine logs: fixing a chosen failure was no better at that failure than at others.\n\nGains came where the failure had a clear, repairable cause.",
+   "thread": [
+    "Self-improving agents read their failures, edit their own code or prompts, and keep what scores better. The question in arXiv 2610.14662: does the edit actually fix the failure it was aimed at?",
+    "In 145 public self-modifications, no: no detectable target-specific advantage. In controlled tests, targeted feedback helped one small model by 20 points, and fixing the target still didn't reliably carry to held-out tasks.",
+    "I saw the same shape in my own loop. One guard fix for a mail-in sticker page also fixed an unseen mail-in page. A different failure (a sticker you only get after contributing) stayed broken.",
+    "The paper's ask is the right one: report target repair, transfer to related failures, and held-out net change separately. One \"it improved\" number hides all three.\n\nhttps://github.com/jalil-dini/field-notes/tree/main/07-self-harness-guards"
+   ]
+  },
+  {
+   "id": "2610.14216",
+   "topic": "Coding agents",
+   "title": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
+   "authors": "Samuele Giampieri",
+   "date": "October 2026",
+   "says": "Cortex turns a developer's corrections into replayable tasks, writes one skill or rule at a time, and keeps it only if repeated runs with and without it show a net gain and no task gets noticeably worse. Rules that load automatically did most of the work; skills offered on every turn were rarely opened. With a stronger model, or on a real project with few corrections, it found little to add.",
+   "mine": "Same rule I used for my guards: keep a change only if no page that was right gets worse. And my scan of 300 public SKILL.md files found 15% with at least one line worth a human look, which is the other half of the problem: what gets added without a test.",
+   "demo": "06-skill-file-scan",
+   "demo_note": "What public skill files ask agents to do, plus demo 07's regression-gated edits.",
+   "tweet": "Your CLAUDE.md and skills folder are code. Most of it was never tested.\n\nCortex (arXiv 2610.14216) keeps a rule only if repeated runs with and without it show a net gain and nothing gets worse.\n\nFinding: auto-loaded rules did the work. Most skills were never opened.",
+   "thread": [
+    "Every time a coding agent gets something wrong, someone adds a line to its rules or a new skill. One success afterwards proves little: the same agent can pass a task once and fail it next time.",
+    "Cortex replays the developer's own corrections as tasks, adds one rule or skill at a time, and keeps it only with a net gain over repeated runs and no task noticeably worse. Unused text is pruned the same way.",
+    "Results worth knowing: rules that load automatically did most of the work; skills helped only when offered with the files a task touches. With a stronger model, a single run's additions helped little.",
+    "I use the same accept rule for agent guards, and I scanned 300 public SKILL.md files: 15% had a line worth a human look (shell pre-approval, credentials, curl | sh). Test what you add.\n\nhttps://github.com/jalil-dini/field-notes"
+   ]
+  },
+  {
+   "id": "2610.18206",
+   "topic": "Coding agents",
+   "title": "SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents",
+   "authors": "Do Xuan Trong et al.",
+   "date": "October 2026",
+   "says": "A benchmark of 7.4K samples across 11 boundary-violating behaviors in code generation, file management and system interaction. Open-source agents such as OpenHands and smolagents misread dependencies in up to 98.5% of cases, modified user inputs in 50.5% and silently compromised the environment in 53%. Guidelines plus tools (CODE-KIT) cut misbehavior by 52% and 34% while improving task completion.",
+   "mine": "My web-agent test (demo 04) is the browser version: the same model with a naive harness reported success after joining a mailing list. The fix was in the harness, not the model.",
+   "demo": "04-web-agent-harness",
+   "demo_note": "Two harnesses, one model, one tricky form.",
+   "tweet": "Coding agents don't only write wrong code. They do things nobody asked for.\n\nSWE-MISBEHAVIOR (arXiv 2610.18206): open agents silently compromised the environment in 53% of cases and changed user inputs in 50.5%.\n\nA harness-level fix cut it by up to 52%.",
+   "thread": [
+    "Most coding-agent benchmarks ask: did the task pass? SWE-MISBEHAVIOR asks what else the agent did on the way: edited files it shouldn't, changed inputs, broke the environment.",
+    "Across 11 misbehaviors and 7.4K samples, open-source agents misread dependencies in up to 98.5% of cases, modified user inputs in 50.5%, and silently compromised the environment in 53%.",
+    "The fix was guidelines plus tools around the agent (CODE-KIT): 52% fewer misbehaviors for smolagents, 34% for OpenHands, with better task completion. Same pattern I keep seeing: the harness, not the model.",
+    "My browser version of this: same model, two harnesses, one tricky form. The naive one reported success after joining a mailing list.\n\nhttps://github.com/jalil-dini/field-notes/tree/main/04-web-agent-harness"
+   ]
+  },
+  {
+   "id": "2610.14768",
+   "topic": "Coding agents",
+   "title": "Do Modifications Made by Coding Agents Make Subsequent Software Maintenance Harder?",
+   "authors": "Ruwei Pan et al.",
+   "date": "October 2026",
+   "says": "Across 1,996 paired maintenance tasks in 50 Python repos, starting from an agent's earlier changes instead of the developers' cut later success by 5.6 points, and by 14 points when earlier tests also had to pass. Two-thirds of agent-written starting states already failed earlier tests. When the inherited code kept earlier tests green, the disadvantage disappeared.",
+   "mine": "",
+   "tweet": "Is agent-written code harder to maintain? A new paper says: only when it breaks earlier tests.\n\nStarting from an agent's past changes cut later success by 5.6 points. But when the inherited code kept old tests green, the gap disappeared.\n\nKeep the suite green.",
+   "thread": [
+    "SWE-Maintain (arXiv 2610.14768) ran 1,996 paired tasks: the same next task, started once from the developers' earlier patches and once from the agent's own.",
+    "From the agent's history, later success fell 5.6 points on average, and 14 points when earlier tests also had to pass. Two-thirds of agent-written starting states were already failing earlier tests.",
+    "The interesting part: when the inherited code still passed the earlier tests, the disadvantage vanished (+2.7 points, CI crossing zero). The cost isn't \"AI code is worse\". It's broken tests carried forward.",
+    "Practical rule for anyone letting agents commit: no change lands unless the existing suite stays green, and measure your agents on their own history, not on a clean human-written repo."
    ]
   }
  ]
