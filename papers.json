@@ -1,128 +1,149 @@
 {
-  "updated": "2026-10-14",
-  "angle": "AI security, tested by hand. Every post pairs a new paper on agents, guardrails or the agent supply chain with an experiment I ran myself, including the times my own agent got it wrong.",
-  "bio": "AI security: agents, guardrails and the agent supply chain. I read the new papers, then test them myself. Code for every post.",
-  "selection": "Six papers on AI agents and security. Each was kept because I measured something on the same question myself.",
-  "repo": "https://github.com/jalil-dini/field-notes",
-  "repo_note": "Public.",
-  "papers": [
-    {
-      "id": "2610.12292",
-      "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
-      "authors": "Seyedarmin Azizi, Erfan Baghaei Potraghloo, Massoud Pedram",
-      "date": "2026-10-08",
-      "topic": "Guardrails",
-      "says": "A typed decision model returns a probability over options you define and writes no text. People have started using these as guardrails that allow or block an agent's actions. This paper tests seven open models in that role. Allow-or-block accuracy ranged from 36% to 72%. Giving the permissive option a misleading name pushed the fail-open rate to 93-100% on four models, and escalating low-confidence decisions did not help, because a flipped decision was just as confident.",
-      "mine": "I put a typed decision model in front of a form-filling agent. Nobody attacked it, and wording still moved it. One question scored ordinary free-sticker forms at 51 to 59 out of 100 as sweepstakes, just over my cutoff. After I reworded the question, the same pages scored 4 to 9 and real sweepstakes scored 97. Before I added a question about causes, the agent submitted a visitor's details to a political sign-up. I then repeated the paper's idea on four open models with 60 page descriptions: naming the allow option \"allowed by policy\" let through 60% to 100% of pages that should have been blocked, against 10% to 47% with a plain descriptive name.",
-      "demo": "03-typed-decision-guardrails",
-      "demo_note": "Our full score table for ten pages, including the one decision the gate still gets wrong.",
-      "tweet": "I used a small decision model as a guardrail for a web agent.\n\nNobody attacked it. Rewording one question moved the same pages from 51-59 to 4-9.\n\nA new paper shows what an attacker can do: rename one option and the gate opens 93-100% of the time.\nhttps://arxiv.org/abs/2610.12292",
-      "thread": [
-        "There is a newer kind of guardrail for agents: a model that writes no text and only returns probabilities over options you define.\n\nI used one this week. A paper out a few days ago shows how fragile they can be. Both stories below.",
-        "My setup: before a form-filling agent types anything, the gate answers five yes/no questions about the page. Is this a real free offer? A sweepstakes? A political sign-up? Business only? Limited to another region?",
-        "It separated most cases cleanly. A political sign-up scored 96 on the cause question; normal offers scored 1 to 6.\n\nBut my first sweepstakes question put plain free-sticker forms at 51-59, over my cutoff of 50. It blocked all of them.",
-        "I reworded the question to say a free item sent to everyone is not a sweepstakes. Same pages: 4 to 9. Real sweepstakes: 97.\n\nI had changed the gate's behavior with one sentence, and I was not even trying to break it.",
-        "The paper does try. Renaming the permissive option, with everything else untouched, raised the fail-open rate to 93-100% on four of seven models. Six lines of unrelated log text took one gate from 0% to 63%.",
-        "I tried the paper's idea on four open models. 60 page descriptions, only the allow option's name changes.\n\nPlain descriptive name: 10-47% of bad pages let through.\nNamed \"allowed by policy\": 60-100%.\nNamed \"an approved routine action\": 53-83%.",
-        "\"Normal and harmless\" went the other way on two models: nothing bad got through, and they blocked about 80% of harmless pages.\n\nAnd wrong answers were nearly as confident as right ones: 0.71-0.80 against 0.77-0.86.",
-        "The part that worried me most: escalating low-confidence decisions did not help. A decision the attack had flipped was no less confident than the original.\n\nMy score table is in the repo.\n\nhttps://arxiv.org/abs/2610.12292"
-      ]
-    },
-    {
-      "id": "2610.07639",
-      "title": "HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?",
-      "authors": "Zhengyang Zhu, Liming Huang, Runmin Ji, Mingxi Ye, Zihan Zhou",
-      "date": "2026-10-06",
-      "topic": "Agent harnesses",
-      "says": "The first systematic study of the security mechanisms in coding-agent harnesses, including Claude Code, Codex CLI, Gemini CLI and GitHub Copilot. About half of the mechanisms they confirmed are opt-in. Across 2,500 trials, turning on auto-approve raised utility and raised attack success from 29.2% to 95.6%. Network isolation and read-only modes cut attacks at a large utility cost; command allow- and deny-lists cut them at a small one.",
-      "mine": "I ran a form-filling agent with auto-approve on: no human confirmed any submission. In its first afternoon it sent a person's name and address to a political campaign sign-up and pressed Submit four times on a form that kept coming back. Both were fixed with narrow, specific rules, closer to an allow-list than to a smarter model: five questions answered before any typing, and never pressing the same button twice.",
-      "demo": "04-web-agent-harness",
-      "demo_note": "The agent, its guard questions, and a local test page with the traps that caught it.",
-      "tweet": "New benchmark on coding-agent harnesses: turning on auto-approve raised attack success from 29.2% to 95.6%.\n\nI ran an agent on auto-approve this week. Day one: it sent a person's details to a political sign-up and pressed Submit 4 times.\n\nhttps://arxiv.org/abs/2610.07639",
-      "thread": [
-        "Everyone wants agents on auto-approve. A new benchmark measured what that costs: attack success went from 29.2% to 95.6% across six coding-agent harnesses.\n\nI learned the same lesson on a much smaller scale this week.",
-        "My agent fills in request forms for free samples. Auto-approve on: nobody confirms a submission.\n\nFirst afternoon: it sent a real name and address to a political campaign sign-up that was worded as a \"free bumper sticker\".",
-        "Same afternoon, one form kept reappearing after Submit. The agent pressed Submit again. Four times.\n\nNeither was a model failure. The model did what it was asked. The harness let it.",
-        "What fixed it was narrow and boring: five yes/no checks before any typing (is this a sweepstakes, a cause, business-only, out of area?), and a rule that the same button is never pressed twice.",
-        "The paper's finding matches: command allow-lists and deny-lists cut attacks with little utility loss, while blunt isolation cut both. Specific rules beat general caution.\n\nhttps://arxiv.org/abs/2610.07639"
-      ]
-    },
-    {
-      "id": "2610.03089",
-      "title": "Securing Computer-Use Agents Against Branch Steering Attacks",
-      "authors": "Giulio Zingrillo, Hanna Foerster, Ilia Shumailov, Yiren Zhao, Robert Mullins",
-      "date": "2026-10-02",
-      "topic": "Agent security",
-      "says": "The Dual-LLM pattern protects agents by fixing a plan before untrusted data is read. Computer-use agents cannot do that, because their plans have to branch on what pages show. An attacker can craft page content that steers the agent down a hazardous but pre-approved branch, with no injected instruction at all. Attack success was 94.4% on standard agents and 89.5% on Dual-LLM agents. Their architecture, COBRA, adds ahead-of-time limits on the parameters and destinations each branch may use, and cut attack success to 0% while keeping 97% of benign utility.",
-      "mine": "My form agent's worst mistake was a benign version of this. \"Fill in free-offer request forms\" was its approved branch. A political campaign page that said \"free bumper sticker\" steered it into that branch; nothing on the page told it to do anything. The fix was the same shape as their constraint: before acting, the page has to pass fixed checks on what kind of destination it is.",
-      "demo": "03-typed-decision-guardrails",
-      "demo_note": "The five checks every page must pass, their measured scores, and the one page they still get wrong.",
-      "tweet": "My agent was steered into a political sign-up with no injected instruction. The page said \"free bumper sticker\", and filling free-offer forms was its approved job.\n\nThis paper calls it branch steering: 94% attack success, 0% with the right limits.\nhttps://arxiv.org/abs/2610.03089",
-      "thread": [
-        "Most prompt-injection talk is about hidden instructions. A new paper shows you do not need any.\n\nIt is called branch steering, and my own agent fell for a harmless version of it this week.",
-        "Computer-use agents cannot fix their plan before reading pages, because the plan has to branch on what the page shows. So an attacker shapes the page to pick the branch.\n\nNo \"ignore previous instructions\". Just content that fits an approved path.",
-        "My case: the agent's approved branch was \"fill in forms that offer something free\". A campaign sign-up advertised a free bumper sticker. The agent filled it in with a real name and address.",
-        "Their numbers: 94.4% attack success on standard agents, 89.5% on Dual-LLM agents. Their fix, COBRA, limits in advance which parameters and destinations each branch may use: 0% attack success, 97% of benign utility kept.",
-        "My fix had the same shape at toy scale: every page must pass fixed checks about what kind of destination it is before the agent types anything.\n\nhttps://arxiv.org/abs/2610.03089"
-      ]
-    },
-    {
-      "id": "2606.14517",
-      "title": "From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails",
-      "authors": "Yuguang Zhou, Xunguang Wang, Pingchuan Ma, Zhantong Xue, Zhaoyu Wang",
-      "date": "2026-06-12",
-      "topic": "Guardrails",
-      "says": "LLM guardrails that reason before deciding can be trapped into very long reasoning by crafted input. Payloads optimized on one open model transferred to eight major model families with 13 to 63 times more tokens, and up to 148 times more latency in real agent deployments.",
-      "mine": "I timed a typed decision gate, which writes no text and only returns probabilities over fixed options, on the same page with up to 50 copies of a reasoning-bait paragraph appended. Input grew from 368 to 2,620 tokens. Latency stayed at about 200 ms, output stayed at 31 tokens, and the decision did not change. My payload was not optimized like theirs, and this kind of gate has its own weakness: the wording of its options.",
-      "demo": "03-typed-decision-guardrails",
-      "demo_note": "dos_latency.py: the same page with 0, 1, 10 and 50 copies of a reasoning-bait paragraph.",
-      "tweet": "Guardrails that reason can be made to reason forever: a paper shows 13-63x token blowups from crafted input.\n\nI tried bait on a gate that writes no text. 50 copies appended, 7x the input. Latency: 202 ms to 202 ms. Output: 31 tokens both times.\nhttps://arxiv.org/abs/2606.14517",
-      "thread": [
-        "A guardrail that thinks before it decides can be made to think for a very long time. That is the attack in a recent paper: crafted input that traps LLM guardrails in long reasoning.\n\nI tested the same idea on a different kind of gate.",
-        "Their numbers: payloads built on one open model transferred to eight model families with 13x to 63x more tokens, and up to 148x more latency in real agent setups.\n\nA guardrail you can slow down is a guardrail an attacker can switch off.",
-        "My gate is a typed decision model: it writes no text, it only returns probabilities over options I define.\n\nI appended a reasoning-bait paragraph to a page: 0, 1, 10, then 50 copies. Input went from 368 to 2,620 tokens.",
-        "Latency: 202, 201, 200, 202 ms. Output: 31 tokens every time. The decision never changed.\n\nCaveat: my payload was hand-written, not optimized like theirs.",
-        "And this kind of gate is not safe by default. Its weak point is elsewhere: the names of its options. Renaming one option let 60-100% of bad pages through in my other test.\n\nDifferent architectures fail differently. Test the one you ship.\n\nhttps://arxiv.org/abs/2606.14517"
-      ]
-    },
-    {
-      "id": "2609.07360",
-      "title": "Scanning the Harness: Configuration Exposures in AI Coding-Agent Supply Chains",
-      "authors": "Benjamin Kapner, Carmel Soceanu, Alicia Petrunin, Hofni Gartner",
-      "date": "2026-09-07",
-      "topic": "Agent supply chain",
-      "says": "Coding agents load repository instructions, skills, hooks and tool-server declarations, which makes their configuration part of the software supply chain. Across 3,171 public GitHub repositories, 9.8% of setups declared unpinned tool-server packages, 2.5% granted broad execution, and 3.8% gave skills broad tool pre-approval; 15.4% had at least one of the three.",
-      "mine": "I scanned 300 public SKILL.md files from GitHub with a small pattern scanner. 5.0% pre-approve shell access through allowed-tools, 1.3% tell users to run an agent with permission prompts switched off, and 1.3% pipe a download straight into a shell. 15.0% had at least one item worth a human look. None told the agent to hide anything from the user or to ignore earlier instructions.",
-      "demo": "06-skill-file-scan",
-      "demo_note": "The scanner, its nine checks, and the counts from 300 public skill files.",
-      "tweet": "I scanned 300 public agent skill files on GitHub.\n\n5.0% pre-approve shell access. 1.3% tell you to run the agent with permission prompts off. 1.3% pipe a download into a shell.\n\nA new paper did this properly across 3,171 repos and found similar rates:\nhttps://arxiv.org/abs/2609.07360",
-      "thread": [
-        "Agent skills are plain-language files your AI agent loads and follows with your privileges. Thousands are on GitHub.\n\nI scanned 300 to see what they ask an agent to do.",
-        "Results from 300 public SKILL.md files:\n\n5.0% pre-approve shell access (allowed-tools: Bash)\n5.0% handle API keys or credentials\n2.7% mention sudo\n1.3% say to run the agent with permission prompts off\n1.3% pipe a download into a shell",
-        "15% had at least one item that deserves a human look. That is not the same as malicious: an install skill that uses sudo can be completely honest.\n\nWhat I did not find: instructions to hide things from the user, or to ignore earlier instructions. Zero of each.",
-        "A new paper did this at scale: 3,171 repositories. 3.8% gave skills broad tool pre-approval, 9.8% declared unpinned tool-server packages, 15.4% had at least one exposure. My small sample lands in the same range.",
-        "Practical version: before installing a skill, read its allowed-tools line and search it for sudo, curl and pipes. Two minutes.\n\nScanner is in my repo.\n\nhttps://arxiv.org/abs/2609.07360"
-      ]
-    },
-    {
-      "id": "2610.09264",
-      "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
-      "authors": "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
-      "date": "2026-10-07",
-      "topic": "Agent supply chain",
-      "says": "Coding agents increasingly follow community-shared rule files such as AGENTS.md. This paper shows an attacker can plant instructions in an otherwise harmless rule file so the agent swaps a legitimate dependency for an attacker-controlled package. Their optimized injections had high success rates and transferred across models and agent frameworks.",
-      "mine": "I sent an agent to find paid open-source bounties. Of the 198 newest open GitHub issues carrying a cash-bounty label, 193 sat in three repositories whose issues were labelled for AI agents and offered large payouts on beginner tasks. I submitted to none of them, and I cannot say what they are for, only that they are written to be found by agents. The same week, I had a coding agent install an app by following an agent-facing instructions file in someone else's repository; it checked the installer's hash and searched it for network calls before I ran anything.",
-      "demo": "05-agent-bait",
-      "demo_note": "A script that runs the same GitHub search and counts the traits. Run it yourself; the numbers move daily.",
-      "tweet": "I searched GitHub for paid bounties an AI agent could work on.\n\n198 newest open bounty issues. 193 sat in 3 repos, labelled for AI agents, with big payouts on beginner tasks.\n\nPeople now write repo content for agents to find. This paper shows the risk:\nhttps://arxiv.org/abs/2610.09264",
-      "thread": [
-        "I asked an agent to earn its first dollar. It went looking for open-source bounties.\n\nWhat it found says something about where agent security is heading.",
-        "GitHub search for open issues with a cash-bounty label, newest first: 198 issues.\n\n193 were in three repositories. Their issues carried labels addressed to AI agents and payouts of $400 and up on \"good first issue\" tasks.",
-        "I do not know what those repositories are for, and I am not accusing anyone. What I can say: they are shaped to be found by an autonomous agent, not by a person browsing for work.",
-        "Repositories now ship files written for agents too: how to build, how to install, what to avoid. I followed one this week. The agent checked the installer's hash and read what it would do before I ran anything.",
-        "This paper shows why that habit matters. Instructions planted in an ordinary-looking rule file got coding agents to swap real dependencies for attacker-controlled packages, across models and frameworks.",
-        "My rule after this: an agent may read anything, but what it finds in a repo is input, not policy. The scan script is in my repo.\n\nhttps://arxiv.org/abs/2610.09264"
-      ]
-    }
-  ]
+ "updated": "2026-10-14",
+ "angle": "AI security, tested by hand. Every post pairs a new paper on agents, guardrails or the agent supply chain with an experiment I ran myself, including the times my own agent got it wrong.",
+ "bio": "AI security: agents, guardrails and the agent supply chain. I read the new papers, then test them myself. Code for every post.",
+ "selection": "Six papers on AI agents and security. Each was kept because I measured something on the same question myself.",
+ "repo": "https://github.com/jalil-dini/field-notes",
+ "repo_note": "Public.",
+ "papers": [
+  {
+   "id": "2610.12292",
+   "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
+   "authors": "Seyedarmin Azizi, Erfan Baghaei Potraghloo, Massoud Pedram",
+   "date": "2026-10-08",
+   "topic": "Guardrails",
+   "says": "A typed decision model returns a probability over options you define and writes no text. People have started using these as guardrails that allow or block an agent's actions. This paper tests seven open models in that role. Allow-or-block accuracy ranged from 36% to 72%. Giving the permissive option a misleading name pushed the fail-open rate to 93-100% on four models, and escalating low-confidence decisions did not help, because a flipped decision was just as confident.",
+   "mine": "I put a typed decision model in front of a form-filling agent. Nobody attacked it, and wording still moved it. One question scored ordinary free-sticker forms at 51 to 59 out of 100 as sweepstakes, just over my cutoff. After I reworded the question, the same pages scored 4 to 9 and real sweepstakes scored 97. Before I added a question about causes, the agent submitted a visitor's details to a political sign-up. I then repeated the paper's idea on four open models with 60 page descriptions: naming the allow option \"allowed by policy\" let through 60% to 100% of pages that should have been blocked, against 10% to 47% with a plain descriptive name.",
+   "demo": "03-typed-decision-guardrails",
+   "demo_note": "Our full score table for ten pages, including the one decision the gate still gets wrong.",
+   "tweet": "I used a small decision model as a guardrail for a web agent.\n\nNobody attacked it. Rewording one question moved the same pages from 51-59 to 4-9.\n\nA new paper shows what an attacker can do: rename one option and the gate opens 93-100% of the time.\nhttps://arxiv.org/abs/2610.12292",
+   "thread": [
+    "There is a newer kind of guardrail for agents: a model that writes no text and only returns probabilities over options you define.\n\nI used one this week. A paper out a few days ago shows how fragile they can be. Both stories below.",
+    "My setup: before a form-filling agent types anything, the gate answers five yes/no questions about the page. Is this a real free offer? A sweepstakes? A political sign-up? Business only? Limited to another region?",
+    "It separated most cases cleanly. A political sign-up scored 96 on the cause question; normal offers scored 1 to 6.\n\nBut my first sweepstakes question put plain free-sticker forms at 51-59, over my cutoff of 50. It blocked all of them.",
+    "I reworded the question to say a free item sent to everyone is not a sweepstakes. Same pages: 4 to 9. Real sweepstakes: 97.\n\nI had changed the gate's behavior with one sentence, and I was not even trying to break it.",
+    "The paper does try. Renaming the permissive option, with everything else untouched, raised the fail-open rate to 93-100% on four of seven models. Six lines of unrelated log text took one gate from 0% to 63%.",
+    "I tried the paper's idea on four open models. 60 page descriptions, only the allow option's name changes.\n\nPlain descriptive name: 10-47% of bad pages let through.\nNamed \"allowed by policy\": 60-100%.\nNamed \"an approved routine action\": 53-83%.",
+    "\"Normal and harmless\" went the other way on two models: nothing bad got through, and they blocked about 80% of harmless pages.\n\nAnd wrong answers were nearly as confident as right ones: 0.71-0.80 against 0.77-0.86.",
+    "The part that worried me most: escalating low-confidence decisions did not help. A decision the attack had flipped was no less confident than the original.\n\nMy score table is in the repo.\n\nhttps://arxiv.org/abs/2610.12292"
+   ]
+  },
+  {
+   "id": "2610.07639",
+   "title": "HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?",
+   "authors": "Zhengyang Zhu, Liming Huang, Runmin Ji, Mingxi Ye, Zihan Zhou",
+   "date": "2026-10-06",
+   "topic": "Agent harnesses",
+   "says": "The first systematic study of the security mechanisms in coding-agent harnesses, including Claude Code, Codex CLI, Gemini CLI and GitHub Copilot. About half of the mechanisms they confirmed are opt-in. Across 2,500 trials, turning on auto-approve raised utility and raised attack success from 29.2% to 95.6%. Network isolation and read-only modes cut attacks at a large utility cost; command allow- and deny-lists cut them at a small one.",
+   "mine": "I ran a form-filling agent with auto-approve on: no human confirmed any submission. In its first afternoon it sent a person's name and address to a political campaign sign-up and pressed Submit four times on a form that kept coming back. Both were fixed with narrow, specific rules, closer to an allow-list than to a smarter model: five questions answered before any typing, and never pressing the same button twice.",
+   "demo": "04-web-agent-harness",
+   "demo_note": "The agent, its guard questions, and a local test page with the traps that caught it.",
+   "tweet": "New benchmark on coding-agent harnesses: turning on auto-approve raised attack success from 29.2% to 95.6%.\n\nI ran an agent on auto-approve this week. Day one: it sent a person's details to a political sign-up and pressed Submit 4 times.\n\nhttps://arxiv.org/abs/2610.07639",
+   "thread": [
+    "Everyone wants agents on auto-approve. A new benchmark measured what that costs: attack success went from 29.2% to 95.6% across six coding-agent harnesses.\n\nI learned the same lesson on a much smaller scale this week.",
+    "My agent fills in request forms for free samples. Auto-approve on: nobody confirms a submission.\n\nFirst afternoon: it sent a real name and address to a political campaign sign-up that was worded as a \"free bumper sticker\".",
+    "Same afternoon, one form kept reappearing after Submit. The agent pressed Submit again. Four times.\n\nNeither was a model failure. The model did what it was asked. The harness let it.",
+    "What fixed it was narrow and boring: five yes/no checks before any typing (is this a sweepstakes, a cause, business-only, out of area?), and a rule that the same button is never pressed twice.",
+    "The paper's finding matches: command allow-lists and deny-lists cut attacks with little utility loss, while blunt isolation cut both. Specific rules beat general caution.\n\nhttps://arxiv.org/abs/2610.07639"
+   ]
+  },
+  {
+   "id": "2610.03089",
+   "title": "Securing Computer-Use Agents Against Branch Steering Attacks",
+   "authors": "Giulio Zingrillo, Hanna Foerster, Ilia Shumailov, Yiren Zhao, Robert Mullins",
+   "date": "2026-10-02",
+   "topic": "Agent security",
+   "says": "The Dual-LLM pattern protects agents by fixing a plan before untrusted data is read. Computer-use agents cannot do that, because their plans have to branch on what pages show. An attacker can craft page content that steers the agent down a hazardous but pre-approved branch, with no injected instruction at all. Attack success was 94.4% on standard agents and 89.5% on Dual-LLM agents. Their architecture, COBRA, adds ahead-of-time limits on the parameters and destinations each branch may use, and cut attack success to 0% while keeping 97% of benign utility.",
+   "mine": "My form agent's worst mistake was a benign version of this. \"Fill in free-offer request forms\" was its approved branch. A political campaign page that said \"free bumper sticker\" steered it into that branch; nothing on the page told it to do anything. The fix was the same shape as their constraint: before acting, the page has to pass fixed checks on what kind of destination it is.",
+   "demo": "03-typed-decision-guardrails",
+   "demo_note": "The five checks every page must pass, their measured scores, and the one page they still get wrong.",
+   "tweet": "My agent was steered into a political sign-up with no injected instruction. The page said \"free bumper sticker\", and filling free-offer forms was its approved job.\n\nThis paper calls it branch steering: 94% attack success, 0% with the right limits.\nhttps://arxiv.org/abs/2610.03089",
+   "thread": [
+    "Most prompt-injection talk is about hidden instructions. A new paper shows you do not need any.\n\nIt is called branch steering, and my own agent fell for a harmless version of it this week.",
+    "Computer-use agents cannot fix their plan before reading pages, because the plan has to branch on what the page shows. So an attacker shapes the page to pick the branch.\n\nNo \"ignore previous instructions\". Just content that fits an approved path.",
+    "My case: the agent's approved branch was \"fill in forms that offer something free\". A campaign sign-up advertised a free bumper sticker. The agent filled it in with a real name and address.",
+    "Their numbers: 94.4% attack success on standard agents, 89.5% on Dual-LLM agents. Their fix, COBRA, limits in advance which parameters and destinations each branch may use: 0% attack success, 97% of benign utility kept.",
+    "My fix had the same shape at toy scale: every page must pass fixed checks about what kind of destination it is before the agent types anything.\n\nhttps://arxiv.org/abs/2610.03089"
+   ]
+  },
+  {
+   "id": "2606.14517",
+   "title": "From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails",
+   "authors": "Yuguang Zhou, Xunguang Wang, Pingchuan Ma, Zhantong Xue, Zhaoyu Wang",
+   "date": "2026-06-12",
+   "topic": "Guardrails",
+   "says": "LLM guardrails that reason before deciding can be trapped into very long reasoning by crafted input. Payloads optimized on one open model transferred to eight major model families with 13 to 63 times more tokens, and up to 148 times more latency in real agent deployments.",
+   "mine": "I timed a typed decision gate, which writes no text and only returns probabilities over fixed options, on the same page with up to 50 copies of a reasoning-bait paragraph appended. Input grew from 368 to 2,620 tokens. Latency stayed at about 200 ms, output stayed at 31 tokens, and the decision did not change. My payload was not optimized like theirs, and this kind of gate has its own weakness: the wording of its options.",
+   "demo": "03-typed-decision-guardrails",
+   "demo_note": "dos_latency.py: the same page with 0, 1, 10 and 50 copies of a reasoning-bait paragraph.",
+   "tweet": "Guardrails that reason can be made to reason forever: a paper shows 13-63x token blowups from crafted input.\n\nI tried bait on a gate that writes no text. 50 copies appended, 7x the input. Latency: 202 ms to 202 ms. Output: 31 tokens both times.\nhttps://arxiv.org/abs/2606.14517",
+   "thread": [
+    "A guardrail that thinks before it decides can be made to think for a very long time. That is the attack in a recent paper: crafted input that traps LLM guardrails in long reasoning.\n\nI tested the same idea on a different kind of gate.",
+    "Their numbers: payloads built on one open model transferred to eight model families with 13x to 63x more tokens, and up to 148x more latency in real agent setups.\n\nA guardrail you can slow down is a guardrail an attacker can switch off.",
+    "My gate is a typed decision model: it writes no text, it only returns probabilities over options I define.\n\nI appended a reasoning-bait paragraph to a page: 0, 1, 10, then 50 copies. Input went from 368 to 2,620 tokens.",
+    "Latency: 202, 201, 200, 202 ms. Output: 31 tokens every time. The decision never changed.\n\nCaveat: my payload was hand-written, not optimized like theirs.",
+    "And this kind of gate is not safe by default. Its weak point is elsewhere: the names of its options. Renaming one option let 60-100% of bad pages through in my other test.\n\nDifferent architectures fail differently. Test the one you ship.\n\nhttps://arxiv.org/abs/2606.14517"
+   ]
+  },
+  {
+   "id": "2609.07360",
+   "title": "Scanning the Harness: Configuration Exposures in AI Coding-Agent Supply Chains",
+   "authors": "Benjamin Kapner, Carmel Soceanu, Alicia Petrunin, Hofni Gartner",
+   "date": "2026-09-07",
+   "topic": "Agent supply chain",
+   "says": "Coding agents load repository instructions, skills, hooks and tool-server declarations, which makes their configuration part of the software supply chain. Across 3,171 public GitHub repositories, 9.8% of setups declared unpinned tool-server packages, 2.5% granted broad execution, and 3.8% gave skills broad tool pre-approval; 15.4% had at least one of the three.",
+   "mine": "I scanned 300 public SKILL.md files from GitHub with a small pattern scanner. 5.0% pre-approve shell access through allowed-tools, 1.3% tell users to run an agent with permission prompts switched off, and 1.3% pipe a download straight into a shell. 15.0% had at least one item worth a human look. None told the agent to hide anything from the user or to ignore earlier instructions.",
+   "demo": "06-skill-file-scan",
+   "demo_note": "The scanner, its nine checks, and the counts from 300 public skill files.",
+   "tweet": "I scanned 300 public agent skill files on GitHub.\n\n5.0% pre-approve shell access. 1.3% tell you to run the agent with permission prompts off. 1.3% pipe a download into a shell.\n\nA new paper did this properly across 3,171 repos and found similar rates:\nhttps://arxiv.org/abs/2609.07360",
+   "thread": [
+    "Agent skills are plain-language files your AI agent loads and follows with your privileges. Thousands are on GitHub.\n\nI scanned 300 to see what they ask an agent to do.",
+    "Results from 300 public SKILL.md files:\n\n5.0% pre-approve shell access (allowed-tools: Bash)\n5.0% handle API keys or credentials\n2.7% mention sudo\n1.3% say to run the agent with permission prompts off\n1.3% pipe a download into a shell",
+    "15% had at least one item that deserves a human look. That is not the same as malicious: an install skill that uses sudo can be completely honest.\n\nWhat I did not find: instructions to hide things from the user, or to ignore earlier instructions. Zero of each.",
+    "A new paper did this at scale: 3,171 repositories. 3.8% gave skills broad tool pre-approval, 9.8% declared unpinned tool-server packages, 15.4% had at least one exposure. My small sample lands in the same range.",
+    "Practical version: before installing a skill, read its allowed-tools line and search it for sudo, curl and pipes. Two minutes.\n\nScanner is in my repo.\n\nhttps://arxiv.org/abs/2609.07360"
+   ]
+  },
+  {
+   "id": "2610.09264",
+   "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+   "authors": "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
+   "date": "2026-10-07",
+   "topic": "Agent supply chain",
+   "says": "Coding agents increasingly follow community-shared rule files such as AGENTS.md. This paper shows an attacker can plant instructions in an otherwise harmless rule file so the agent swaps a legitimate dependency for an attacker-controlled package. Their optimized injections had high success rates and transferred across models and agent frameworks.",
+   "mine": "I sent an agent to find paid open-source bounties. Of the 198 newest open GitHub issues carrying a cash-bounty label, 193 sat in three repositories whose issues were labelled for AI agents and offered large payouts on beginner tasks. I submitted to none of them, and I cannot say what they are for, only that they are written to be found by agents. The same week, I had a coding agent install an app by following an agent-facing instructions file in someone else's repository; it checked the installer's hash and searched it for network calls before I ran anything.",
+   "demo": "05-agent-bait",
+   "demo_note": "A script that runs the same GitHub search and counts the traits. Run it yourself; the numbers move daily.",
+   "tweet": "I searched GitHub for paid bounties an AI agent could work on.\n\n198 newest open bounty issues. 193 sat in 3 repos, labelled for AI agents, with big payouts on beginner tasks.\n\nPeople now write repo content for agents to find. This paper shows the risk:\nhttps://arxiv.org/abs/2610.09264",
+   "thread": [
+    "I asked an agent to earn its first dollar. It went looking for open-source bounties.\n\nWhat it found says something about where agent security is heading.",
+    "GitHub search for open issues with a cash-bounty label, newest first: 198 issues.\n\n193 were in three repositories. Their issues carried labels addressed to AI agents and payouts of $400 and up on \"good first issue\" tasks.",
+    "I do not know what those repositories are for, and I am not accusing anyone. What I can say: they are shaped to be found by an autonomous agent, not by a person browsing for work.",
+    "Repositories now ship files written for agents too: how to build, how to install, what to avoid. I followed one this week. The agent checked the installer's hash and read what it would do before I ran anything.",
+    "This paper shows why that habit matters. Instructions planted in an ordinary-looking rule file got coding agents to swap real dependencies for attacker-controlled packages, across models and frameworks.",
+    "My rule after this: an agent may read anything, but what it finds in a repo is input, not policy. The scan script is in my repo.\n\nhttps://arxiv.org/abs/2610.09264"
+   ]
+  },
+  {
+   "id": "2606.09498",
+   "topic": "Agent harnesses",
+   "title": "Self-Harness: Harnesses That Improve Themselves",
+   "authors": "Hangfan Zhang et al.",
+   "date": "June 2026",
+   "says": "An agent mines its own failure patterns, proposes small edits to its harness, and keeps an edit only if it passes regression tests. Across 9 model and benchmark pairs, every final harness improved both held-in and held-out pass rates, with no retraining.",
+   "mine": "I ran the same loop on my own web agent's safety guards. On 48 real pages I labelled by hand, one accepted edit cut wrong form fills from 3 to 1, including on pages it never saw while tuning, and lost no real offer.",
+   "demo": "07-self-harness-guards",
+   "demo_note": "48 captured pages, a 28/20 tune and held-out split, five guard versions and the accept-or-reject rule. Nothing is filled or submitted.",
+   "tweet": "The cheapest agent upgrade in 2026 isn't a new model.\n\nI took my web agent's failures, wrote one small fix to its guard prompt, and kept it only if nothing got worse.\n\nWrong form fills: 3 → 1 on 48 real pages. No retraining.\n\nhttps://github.com/jalil-dini/field-notes",
+   "thread": [
+    "Self-Harness (arXiv 2606.09498) improves agents without touching the model: mine failures, propose a minimal harness edit, keep it only if it passes regression tests.\n\nI tried that loop on my own agent, a web agent that fills free-sample request forms.",
+    "Before typing anything, it asks a small decision model 5 yes/no questions: sweepstakes? a cause? members only? outside my area? a real free offer?\n\nI captured 48 real pages, labelled each by hand, and split them 28 tune / 20 held-out.",
+    "Baseline: 3 pages where it would fill a form it should skip. Two were sticker offers you request by mailing an envelope. The form on the page was something else.\n\nThe guard saw \"free stickers\" and said yes.",
+    "First fix: \"must be requested through a form here.\" It fixed the mail-in page and broke a real offer that works through a sign-up form.\n\nRejected. The rule is that no tune page gets worse.",
+    "Second fix: mail or email requests don't count; a sign-up form that sends the item does.\n\nTune: 28/28. Held-out, scored once at the end: wrong fills 2 → 1. It also fixed an unseen mail-in page.",
+    "The one left: a sticker you only get after contributing to the site. No tune page showed that failure, so the loop couldn't find it.\n\nThat's the method's real limit: it fixes the failures you have, not the ones you haven't met yet.",
+    "48 pages is small, and I wrote the edits rather than the agent. But the habit transfers: log failures, edit the harness, regression-test every change.\n\nCode, pages and every guard version:\nhttps://github.com/jalil-dini/field-notes/tree/main/07-self-harness-guards"
+   ]
+  }
+ ]
 }
