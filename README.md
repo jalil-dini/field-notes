@@ -1,5 +1,7 @@
 # Field notes: papers I tested
 
+[![Run the demos](https://github.com/jalil-dini/field-notes/actions/workflows/check.yml/badge.svg)](https://github.com/jalil-dini/field-notes/actions/workflows/check.yml)
+
 I read new AI papers and then run a small experiment of my own on the same question.
 Each folder here is one of those experiments. They are short, they run on a laptop, and
 they include what went wrong.
@@ -40,11 +42,11 @@ Each demo also has a notebook that runs in Google Colab with charts and a writte
 
 | Notebook | Needs |
 |---|---|
-| [01 Search-aware backtest](notebooks/01_search_aware_backtest.ipynb) | numpy, matplotlib |
-| [02 Execution costs](notebooks/02_execution_costs.ipynb) | numpy, matplotlib |
-| [03 Typed decision gate](notebooks/03_typed_decision_gate.ipynb) | transformers and an open model; a GPU makes it quick |
-| [04 Web agent harness](notebooks/04_web_agent_harness.ipynb) | Playwright, installed by the first cell |
-| [05 Agent bait scan](notebooks/05_agent_bait_scan.ipynb) | matplotlib, network access to GitHub |
+| [01 Search-aware backtest](notebooks/01_search_aware_backtest.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/01_search_aware_backtest.ipynb) | numpy, matplotlib |
+| [02 Execution costs](notebooks/02_execution_costs.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/02_execution_costs.ipynb) | numpy, matplotlib |
+| [03 Typed decision gate](notebooks/03_typed_decision_gate.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/03_typed_decision_gate.ipynb) | transformers and four open models; a GPU makes it quick |
+| [04 Web agent harness](notebooks/04_web_agent_harness.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/04_web_agent_harness.ipynb) | Playwright, installed by the first cell |
+| [05 Agent bait scan](notebooks/05_agent_bait_scan.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalil-dini/field-notes/blob/main/notebooks/05_agent_bait_scan.ipynb) | matplotlib, network access to GitHub |
 
 The notebooks are generated from `notebooks/src/*.py` by `tools/build_notebooks.py`.
 
