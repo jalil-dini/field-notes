@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "angle": "AI security, tested by hand. Every post pairs a new paper on agents, guardrails or the agent supply chain with an experiment I ran myself, including the times my own agent got it wrong.",
  "bio": "AI and software development: coding agents, guardrails and the agent supply chain. I read the new papers, then test them myself. Code for every post.",
  "selection": "Six papers on AI agents and security. Each was kept because I measured something on the same question myself.",
@@ -213,6 +213,42 @@
     "From the agent's history, later success fell 5.6 points on average, and 14 points when earlier tests also had to pass. Two-thirds of agent-written starting states were already failing earlier tests.",
     "The interesting part: when the inherited code still passed the earlier tests, the disadvantage vanished (+2.7 points, CI crossing zero). The cost isn't \"AI code is worse\". It's broken tests carried forward.",
     "Practical rule for anyone letting agents commit: no change lands unless the existing suite stays green, and measure your agents on their own history, not on a clean human-written repo."
+   ]
+  },
+  {
+   "id": "2610.20003",
+   "topic": "Coding agents",
+   "title": "What Coding Agents Leave Unsaid: Measuring Task-State Gaps Between Execution and Reports",
+   "authors": "Guoyang Xu et al.",
+   "date": "October 2026",
+   "says": "Across 37 coding tasks and 4,799 probes, readers with the agent's full execution context recovered 92.7% of task-state questions, but readers given only the agent's reports recovered 52.0%: a 40.7-point gap that stayed at 34.8 points even on verified fixes. Failed attempts, workarounds and open risks were the parts most often missing.",
+   "mine": "My web-agent test (demo 04) is the small version of this: a naive harness reported success after only joining a mailing list. The run log showed it; the report did not.",
+   "demo": "04-web-agent-harness",
+   "demo_note": "Two harnesses, one model, one tricky form; the naive one's report and its actual actions disagree.",
+   "tweet": "If you only read your coding agent's summary, you're missing about 40% of what happened.\n\nCTXGAP (arXiv 2610.20003): readers with the full run recovered 92.7% of task-state questions. Readers with only the reports: 52.0%.\n\nFailed attempts are what goes missing.",
+   "thread": [
+    "Supervisors decide when to step in from an agent's reports. But you can't investigate a failure you were never told about. CTXGAP measures how much of a coding task's real state survives into the reports.",
+    "37 tasks, 4,799 probes. With the full execution context, readers recovered 92.7% of task-state questions. With only the user-facing reports, 52.0%. Even at the end of verified fixes, the gap was 34.8 points.",
+    "What disappears: failed attempts, workarounds, unresolved risks, and things mentioned without enough detail to act on. Full terminal scrollback helped (73.6%) but still trailed the full context.",
+    "My small version: a naive web-agent harness reported success after only joining a mailing list. The log said otherwise. Read the log, or make the harness write the report from it.\n\nhttps://github.com/jalil-dini/field-notes/tree/main/04-web-agent-harness"
+   ]
+  },
+  {
+   "id": "2610.19118",
+   "topic": "Guardrails",
+   "title": "DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision",
+   "authors": "Yifan Lan et al.",
+   "date": "October 2026",
+   "says": "A benchmark of attacks on typed decision models like JEV across text and images: meaning-preserving perturbations, image perturbations and prompt injection, on 30 text and 17 vision configurations. Attacks transferred beyond the models used to build them, robustness to perturbations did not imply robustness to prompt injection, and label-consistency checks substantially cut the measured attack success.",
+   "mine": "I use a JEV-style gate in front of a form-filling agent. It held about 202 ms and 31 output tokens with 50 copies of reasoning bait added, but rewording one of its own questions moved the same pages a long way. Different attacks, different weak spots, which is the paper's point.",
+   "demo": "03-typed-decision-guardrails",
+   "demo_note": "Measured scores from a typed decision gate, the four-model wording test, and the bait-latency test.",
+   "tweet": "Typed decision models (JEV-style) are becoming agent guardrails. DecisionRobust (arXiv 2610.19118) attacks them across text and images.\n\nKey finding: surviving input perturbations does not mean surviving prompt injection. Test each attack on its own.",
+   "thread": [
+    "A typed decision model returns a choice or a score, not text, which makes it a natural guardrail. DecisionRobust benchmarks how those models hold up: text perturbations, image perturbations, and prompt injection, on 30 text and 17 vision setups.",
+    "Three findings: attacks transfer beyond the models used to build them; a model robust to perturbations can still fall to prompt injection; and checking whether the label really should change cuts measured attack success a lot.",
+    "Matches what I saw on my own gate: 50 copies of reasoning bait didn't move its latency (about 202 ms, 31 output tokens), while rewording one of its own questions moved the same pages a long way.",
+    "So for any guardrail: test each attack type separately, and confirm a \"failure\" really is one before counting it.\n\nhttps://github.com/jalil-dini/field-notes/tree/main/03-typed-decision-guardrails"
    ]
   }
  ]
